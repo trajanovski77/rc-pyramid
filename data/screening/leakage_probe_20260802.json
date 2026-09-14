@@ -1,0 +1,830 @@
+{
+ "generated": "2026-08-02",
+ "status": "EXPLORATORY DIAGNOSTIC. Not a screening decision.",
+ "purpose": "Estimate polysemy leakage to inform the yield-trigger response owed under search-strategy.md \u00a76.3 / protocol.md \u00a711.",
+ "sampling": {
+  "frame": "data/screening/corpus_deduped.csv, dup_of == '' (6,532 records)",
+  "n": 100,
+  "seed": 20260802,
+  "method": "random.Random(seed).sample"
+ },
+ "coding": {
+  "unit": "title only",
+  "coders": 1,
+  "coder": "assistant",
+  "blind": false,
+  "kappa": null,
+  "scheme": {
+   "on-topic": "clearly reservoir computing, ESN, LSM or physical reservoir",
+   "undecidable-from-title": "neuromorphic/RNN/device work that may or may not be RC; needs the abstract",
+   "off-topic": "no plausible RC connection from the title"
+  }
+ },
+ "counts": {
+  "on-topic": 62,
+  "undecidable-from-title": 18,
+  "off-topic": 20
+ },
+ "records": [
+  {
+   "n": 1,
+   "record_id": "RC-6484",
+   "title": "Scaling Laws of Quantum Information Lifetime in Monitored Quantum Dynamics",
+   "year": "2026",
+   "venue": "Physical Review X",
+   "code": "off-topic"
+  },
+  {
+   "n": 2,
+   "record_id": "RC-1846",
+   "title": "Ecosystem-based reservoir computing. Hypothesis paper",
+   "year": "2025",
+   "venue": "Biosystems",
+   "code": "on-topic"
+  },
+  {
+   "n": 3,
+   "record_id": "RC-4515",
+   "title": "Neuromorphic information processing using silicon photonics",
+   "year": "2019",
+   "venue": "",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 4,
+   "record_id": "RC-0199",
+   "title": "Improving Delay Based Reservoir Computing via Eigenvalue Analysis.",
+   "year": "2020",
+   "venue": "arXiv (Cornell University)",
+   "code": "on-topic"
+  },
+  {
+   "n": 5,
+   "record_id": "RC-1622",
+   "title": "Leveraging Dual Resistive Switching in Quasi-2D Perovskite Memristors for Integrated Non-volatile Memory, Synaptic Emulation, and Reservoir Computing",
+   "year": "2025",
+   "venue": "ACS Applied Materials & Interfaces",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 6,
+   "record_id": "RC-1728",
+   "title": "Real-time prediction of ship motions based on the reservoir computing model",
+   "year": "2024",
+   "venue": "Journal of Ocean Engineering and Science",
+   "code": "on-topic"
+  },
+  {
+   "n": 7,
+   "record_id": "RC-2493",
+   "title": "Solar Radiation Forecasting using Multi-Reservoir Computing and Performance Analysis",
+   "year": "2024",
+   "venue": "",
+   "code": "on-topic"
+  },
+  {
+   "n": 8,
+   "record_id": "RC-6503",
+   "title": "Quality of internal representation shapes learning performance in feedback neural networks",
+   "year": "2020",
+   "venue": "Phys. Rev. Research 3, 013176 (2021)",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 9,
+   "record_id": "RC-5119",
+   "title": "Deep echo state neural network model for light propagation through strong atmospheric turbulence",
+   "year": "2021",
+   "venue": "",
+   "code": "on-topic"
+  },
+  {
+   "n": 10,
+   "record_id": "RC-3976",
+   "title": "An Improved Sparrow Search Algorithm-Based Double Reservoir Open-Loop Echo State Network Model for Lithium-Ion Battery SOC Estimation Considering Wide Temperature Range Effects",
+   "year": "2026",
+   "venue": "Lecture notes in electrical engineering",
+   "code": "on-topic"
+  },
+  {
+   "n": 11,
+   "record_id": "RC-2094",
+   "title": "Physical Implementation of Reservoir Computing through Electrochemical Reaction (Adv. Sci. 6/2022)",
+   "year": "2022",
+   "venue": "Advanced Science",
+   "code": "on-topic"
+  },
+  {
+   "n": 12,
+   "record_id": "RC-2418",
+   "title": "Time-Series Prediction of\u00a0Calcium Carbonate Concentration in\u00a0Flue Gas Desulfurization Equipment by\u00a0Optimized Echo State Network",
+   "year": "2023",
+   "venue": "Lecture notes in computer science",
+   "code": "on-topic"
+  },
+  {
+   "n": 13,
+   "record_id": "RC-0862",
+   "title": "Optimizing echo state network through a novel fisher maximization based stochastic gradient descent",
+   "year": "2020",
+   "venue": "Neurocomputing",
+   "code": "on-topic"
+  },
+  {
+   "n": 14,
+   "record_id": "RC-2530",
+   "title": "Experimental demonstration of reservoir computing based on VCSEL for nonlinear fiber distortion compensation",
+   "year": "2025",
+   "venue": "Optical Fiber Technology",
+   "code": "on-topic"
+  },
+  {
+   "n": 15,
+   "record_id": "RC-1561",
+   "title": "Optimizing Reservoir Computing Based on an Alternating Input-Driven Spin-Torque Oscillator",
+   "year": "2023",
+   "venue": "Physical Review Applied",
+   "code": "on-topic"
+  },
+  {
+   "n": 16,
+   "record_id": "RC-2828",
+   "title": "Self\u2010Organization of Remote Reservoirs: Transferring Computation to Spatially Distant Locations",
+   "year": "2021",
+   "venue": "Advanced Intelligent Systems",
+   "code": "on-topic"
+  },
+  {
+   "n": 17,
+   "record_id": "RC-0826",
+   "title": "Echo State Network-Enhanced Super-Twisting Control of Passive Gait Training Exoskeleton Driven by Pneumatic Muscles",
+   "year": "2022",
+   "venue": "IEEE/ASME Transactions on Mechatronics",
+   "code": "on-topic"
+  },
+  {
+   "n": 18,
+   "record_id": "RC-1769",
+   "title": "Time series change detection using reservoir computing networks for remote sensing data",
+   "year": "2022",
+   "venue": "International Journal of Intelligent Systems",
+   "code": "on-topic"
+  },
+  {
+   "n": 19,
+   "record_id": "RC-4119",
+   "title": "Constrained docking control for shipborne UAV SideArm recovery",
+   "year": "2023",
+   "venue": "Chinese Journal of Aeronautics",
+   "code": "off-topic"
+  },
+  {
+   "n": 20,
+   "record_id": "RC-3337",
+   "title": "Physical Reservoir Control: Learning Physical Coupling for Homeostatic Behaviours",
+   "year": "2025",
+   "venue": "Open MIND",
+   "code": "on-topic"
+  },
+  {
+   "n": 21,
+   "record_id": "RC-0361",
+   "title": "Learning-based model predictive control: theory and applications",
+   "year": "2020",
+   "venue": "",
+   "code": "off-topic"
+  },
+  {
+   "n": 22,
+   "record_id": "RC-1477",
+   "title": "Reservoir Computing Meets Extreme Learning Machine in Real-Time MIMO-OFDM Receive Processing",
+   "year": "2022",
+   "venue": "IEEE Transactions on Communications",
+   "code": "on-topic"
+  },
+  {
+   "n": 23,
+   "record_id": "RC-3965",
+   "title": "Atrial fibrillation detection using reservoir computing and anomaly detection method from automated blood pressure measurements",
+   "year": "2025",
+   "venue": "Nonlinear Theory and Its Applications IEICE",
+   "code": "on-topic"
+  },
+  {
+   "n": 24,
+   "record_id": "RC-3172",
+   "title": "Echo State Network based Noise Detection in Energy Internet Orienting Justice Blockchain Data",
+   "year": "2022",
+   "venue": "",
+   "code": "on-topic"
+  },
+  {
+   "n": 25,
+   "record_id": "RC-6287",
+   "title": "KNOWM memristors in a bridge synapse delay-based reservoir computing system for detection of epileptic seizures",
+   "year": "2022",
+   "venue": "International Journal of Parallel Emergent and Distributed Systems",
+   "code": "on-topic"
+  },
+  {
+   "n": 26,
+   "record_id": "RC-6403",
+   "title": "High speed human action recognition using a photonic reservoir computer",
+   "year": "2023",
+   "venue": "Neural Networks",
+   "code": "on-topic"
+  },
+  {
+   "n": 27,
+   "record_id": "RC-0791",
+   "title": "Hybrid Convolutional Optoelectronic Reservoir Computing for Image Recognition",
+   "year": "2021",
+   "venue": "Journal of Lightwave Technology",
+   "code": "on-topic"
+  },
+  {
+   "n": 28,
+   "record_id": "RC-3652",
+   "title": "Reservoir computing-driven inverse dynamics for autonomous vehicle trajectory tracking control",
+   "year": "2025",
+   "venue": "Scientific Reports",
+   "code": "on-topic"
+  },
+  {
+   "n": 29,
+   "record_id": "RC-1985",
+   "title": "Households Energy Consumption Forecasting with Echo State Network",
+   "year": "2021",
+   "venue": "Lecture notes in networks and systems",
+   "code": "on-topic"
+  },
+  {
+   "n": 30,
+   "record_id": "RC-5191",
+   "title": "Energy control and chaos prediction of a fractional-order financial risk contagion system",
+   "year": "2025",
+   "venue": "Physica Scripta",
+   "code": "off-topic"
+  },
+  {
+   "n": 31,
+   "record_id": "RC-5476",
+   "title": "From chaos to care: Personalized AI for early cardiac arrhythmia warning",
+   "year": "2026",
+   "venue": "Machine Learning with Applications",
+   "code": "off-topic"
+  },
+  {
+   "n": 32,
+   "record_id": "RC-1228",
+   "title": "A Reservoir Computing Model of Reward-Modulated Motor Learning and Automaticity",
+   "year": "2019",
+   "venue": "Neural Computation",
+   "code": "on-topic"
+  },
+  {
+   "n": 33,
+   "record_id": "RC-6219",
+   "title": "SpaRCe: Improved Learning of Reservoir Computing Systems Through Sparse Representations",
+   "year": "2021",
+   "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+   "code": "on-topic"
+  },
+  {
+   "n": 34,
+   "record_id": "RC-2064",
+   "title": "Memristive Devices Based on Necklace-like Structure Ag@TiO<sub>2</sub> Nanowire Networks for Neuromorphic Learning and Reservoir Computing",
+   "year": "2024",
+   "venue": "ACS Applied Nano Materials",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 35,
+   "record_id": "RC-0399",
+   "title": "Development of neuromorphic hardware and non-iterative learning designs for edge computing applications",
+   "year": "2021",
+   "venue": "Dialnet (Universidad de la Rioja)",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 36,
+   "record_id": "RC-5163",
+   "title": "Performance Guaranteed Composite Adaptive Neural Consensus Control for Uncertain Multiagent Systems",
+   "year": "2024",
+   "venue": "",
+   "code": "off-topic"
+  },
+  {
+   "n": 37,
+   "record_id": "RC-4462",
+   "title": "Combined AGADESN with DBSCAN Algorithm for Cluster Target Motion Intention Recognition",
+   "year": "2022",
+   "venue": "International Journal of Aerospace Engineering",
+   "code": "on-topic"
+  },
+  {
+   "n": 38,
+   "record_id": "RC-2841",
+   "title": "Network traffic prediction model based on linear and nonlinear model combination",
+   "year": "2023",
+   "venue": "ETRI Journal",
+   "code": "off-topic"
+  },
+  {
+   "n": 39,
+   "record_id": "RC-1117",
+   "title": "Equalization of Short-Reach IMDD Transmission With Enhanced Reservoir Computing",
+   "year": "2024",
+   "venue": "Journal of Lightwave Technology",
+   "code": "on-topic"
+  },
+  {
+   "n": 40,
+   "record_id": "RC-5525",
+   "title": "Organizational regularities in recurrent neural networks",
+   "year": "2026",
+   "venue": "Frontiers in Complex Systems",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 41,
+   "record_id": "RC-1174",
+   "title": "Time series reconstructing using calibrated reservoir computing",
+   "year": "2022",
+   "venue": "Scientific Reports",
+   "code": "on-topic"
+  },
+  {
+   "n": 42,
+   "record_id": "RC-1975",
+   "title": "Optical cascaded reservoir computing for realization of dual-channel high-speed OTDM chaotic secure communication via four optically pumped VCSEL",
+   "year": "2023",
+   "venue": "Optics Express",
+   "code": "on-topic"
+  },
+  {
+   "n": 43,
+   "record_id": "RC-4571",
+   "title": "Reservoir Computation with Networks of Differentiating Neuron Ring Oscillators",
+   "year": "2025",
+   "venue": "Analytics",
+   "code": "on-topic"
+  },
+  {
+   "n": 44,
+   "record_id": "RC-3761",
+   "title": "Sample-weighted reservoir computing for chaotic dynamics prediction with a high proportion of missing data",
+   "year": "2026",
+   "venue": "Nonlinear Dynamics",
+   "code": "on-topic"
+  },
+  {
+   "n": 45,
+   "record_id": "RC-0299",
+   "title": "The Computational Capacity of Memristor Reservoirs",
+   "year": "2020",
+   "venue": "arXiv (Cornell University)",
+   "code": "on-topic"
+  },
+  {
+   "n": 46,
+   "record_id": "RC-3504",
+   "title": "A Missing Data Imputation Method for Gas Time Series Based on Spatio-Temporal Graph Attention Network\u2014Echo State Network",
+   "year": "2026",
+   "venue": "Sensors",
+   "code": "on-topic"
+  },
+  {
+   "n": 47,
+   "record_id": "RC-2404",
+   "title": "Implementation of optical feedback modulation in photonic reservoir computing",
+   "year": "2019",
+   "venue": "",
+   "code": "on-topic"
+  },
+  {
+   "n": 48,
+   "record_id": "RC-2580",
+   "title": "Scalable photonic reservoir computing based on pulse propagation in parallel passive dispersive links",
+   "year": "2024",
+   "venue": "Applied Optics",
+   "code": "on-topic"
+  },
+  {
+   "n": 49,
+   "record_id": "RC-1178",
+   "title": "Using a snow ablation optimizer in an autonomous echo state network for the model-free prediction of chaotic systems",
+   "year": "2024",
+   "venue": "Nonlinear Dynamics",
+   "code": "on-topic"
+  },
+  {
+   "n": 50,
+   "record_id": "RC-4517",
+   "title": "An improved ESN with three reservoirs for time series prediction",
+   "year": "2021",
+   "venue": "2021 China Automation Congress (CAC)",
+   "code": "on-topic"
+  },
+  {
+   "n": 51,
+   "record_id": "RC-5026",
+   "title": "(Invited) Neuromorphic Devices and Systems Using Carbon Nanotubes",
+   "year": "2022",
+   "venue": "ECS Meeting Abstracts",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 52,
+   "record_id": "RC-0567",
+   "title": "A framework of structural damage detection for civil structures using a combined multi-scale convolutional neural network and echo state network",
+   "year": "2022",
+   "venue": "Engineering With Computers",
+   "code": "off-topic"
+  },
+  {
+   "n": 53,
+   "record_id": "RC-5602",
+   "title": "Masked timesteps in spiking neural networks for efficient time series classification",
+   "year": "2026",
+   "venue": "PeerJ Computer Science",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 54,
+   "record_id": "RC-1989",
+   "title": "Highly textured CMOS-compatible hexagonal boron nitride-based neuristor for reservoir computing",
+   "year": "2024",
+   "venue": "Chemical Engineering Journal",
+   "code": "on-topic"
+  },
+  {
+   "n": 55,
+   "record_id": "RC-5043",
+   "title": "Monopole Current Control in Artificial Spin Ice via Localized Fields",
+   "year": "2025",
+   "venue": "Nano Letters",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 56,
+   "record_id": "RC-5194",
+   "title": "Echo-GRU: Emotion Recognition Using Wearable EEG Supporting Early Alzheimer\u2019s Disease Detection",
+   "year": "2025",
+   "venue": "Lecture notes in computer science",
+   "code": "on-topic"
+  },
+  {
+   "n": 57,
+   "record_id": "RC-5698",
+   "title": "Higher-Order Quantum Reservoir Computing",
+   "year": "2020",
+   "venue": "arXiv (Cornell University)",
+   "code": "on-topic"
+  },
+  {
+   "n": 58,
+   "record_id": "RC-0663",
+   "title": "High-Performance Reservoir Computing With Fluctuations in Linear Networks",
+   "year": "2021",
+   "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+   "code": "on-topic"
+  },
+  {
+   "n": 59,
+   "record_id": "RC-2851",
+   "title": "Assessing the biochemical oxygen demand using neural networks and ensemble tree approaches in South Korea",
+   "year": "2020",
+   "venue": "Journal of Environmental Management",
+   "code": "off-topic"
+  },
+  {
+   "n": 60,
+   "record_id": "RC-5002",
+   "title": "Synchronizations of Four van der Pol Oscillators with Linear Memristor Coupling as Ring Structure",
+   "year": "2026",
+   "venue": "Journal of Signal Processing",
+   "code": "off-topic"
+  },
+  {
+   "n": 61,
+   "record_id": "RC-5859",
+   "title": "PRCpy: A Python Package for Processing of Physical Reservoir Computing",
+   "year": "2024",
+   "venue": "arXiv (Cornell University)",
+   "code": "on-topic"
+  },
+  {
+   "n": 62,
+   "record_id": "RC-1230",
+   "title": "Surface electromyography classification using extreme learning machines and echo state networks",
+   "year": "2022",
+   "venue": "Research on Biomedical Engineering",
+   "code": "on-topic"
+  },
+  {
+   "n": 63,
+   "record_id": "RC-0972",
+   "title": "Performance optimization research of reservoir computing system based on an optical feedback semiconductor laser under electrical information injection",
+   "year": "2019",
+   "venue": "Optics Express",
+   "code": "on-topic"
+  },
+  {
+   "n": 64,
+   "record_id": "RC-2808",
+   "title": "Subterahertz collective spin-resonance modes and field-adaptive reservoir computing in the chiral helimagnet <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:msub> <mml:mi>Cr</mml:mi> <mml:mrow> <mml:mn>1</mml:mn> <mml:mo>/</mml:mo> <mml:mn>3</mml:mn> </mml:mrow> </mml:msub> <mml:msub> <mml:mrow> <mml:mi>Ta</mml:mi> <mml:mi mathvariant=\"normal\">S</mml:mi> </mml:mrow> <mml:mn>2</mml:mn> </mml:msub> </mml:math>",
+   "year": "2025",
+   "venue": "Physical Review Applied",
+   "code": "on-topic"
+  },
+  {
+   "n": 65,
+   "record_id": "RC-5180",
+   "title": "Data-Driven Modeling of the Koopman-Oriented Chua Circuit Based on Reservoir Computers",
+   "year": "2025",
+   "venue": "",
+   "code": "on-topic"
+  },
+  {
+   "n": 66,
+   "record_id": "RC-1169",
+   "title": "An organized view of reservoir computing: a perspective on theory and technology development",
+   "year": "2024",
+   "venue": "Japanese Journal of Applied Physics",
+   "code": "on-topic"
+  },
+  {
+   "n": 67,
+   "record_id": "RC-0900",
+   "title": "Evolutionary Echo State Network: A neuroevolutionary framework for time series prediction",
+   "year": "2023",
+   "venue": "Applied Soft Computing",
+   "code": "on-topic"
+  },
+  {
+   "n": 68,
+   "record_id": "RC-1830",
+   "title": "Research on water quality prediction model based on echo state network",
+   "year": "2022",
+   "venue": "Journal of Computational Methods in Sciences and Engineering",
+   "code": "on-topic"
+  },
+  {
+   "n": 69,
+   "record_id": "RC-4545",
+   "title": "Practical Training for RF Fingerprinting of Commercial Transmitters at the Edge",
+   "year": "2021",
+   "venue": "2021 IEEE Globecom Workshops (GC Wkshps)",
+   "code": "off-topic"
+  },
+  {
+   "n": 70,
+   "record_id": "RC-3244",
+   "title": "Reservoir computing utilizing ferroelectric-gate-insulator FETs and capacitors",
+   "year": "2023",
+   "venue": "",
+   "code": "on-topic"
+  },
+  {
+   "n": 71,
+   "record_id": "RC-5019",
+   "title": "Smart Masu \u2019Nomuyo\u2019",
+   "year": "2024",
+   "venue": "The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)",
+   "code": "off-topic"
+  },
+  {
+   "n": 72,
+   "record_id": "RC-5532",
+   "title": "Learnt variability as a tool for climate prediction and predictability",
+   "year": "2020",
+   "venue": "",
+   "code": "off-topic"
+  },
+  {
+   "n": 73,
+   "record_id": "RC-4927",
+   "title": "A Computational Perspective on the No-Strong-Loops Principle in Brain Networks",
+   "year": "2025",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "code": "off-topic"
+  },
+  {
+   "n": 74,
+   "record_id": "RC-2350",
+   "title": "conn2res: A toolbox for connectome-based reservoir computing",
+   "year": "2023",
+   "venue": "Research Square",
+   "code": "on-topic"
+  },
+  {
+   "n": 75,
+   "record_id": "RC-3538",
+   "title": "Photonic Reservoir Computing: Principles, Architectures and Applications for Sensing and Information Processing",
+   "year": "2024",
+   "venue": "",
+   "code": "on-topic"
+  },
+  {
+   "n": 76,
+   "record_id": "RC-3238",
+   "title": "Comparison of Recurrent Neural Networks for Wind Power Forecasting",
+   "year": "2020",
+   "venue": "Lecture notes in computer science",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 77,
+   "record_id": "RC-2168",
+   "title": "Wavelength-multiplexed Delayed Inputs for Memory Enhancement of Microring-based Reservoir Computing",
+   "year": "2024",
+   "venue": "arXiv (Cornell University)",
+   "code": "on-topic"
+  },
+  {
+   "n": 78,
+   "record_id": "RC-4781",
+   "title": "Physical neural network using skyrmion-based spin torque nano-oscillators",
+   "year": "2024",
+   "venue": "Journal of Physics Conference Series",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 79,
+   "record_id": "RC-1744",
+   "title": "High-Dimensional Physical Reservoir with Back-End-of-Line-Compatible Tin Monoxide Thin-Film Transistor",
+   "year": "2024",
+   "venue": "ACS Applied Materials & Interfaces",
+   "code": "on-topic"
+  },
+  {
+   "n": 80,
+   "record_id": "RC-3963",
+   "title": "Overview and Perspectives of Chaos Theory and Its Applications in Economics",
+   "year": "2023",
+   "venue": "Mathematics",
+   "code": "off-topic"
+  },
+  {
+   "n": 81,
+   "record_id": "RC-6173",
+   "title": "Reservoir Computing with Spin Waves in a Skyrmion Crystal",
+   "year": "2022",
+   "venue": "Physical Review Applied",
+   "code": "on-topic"
+  },
+  {
+   "n": 82,
+   "record_id": "RC-3404",
+   "title": "Reservoir Computing for Processing Data with a Memristive Tunable Chaotic Circuit",
+   "year": "2023",
+   "venue": "",
+   "code": "on-topic"
+  },
+  {
+   "n": 83,
+   "record_id": "RC-0486",
+   "title": "Implementation of 8-bit reservoir computing through volatile ZrOx-based memristor as a physical reservoir",
+   "year": "2024",
+   "venue": "Nano Energy",
+   "code": "on-topic"
+  },
+  {
+   "n": 84,
+   "record_id": "RC-2792",
+   "title": "Experimental Demonstration of In\u2010Memory Computing in a Ferrofluid System",
+   "year": "2023",
+   "venue": "Advanced Materials",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 85,
+   "record_id": "RC-2810",
+   "title": "Analog Optical Computing for Artificial Intelligence",
+   "year": "2021",
+   "venue": "Engineering",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 86,
+   "record_id": "RC-4169",
+   "title": "Machine Learning Aided Trajectory Design and Power Control of Multi-UAV",
+   "year": "2019",
+   "venue": "",
+   "code": "off-topic"
+  },
+  {
+   "n": 87,
+   "record_id": "RC-1133",
+   "title": "Global optimization of hyper-parameters in reservoir computing",
+   "year": "2022",
+   "venue": "Electronic Research Archive",
+   "code": "on-topic"
+  },
+  {
+   "n": 88,
+   "record_id": "RC-5325",
+   "title": "Mathematical Modeling of Binding Semantic Memory with Visual Information",
+   "year": "2024",
+   "venue": "",
+   "code": "off-topic"
+  },
+  {
+   "n": 89,
+   "record_id": "RC-0670",
+   "title": "Fractional-integer-order echo state network for time series prediction",
+   "year": "2024",
+   "venue": "Applied Soft Computing",
+   "code": "on-topic"
+  },
+  {
+   "n": 90,
+   "record_id": "RC-0554",
+   "title": "Prediction of chaotic time series using recurrent neural networks and reservoir computing techniques: A comparative study",
+   "year": "2022",
+   "venue": "Machine Learning with Applications",
+   "code": "on-topic"
+  },
+  {
+   "n": 91,
+   "record_id": "RC-4126",
+   "title": "Machine Learning With Observers Predicts Complex Spatiotemporal Behavior",
+   "year": "2019",
+   "venue": "Frontiers in Physics",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 92,
+   "record_id": "RC-4481",
+   "title": "Comparison of machine learning classifiers for differentiating level and sport using movement data",
+   "year": "2022",
+   "venue": "Journal of Sports Sciences",
+   "code": "off-topic"
+  },
+  {
+   "n": 93,
+   "record_id": "RC-1949",
+   "title": "Human action recognition using a time-delayed photonic reservoir computing",
+   "year": "2023",
+   "venue": "Science China Information Sciences",
+   "code": "on-topic"
+  },
+  {
+   "n": 94,
+   "record_id": "RC-5791",
+   "title": "DRL meets DSA Networks: Convergence Analysis and Its Application to System Design",
+   "year": "2023",
+   "venue": "arXiv (Cornell University)",
+   "code": "off-topic"
+  },
+  {
+   "n": 95,
+   "record_id": "RC-2819",
+   "title": "Physical Reservoir Computing for Smart Manufacturing of PCB Using Crystallinity\u2010Controlled HfO <sub>2</sub> Memristor for Reservoir",
+   "year": "2026",
+   "venue": "Advanced Intelligent Systems",
+   "code": "on-topic"
+  },
+  {
+   "n": 96,
+   "record_id": "RC-1383",
+   "title": "Theoretical model for nonlinear spin-wave transient processes in active-ring oscillators with variable gain and its application for magnonic reservoir computing",
+   "year": "2022",
+   "venue": "Journal of Applied Physics",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 97,
+   "record_id": "RC-4187",
+   "title": "Task-Adaptive Neuromorphic Computing Using Reconfigurable Organic Neuristors with Tunable Plasticity and Logic-in-Memory Operations",
+   "year": "2024",
+   "venue": "The Journal of Physical Chemistry Letters",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 98,
+   "record_id": "RC-4905",
+   "title": "Estimating effective connectivity in neural networks: comparison of derivative-based and correlation-based methods",
+   "year": "2024",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "code": "off-topic"
+  },
+  {
+   "n": 99,
+   "record_id": "RC-5039",
+   "title": "Continuously Deep Recurrent Neural Networks",
+   "year": "2024",
+   "venue": "Lecture notes in computer science",
+   "code": "undecidable-from-title"
+  },
+  {
+   "n": 100,
+   "record_id": "RC-4185",
+   "title": "Online Adaptation of Robots Controlled by Nanowire Networks: A Preliminary Study",
+   "year": "2023",
+   "venue": "Communications in computer and information science",
+   "code": "undecidable-from-title"
+  }
+ ]
+}

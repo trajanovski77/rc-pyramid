@@ -1,0 +1,25 @@
+# Manuscript. Drafts, figures, LaTeX build and the Overleaf bundle live outside version
+# control; the paper is authored elsewhere and assembled from this repo's scripts.
+#
+# The pattern is `paper/*`, not `paper/`, because git cannot re-include a file under a
+# directory that is itself excluded, and one file has to be re-included: references.bib
+# is not a draft. Every entry in it carries the note recording what was checked against
+# an authoritative record and what was not, and manuscript 6.2 names it as one of the
+# two places the provenance audit is documented. A reader sent to a file that is not in
+# the repository is the failure this paper reports on.
+paper/*
+!paper/references.bib
+
+# Rendered page images of the manuscript
+tmp/
+
+# OS and interpreter junk
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Session transcripts. These are working records of assistant sessions, not project
+# artefacts: they contain unedited intermediate reasoning, dead ends and draft text that
+# the deviation log and vault/log.md record properly. Keeping them out of a public
+# repository is deliberate.
+*-local-command-caveat*.txt

@@ -1,0 +1,88 @@
+{
+  "generated_utc": "2026-09-05",
+  "n": 40,
+  "raw_family_agreement": 0.975,
+  "cohens_kappa_family": 0.9542,
+  "kappa_ci95": [
+    0.8657,
+    1.0428
+  ],
+  "gwet_ac1": 0.9719,
+  "krippendorff_alpha": 0.9548,
+  "agreement_basis": {
+    "records": 40,
+    "categories": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "hybrid-symmetric",
+      "unassignable"
+    ],
+    "unassignable_is_a_category": true
+  },
+  "subclass_agreement": [
+    20,
+    20
+  ],
+  "symmetric_pair_agreement": [
+    0,
+    0
+  ],
+  "unassignable_all_records": {
+    "a": 9,
+    "b": 10,
+    "n": 40
+  },
+  "unassignable_eligible_only": {
+    "a": 1,
+    "b": 1,
+    "n": 31
+  },
+  "ineligible": {
+    "a": 8,
+    "b": 9
+  },
+  "symmetric": {
+    "a": 0,
+    "b": 0
+  },
+  "hybrid": {
+    "a": 0,
+    "b": 0
+  },
+  "reasons": {
+    "a": 40,
+    "b": 40
+  },
+  "family_disagreements": 1,
+  "annotation_effort": {
+    "a": {
+      "n_timed": 40,
+      "total_minutes": 682.0,
+      "median_minutes_per_record": 9.0
+    },
+    "b": {
+      "n_timed": 40,
+      "total_minutes": 779.0,
+      "median_minutes_per_record": 10.0
+    }
+  },
+  "gate_kappa_ge_070": true,
+  "gate_unassignable_le_5pct": true,
+  "gate_basis": "records both coders judged eligible (deviation D21), less records dispositioned under taxonomy-v1.0.md R11 (deviation D29)",
+  "unassignable_eligible_only_as_coded": {
+    "a": 1,
+    "b": 1,
+    "base": 31,
+    "le_5pct": true
+  },
+  "r11_carve_out": {
+    "deviation": "D29",
+    "records": {
+      "RC-3140": "ELM and ESN reported as co-equal main-text comparators, neither subordinate; both coders independently coded it unassignable citing R11 (pilot 2, 2026-09-05)."
+    },
+    "affects": "the gate numerator only; not kappa, not the all-records rate"
+  },
+  "unassignable_le_5pct_all_records": false
+}

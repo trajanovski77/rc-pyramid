@@ -1,0 +1,28 @@
+{
+  "generated_utc": "2026-09-05T13:30:23.274030+00:00",
+  "per_source": {
+    "openalex": 7062,
+    "arxiv": 1234
+  },
+  "openalex_paging_repeats_collapsed": 6,
+  "raw_total": 8296,
+  "removed_doi_exact": 395,
+  "removed_arxiv_id_exact": 663,
+  "removed_title_match": 706,
+  "removed_manual_adjudication": 46,
+  "deduped_total": 6486,
+  "near_duplicate_pairs_flagged": 106,
+  "near_duplicate_decided_same": 46,
+  "near_duplicate_decided_different": 60,
+  "near_duplicate_undecided": 0,
+  "near_duplicate_adjudication_complete": true,
+  "open_access_eligible": 3555,
+  "closed_excluded_d6": 2931,
+  "open_access_basis": {
+    "arxiv": 286,
+    "arxiv|openalex": 948,
+    "closed": 2931,
+    "openalex": 2321
+  },
+  "open_without_abstract": 215
+}

@@ -1,0 +1,43 @@
+{
+  "generated_utc": "2026-09-05",
+  "n": 40,
+  "raw_family_agreement": 0.95,
+  "cohens_kappa_family": 0.9247,
+  "kappa_ci95": [
+    0.8231,
+    1.0264
+  ],
+  "gwet_ac1": 0.9401,
+  "krippendorff_alpha": 0.9256,
+  "agreement_basis": {
+    "records": 40,
+    "categories": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "unassignable"
+    ],
+    "unassignable_is_a_category": true
+  },
+  "subclass_agreement": [
+    21,
+    21
+  ],
+  "unassignable": {
+    "a": 10,
+    "b": 12
+  },
+  "hybrid": {
+    "a": 0,
+    "b": 0
+  },
+  "reasons": {
+    "a": 40,
+    "b": 40
+  },
+  "family_disagreements": 2,
+  "annotation_effort": null,
+  "gate_kappa_ge_070": true,
+  "gate_unassignable_le_5pct": false
+}

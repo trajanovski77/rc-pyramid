@@ -1,0 +1,3863 @@
+{
+ "generated_utc": "2026-08-02T12:04:27.551549+00:00",
+ "purpose": "resolve year-granularity records from the Semantic Scholar leg against the frozen window (search-strategy.md \u00a71)",
+ "source": "data/raw/s2_20260802.json",
+ "window": {
+  "start": "2019-01-01",
+  "end": "2026-06-30"
+ },
+ "unmatched_total": 684,
+ "unmatched_without_doi": 135,
+ "date_resolved": {
+  "in_window": 429,
+  "after_cutoff": 78,
+  "before_window": 26,
+  "unresolved": 16
+ },
+ "in_window_with_core_rc_phrase_in_title": 230,
+ "rows": [
+  {
+   "doi": "10.3390/s26144643",
+   "title": "Intrinsic Plasticity-Driven Neuroadaptive Asymptotic Tracking Control for a Class of Uncertain Robotic Manipulators",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-22",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.26794/2587-5671-2026-30-1-66-78",
+   "title": "New Approaches to Forecasting Budget Revenues of the Russian Federation Based on Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5194/acp-2020-440-ac2",
+   "title": "Reply to the comments of Anonymous Referee #2",
+   "s2_year": 2020,
+   "crossref_date": "2020-08-31",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tai.2026.3660986",
+   "title": "An Enhanced Air Quality Forecasting Method Integrating Feature Mode Decomposition and Multilayer Plasticity Echo State Network",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icct67417.2025.11373995",
+   "title": "Deep Learning-Based Optimization of Phase-Modulated Waveforms for SBS Mitigation",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/ett.70236",
+   "title": "HA\u2010ESNet: A Hierarchical Attention With Echo State Network\u2010Based Dynamic Low\u2010Complexity Channel Estimation in FSO Communication Links Under Turbulent Channel Conditions",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64751/ajaccm.2026.v6.n2.pp99-107",
+   "title": "SmartWSN-IDS: A Hybrid Deep Reservoir and Optimized Tree Model for Routing Attack Detection",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.neucom.2021.03.017",
+   "title": "Online H\u221e control for continuous-time nonlinear large-scale systems via single echo state network",
+   "s2_year": 2021,
+   "crossref_date": "2021-03-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1556/2065.186.2025.9.19",
+   "title": "A t\u00e1rol\u00f3 jelleg\u0171 neur\u00e1lis h\u00e1l\u00f3zat alkalmazhat\u00f3s\u00e1ga a napaktivit\u00e1s el\u0151rejelz\u00e9s\u00e9ben",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/led.2026.3697029",
+   "title": "Single-Layer Ferroelectric-Photosensitive Optoelectronic Transistor Enabling In-Sensor UV Fingerprint Recognition",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icaiqsa67794.2025.11440558",
+   "title": "Cross-Cultural Linguistic Preservation through AI-Powered Dialect Restoration in Historic English Narratives",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-19",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/aimlsystems67835.2025.11331255",
+   "title": "Amplifying Block Encoded Quantum Operations with Grover Iterations",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.bspc.2026.111029",
+   "title": "A dual-input optoelectronic reservoir computing for continuous ventricular premature beats detection",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-11",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/icoici65217.2025.11254130",
+   "title": "Intrusion Detection for Security Enhancing using Machine Learning Algorithm",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iscas66217.2026.11562758",
+   "title": "An RRAM-based Multi-Timescale Spiking Processor with Reconfigurable Neurons",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tsmc.2026.3701842",
+   "title": "Optical-Cavity-Based Reservoir Computing for Low-Power Time-Series Analysis in Industrial Internet of Things Applications",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1145/3822454.3822492",
+   "title": "EchoDiff: Echo State Reservoirs for Parameter\u2011Efficient Diffusion Image Generation",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-16",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1021/acsanm.6c02203",
+   "title": "Defect-Engineered Flexible ZnO Synaptic TFTs for Adaptive Visual Preprocessing and In-Sensor Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-16",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1115/smasis2025-167814",
+   "title": "Physical Reservoir Computing on a Robotic Swimmer With Soft Hydraulic Actuators",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1073/pnas.2317944121",
+   "title": "Local strain inhomogeneities during electrical triggering of a metal\u2013insulator transition revealed by X-ray microscopy",
+   "s2_year": 2024,
+   "crossref_date": "2024-08-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.18799/24131830/2026/3/5500",
+   "title": "Methodology for assessing the productivity index change in oil wells (case study of the vereian deposits in Perm Region)",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-31",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/smll.74398",
+   "title": "Anion-Engineered Organic Electrochemical Transistors With Multi-Timescale Synaptic Dynamics for Task-Adaptive Spiking Neural Networks.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-03",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1038/s41566-026-01968-2",
+   "title": "Real-time optical signal equalization with a silicon photonic spatially distributed reservoir computer",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-21",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/biocas67066.2025.00134",
+   "title": "Spatial and Temporal Reservoir Computing with Biologically Modeled Neurons",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/wccest66994.2025.11390010",
+   "title": "Enhancing Biosignal Intelligence Through Multi-Paradigm Quantum Learning: A Fusion of QRC, QGNNs, and Transferable Architectures",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350886",
+   "title": "Orbital Angular Momentum Beam Distribution Recovery based on Reservoir-computing stimulated Generative Adversarial Network (RC-GAN)",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/2631-8695/ae6f79",
+   "title": "Substantially enhanced reservoir computing with multiple-input mode",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/lpt.2025.3636938",
+   "title": "Intelligent RF-FSO Fusion for High-Mobility Beam Tracking Based on Reservoir Computing Enhanced UKF",
+   "s2_year": 2026,
+   "crossref_date": "2025-11-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/eleco69582.2025.11329359",
+   "title": "Adaptive Gait Generation Using Echo State Networks and Second-Order Servo Tracking",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.21437/interspeech.2024-1596",
+   "title": "Enhancing Speech and Music Discrimination Through the Integration of Static and Dynamic Features",
+   "s2_year": 2024,
+   "crossref_date": "2024-09-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icici68773.2026.11580468",
+   "title": "Adaptive Multi-Objective Reinforcement Metaheuristic Optimized Deep Echo State Network for Stock Market Price Prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icpads67057.2025.11322939",
+   "title": "Adaptive Multiscale Decomposition Echo State Network for Chaotic Time Series Prediction",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-14",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/bdai66031.2025.11325278",
+   "title": "Emotion Recognition Method Based on Multi-Round Replay of Brain Graph and Semantic Graph",
+   "s2_year": 2025,
+   "crossref_date": "2025-08-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jlt.2026.3657767",
+   "title": "Dual-End Physics-Based Neural Augmentation for Robust Fiber Impairment Compensation: Mitigating Pre- and Post-Model Errors",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.54254/2753-8818/2026.hz29905",
+   "title": "SIEVE: A Hybrid-Model-Based System for SIEM False-Positive Optimization",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-26",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.23723/1301:2019-2/26045",
+   "title": "Vers des processeurs photoniques en rupture pour l\u2019IA du futur",
+   "s2_year": 2019,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.2118/232419-ms",
+   "title": "Machine Learning-Based Proxy Modeling of Working Gas Injection in Natural Gas Storage Reservoirs",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-18",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icaiic68212.2026.11454170",
+   "title": "A General Framework for Neural Adaptive Sensing of Dynamical Fields",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3091760",
+   "title": "Robust control of stick-slip instability in automotive clutches using next-generation reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/asicon66040.2025.11325930",
+   "title": "A Deep Reservoir Computing System based on IGZO Electrical-Double-Layer Transistors",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-21",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tsmc.2018.2825021",
+   "title": "Memristor-Based Echo State Network With Online Least Mean Square",
+   "s2_year": 2019,
+   "crossref_date": "2018-05-04",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/lgrs.2026.3672348",
+   "title": "Microseismic Data Denoising Using Reservoir Computing Model",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.ins.2018.09.057",
+   "title": "Unsupervised EEG feature extraction based on echo state network",
+   "s2_year": 2019,
+   "crossref_date": "2018-09-29",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/ner61569.2025.11589046",
+   "title": "Reservoir Computing with Neural Organoids for Comparative Studies of Neurological Health",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-11",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3118667",
+   "title": "Efficient traffic flow prediction via bio-inspired reservoir computing with coupled neural dynamics",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-27",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/asp-dac66049.2026.11420782",
+   "title": "LMESN: A Leakage-Driven MOSFET Reservoir for Scalable and Ultra-Low-Power Temporal Inference",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-19",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350023",
+   "title": "Low-Complexity Sparse ESN Equalization for Bandwidth-Constrained High-Speed IMDD Optical Communication Systems",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64751/ajaccm.2026.v6.n2.pp412-421",
+   "title": "DYNAMIC ROLE-BASED SECURITY FRAMEWORK WITH HYBRID VOTING CLASSIFIERS FOR SENSOR NETWORK PROTECTION",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/cdc57313.2025.11312921",
+   "title": "Machine-learning-based Lyapunov Redesign of Robust Controllers for a Class of Uncertain Nonlinear Systems Subject to Non-vanishing Disturbances*",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.2172/3007946",
+   "title": "Machine Learning and Reservoir Computing for Watershed-Scale Drought Prediction",
+   "s2_year": 2024,
+   "crossref_date": "2024-12-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/qpain69676.2026.11546103",
+   "title": "Deep Hybrid Forecasting Engine for Real-Time Enterprise Revenue Prediction and Business Trend Analysis",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3389/fphy.2020.633494",
+   "title": "Editorial: Fundamentals and Applications of AI: An Interdisciplinary Perspective",
+   "s2_year": 2021,
+   "crossref_date": "2021-01-19",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/vlsitsa64674.2025.11047017",
+   "title": "Silicon on Insulator: A Versatile Platform for Neuromorphic Computing Using Quantum Tunneling in Standard CMOS Devices",
+   "s2_year": 2025,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.4108/eettti.10443",
+   "title": "A Hybrid Ensemble Deep Learning and Reservoir Computing Approach for Exchange Rate Prediction",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icwoc65853.2025.11151153",
+   "title": "Nonlinear Channel Equalization via Reservoir Computing with Delayed Optical Feedback Semiconductor Nanolasers",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.23919/vlsitechnologyandcir65189.2025.11074941",
+   "title": "96-Kb Voltage-Controlled-Magnetic-Anisotropy MRAM for In-Situ Reservoir Computing with High Endurance ($\\geq 10^{12}$), Sub-Ns Operation (0.3 Ns) and Ultralow Power Consumption (40 fJ)",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11349863",
+   "title": "High-speed Photonic Reservoir Computing Based on Microring Resonators",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iccsp68173.2026.11539500",
+   "title": "Multimodal Paradigmatic Synergies in Hyperdimensional and Quantum-Inspired Architectures for Robust Speech Gender Analytics",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-20",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ijcnn64981.2025.11229271",
+   "title": "Speaker Recognition and Braille Classification with a Physical Reservoir Computing System",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/cleo_si.2026.sw2d.1",
+   "title": "Next-Generation Photonic Reservoir Computing Using Ultrafast All-Optical Nonlinearity",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3390/biology10080702",
+   "title": "Optimal Input Representation in Neural Systems at the Edge of Chaos",
+   "s2_year": 2021,
+   "crossref_date": "2021-07-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.2514/6.2026-0902",
+   "title": "Sensing and Processing of a Shock-Induced Recirculation Bubble Using a Vibratory Physical Reservoir Computer",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1361-6463/ae251e",
+   "title": "A physics-based compact SPICE model emulating volatile and non-volatile switching patterns to heart arrhythmia detection",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1402-4896/ae1903",
+   "title": "Small-world topology and multi-order interaction-enhanced reservoir computing and its application in chaotic PMSM prediction",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-29",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/metroxraine66377.2025.11340217",
+   "title": "An Adaptive Training Method for Memristive Next Generation Reservoir Computing Systems",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1039/d5tc04104j",
+   "title": "Dynamically nonlinear NbOx memristors for multifunctional reservoir and neuromorphic Computing",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/isocc66390.2025.11329615",
+   "title": "Chaotic Time Series Prediction via ESN with Decorrelated Reservoir Dynamics",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1063/5.0344566",
+   "title": "Clique-based topology enhances reservoir computing performance.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/lpt.2025.3618690",
+   "title": "Scalable Photonic Deep Reservoir Computing via Layer-Wise",
+   "s2_year": 2026,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/iprsn.2025.ith1b.2",
+   "title": "Neurophotonic silicon chip",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1063/5.0130624",
+   "title": "Anisotropy-assisted bias-free spin Hall nano-oscillator",
+   "s2_year": 2023,
+   "crossref_date": "2023-02-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/cleo_at.2026.jtu.212",
+   "title": "Exploring Implementation and Integration of On-Chip Photonic Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tpel.2018.2875718",
+   "title": "Multi-Switches Fault Diagnosis Based on Small Low-Frequency Data for Voltage-Source Inverters of PMSM Drives",
+   "s2_year": 2019,
+   "crossref_date": "2018-10-12",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/iwsda67899.2025.11457432",
+   "title": "Silver Nano Particles Device Based Lightweight Cryptographic System Toward IoT Edge Security",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/i5cps67958.2026.11452600",
+   "title": "Quantum Bio-Mutation Foresight Simulator (Q-BMFS): A Hybrid Quantum\u2013Classical Framework for Proactive Mutation Analysis",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-26",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1007/s40820-025-02036-0",
+   "title": "Organic Phototransistor Photonic Synapses for Artificial Vision",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/adma.74226",
+   "title": "940\u00a0Nm Near-Infrared Photosynapses Based on Sn\u2500Pb Perovskite for Efficient Face Recognition.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-20",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/ispce-asia69076.2025.11312889",
+   "title": "Cloud-Edge Structure Based Adaptive Optimal Aeration Control for WWTP",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-28",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.neucom.2026.134654",
+   "title": "Lyapunov-guided echo-state network for robust nonlinear dynamical system modeling",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/tvt.2026.3651837",
+   "title": "Privacy-Protected Formation Control for Unmanned Surface Vehicles: A Neural Predictor-Based Noncooperative Game Framework",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350527",
+   "title": "Network Traffic Prediction using Enhanced Photonic Reservoir Computing Based on VCSEL",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icwoc65853.2025.11151148",
+   "title": "Processing-Speed Enhancement for a Long-Loop VCSEL-Based Time-Delay Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/gcce65946.2025.11275603",
+   "title": "Sensitivity Analysis of Temporal Sensory Responses on Preference: Application to Coffee",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/ofc.2026.m3k.6",
+   "title": "Circular Reservoir-Computing\u2013Assisted Hybrid Equalizer for Joint Linear/Nonlinear Compensation in 106-Gb/s PAM4 IM/DD Optical Links",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/igarss55030.2025.11243844",
+   "title": "Spatiotemporal PolSAR Analysis Using Quaternion Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-08-03",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/(issn)2577-0470",
+   "title": "Quantum engineering",
+   "s2_year": 2026,
+   "crossref_date": "2022-01-28",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5114/jcb.2022.113551",
+   "title": "Effects of iodinated contrast agent on HU-based dose calculation and dose delivered in iridium-192 high-dose-rate brachytherapy",
+   "s2_year": 2022,
+   "crossref_date": "2022-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.35848/1347-4065/ae5c0f",
+   "title": "Analysis of physical and virtual nodes of ion-gating reservoir for network size reduction",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.36463/idw.2023.0101",
+   "title": "Machine Learning Model of Liquid Crystal Cell Controllable by Design Parameters",
+   "s2_year": 2023,
+   "crossref_date": "2023-12-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3027578",
+   "title": "Computing on the verge of chaos: classical and quantum reservoirs",
+   "s2_year": 2024,
+   "crossref_date": "2024-10-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/adfm.76823",
+   "title": "Cation\u2010Deficient Two\u2010Dimensional BiOBr for High\u2010Integration Computational Fingerprint Recognition",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1039/d5ay00358j",
+   "title": "The fluorescence spectrum combined with a broad learning system to characterize the content of difenoconazole in cabbage.",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3044266",
+   "title": "Reservoir computer using a photorefractive nonlinear medium",
+   "s2_year": 2025,
+   "crossref_date": "2025-03-21",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.55277/researchhub.1a3escgi",
+   "title": "Title:Perfused 3D Cortical Constructs as Reservoir Computing Substrates: Quantitative Characterization and Energy-Efficiency Benchmarking Against Silicon",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ted.2025.3612316",
+   "title": "Ultraviolet Light-Driven Artificial Neuromorphic Properties in Organic Transistors for Reservoir Computing and Encrypted Communication",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-26",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tcds.2018.2865999",
+   "title": "Evaluation of Internal Models in Autonomous Learning",
+   "s2_year": 2019,
+   "crossref_date": "2018-08-22",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/ted.2026.3679485",
+   "title": "2-D/NbOx Heterostructure-Based Neuromorphic Memristor for 5-bit Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5194/acp-2019-937-ac2",
+   "title": "REPLY TO THE COMMENTS OF ANONYMOUS REFEREE #1",
+   "s2_year": 2020,
+   "crossref_date": "2020-02-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/2631-8695/ae85d8",
+   "title": "A new dynamic hand gesture recognition method based on an LSM\u2013LSTM\u2013DNN model using IR-UWB radars",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.2139/ssrn.4244619",
+   "title": "Four-Channels Optical Chaos Secure Communications with the Rate Of\u00a0 400gb/S Using Optical Reservoir Computing Based on Two Quantum Dot Spin-Vcsels",
+   "s2_year": 2022,
+   "crossref_date": "2022-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/ol.601630",
+   "title": "Ultra-low-loss microfiber knot resonator photonic processor for cost-effective feedback-free reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-22",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/tkde.2025.3622941",
+   "title": "Serial-Parallel Fractional-Integer-Order Echo State Network for Time Series Prediction",
+   "s2_year": 2026,
+   "crossref_date": "2025-10-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tcyb.2018.2825253",
+   "title": "Hybrid Regularized Echo State Network for Multivariate Chaotic Time Series Prediction",
+   "s2_year": 2019,
+   "crossref_date": "2018-04-30",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/cacs67552.2025.11288192",
+   "title": "Remarks on the Application of Deep Echo State Networks to Discrete\u2013Time Optimal Predictive Control",
+   "s2_year": 2025,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1117/12.3099242",
+   "title": "Experimental characterization of memory capacity in a microring resonator network for multi-wavelength reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/aicconf69182.2026.11600715",
+   "title": "Optimizing Enterprise Information Management through LINUX Operating System Integration in Intelligent Communication Networks",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/pgc68487.2025.11319513",
+   "title": "Random Forest-Driven Photonic Reservoir Computing Model for Signal Modulation Recognition",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.30919/es2170",
+   "title": "Simultaneous Multi-Task Photonic Reservoir Computing via Virtual Node Partitioning in a Single Optical-Feedback Semiconductor Laser",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3078206",
+   "title": "Forecasting chaotic time series using echo state networks: limits of predictability and relationship with entropy",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jsen.2026.3679768",
+   "title": "Memristor-Based Reservoir Computing for Limbic Epileptic Seizures Prediction in Low-Power Wearable IoT Devices",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1107/s2053273325099358",
+   "title": "Crystal engineering of bismuth iodide derivatives for physical reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/2631-7990/ae2a7e",
+   "title": "Infrared-visible computational sensor with rapid and relaxation photoresponses",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1149/ma2026-01341535mtgabs",
+   "title": "(\n Invited\n ) a Single-Node Memristor Reservoir for Hidden-State Reconstruction In Chaos and Single-Node Teng Reservoir for Clinical Classification",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-07",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/icee67339.2025.11213927",
+   "title": "Exploring Different Machine Learning-Based Methods for Learning the Language of Shepna Stock Price",
+   "s2_year": 2025,
+   "crossref_date": "2025-05-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/aisp68263.2025.11396330",
+   "title": "A Blended Deep Learning Approach for Hidden Prediction of Smoking Status to Reduce the Risk of Cardiovascular Disease",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1021/acs.nanolett.6c00994",
+   "title": "Wafer-Scale All-Silicon Self-Rectifying Memristor for Synaptic Response and Reservoir Computing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-23",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1002/advs.76692",
+   "title": "Volatile ZrO2 Antiferroelectric Tunnel Junctions for Rapid, Energy\u2010Efficient Physical Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-23",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1016/b978-0-12-811508-4.05001-2",
+   "title": "Preface to the Fourth Edition",
+   "s2_year": 2019,
+   "crossref_date": "2018-11-10",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/icima68728.2026.11564372",
+   "title": "Adaptive Attention-Driven Leaky Integrated Bidirectional Echo State Network for Intelligent Attacker Detection in Cognitive Radio Networks",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tmc.2025.3642566",
+   "title": "Adaptive Task Offloading Scheme in Industrial IoT Based on Semi-Supervised Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3080889",
+   "title": "Passive photonic recurrent neural networks via spatiotemporal multimode fiber dynamics",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.bspc.2025.108894",
+   "title": "Classification of pancreatic tumor using modified echo state network-based pufferfish optimization algorithm",
+   "s2_year": 2026,
+   "crossref_date": "2025-10-11",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ted.2026.3709783",
+   "title": "High-Temperature LiPON-Gated Synaptic Transistors for Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.4028/p-e2lp5w",
+   "title": "Adaptive Neural Network-Based Feedforward-Feedback Controller for Nonlinear Dynamic System",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1361-6463/ae39cb",
+   "title": "Hybrid optoelectronic encoding in ZnO thin film transistors for multimodal physical reservoirs",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3390/electronics15153331",
+   "title": "Multi-Agent Edge AI for Coordinated Event Prediction over Multi-Layer Wireless Sensor Networks: A Smart Competitive Approach",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-28",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1007/s11071-026-12756-6",
+   "title": "Enhancing epileptic seizure detection via augmentation of electroencephalography (EEG) signals using a single-transistor chaotic oscillator",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-30",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1016/j.petrol.2018.10.014",
+   "title": "Flow modelling of unconventional shale reservoirs using a DFM-MINC proximity function",
+   "s2_year": 2019,
+   "crossref_date": "2018-10-10",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1126/sciadv.abb3989",
+   "title": "Designing spontaneous behavioral switching via chaotic itinerancy",
+   "s2_year": 2020,
+   "crossref_date": "2020-11-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/abc68169.2026.11567362",
+   "title": "Lightweight Echo State Networks for Upper-Limb Movement Classification Using Multimodal Signals",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1063/5.0334052",
+   "title": "Storage and recall of multiple chaotic attractors in minimal reservoir computers.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/icuis67429.2025.11380265",
+   "title": "AI-Driven IoMT Model for Chronic Kidney Disease Diagnosis using Hybrid Learning Techniques",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-26",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ijcnn64981.2025.11227706",
+   "title": "A Deep Reservoir Computing Architecture for Dynamic Generative Modeling",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jestie.2026.3676875",
+   "title": "Research on Failure Determination of Switching Devices Coupling Indicators Based on Vibration Parameters and ESNIM",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1039/d5nr05056a",
+   "title": "Artificial synaptic behaviors of a mobile silver-doped vanadium-cerium oxide memristor with embedded silver nanoclusters for neuromorphic computing applications.",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5753/sbrc.2024.1448",
+   "title": "Otimiza\u00e7\u00e3o da associa\u00e7\u00e3o entre esta\u00e7\u00f5es base e equipamentos de usu\u00e1rio com aux\u00edlio de Aprendizado Federado para suporte a Realidade Aumentada M\u00f3vel",
+   "s2_year": 2024,
+   "crossref_date": "2024-05-20",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.23977/jnca.2025.100111",
+   "title": "Physics-Informed GNN Coupled with ESN for Solving Forward Problems of Spatiotemporal Partial Differential Equations",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1145/3316781.3317796",
+   "title": "Deep-DFR: A Memristive Deep Delayed Feedback Reservoir Computing System with Hybrid Neural Network Topology",
+   "s2_year": 2019,
+   "crossref_date": "2019-05-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iceaai68945.2026.11442559",
+   "title": "Bayesian Echo State Networks for Uncertainty Estimation in Dynamic Systems",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.32628/ijsrset2613325",
+   "title": "A Review of Spiking Neural Networks for Reservoir Computing in Chaotic Time-Series Prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icac69156.2025.11361512",
+   "title": "Deep Echo State Networks for Financial Time Series Forecasting in High-Volatility Markets",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ijcnn64981.2025.11227896",
+   "title": "The Role of Brain Connectivity Patterns in Applying Connectome-Based Reservoir Computing to Neuroscience Tasks",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3390/e28070784",
+   "title": "Entropy, Inhibition and Memory in Balanced Spiking Reservoirs",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-10",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/ginotech63460.2025.11076723",
+   "title": "Enhanced Attack Detection in Cognitive Radio Networks Using Leaky Integrated Bidirectional Echo State Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-05-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/cvidl51233.2020.00-61",
+   "title": "Elastic mechanism of cross layer and multi domain communication network",
+   "s2_year": 2020,
+   "crossref_date": "2020-07-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1007/s12559-020-09720-w",
+   "title": "Non-iterative Learning Approaches and Their Applications",
+   "s2_year": 2020,
+   "crossref_date": "2020-03-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1038/s41467-026-75488-6",
+   "title": "Realization of the Bienenstock-Cooper-Munro rule in a single memristor.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-09",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.3934/dcdsi.a260101",
+   "title": "Higher-order quantum reservoir computing for forecasting complex dynamics",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.2118/229333-ms",
+   "title": "Field Development Plan Optimization Under Uncertainty Using Physics-Informed Neural Networks and Generative AI: A Real-Field Case Study in North America",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-03",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1145/3822163.3827941",
+   "title": "PINOCCHIO: Queueing-Onset Prediction in Mobile Edge Networks Using Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-20",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/metroxraine66377.2025.11340466",
+   "title": "A Multiterminal Setup for Complex Dynamics Characterization and Unconventional Computing in Self-Organizing Memristive Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.17270/j.log.001302",
+   "title": "Zebra-SparseEchoNet: A Hybrid Transformer- Echo State Network Optimized with the Zebra Algorithm for Smart Logistics Demand Forecasting",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3390/photonics13070646",
+   "title": "Reservoir Computing Using an Electroabsorption Modulated Laser-Based Optoelectronic Oscillator",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-02",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/icaace69793.2026.11509143",
+   "title": "Research on Adaptive Modeling Method for Non-stationary Time Series Data Based on Echo State Network",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-20",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tetci.2026.3670634",
+   "title": "Spatio-Temporal Series Prediction Based on Multi-Objective Evolutionary Deep Convolutional Echo State Networks",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.11606/d.76.2022.tde-17082022-100916",
+   "title": "Utilizando o aprendizado de m\u00e1quina para an\u00e1lise de \u00f3rbitas ca\u00f3ticas",
+   "s2_year": 2022,
+   "crossref_date": "2022-09-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icaim69488.2026.11601840",
+   "title": "Image Encryption Algorithm Based on A Multilayer Broad Echo State Network and Hyperchaotic Chen System",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3077599",
+   "title": "Performance comparison of photonic reservoir computing systems",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64751/ajaccm.2026.v6.n2(1).491",
+   "title": "An Intelligent Role-Based Intrusion Detection System using Hybrid Voting Classifiers for Securing Wireless Sensor Networks",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icad69378.2026.11608670",
+   "title": "Reservoir Computing Based Anomaly Detection in Industrial Control Systems",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/lpor.71609",
+   "title": "Molybdenum Nano\u2010Island Embedded Optoelectronic RRAM With Enhanced Linear Synaptic Plasticity for Neuromorphic Visual Perception",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-21",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1002/adfm.202528610",
+   "title": "All\u2010Optical Nonlinear Weights with Tunable Decay Exponents from Dual\u2010Mode Long\u2010Afterglow@Perovskite Emitter",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-24",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.23919/am-fpd66451.2025.11110100",
+   "title": "Exploring the Potential of SWNT /M072 V30 Thin Films for In-Materio Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-07-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.23919/moc65514.2025.11269308",
+   "title": "Electromagnetic Analysis of Chiral Metasurface Structure and Its Nonlinear Effect on Optical Reservoir Computing, Compared with Ring Resonator",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/dcna67486.2025.11199927",
+   "title": "Next-Generation Reservoir Computing for Hidden Variable Recovery in Kuramoto Oscillator Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1145/3812836.3814848",
+   "title": "Edge-Intelligence for Environmental Anomaly Detection: Transitioning from Traditional Deep Learning to Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/dcas69364.2026.11544567",
+   "title": "A Hardware Exploration of Time-to-First-Spike Encoding for Spiking Neural Networks",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/sgse66281.2025.11200291",
+   "title": "Application of Strong Output LSM in Airport for Sustainable Energy in New Energy Optimization",
+   "s2_year": 2025,
+   "crossref_date": "2025-07-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350456",
+   "title": "Turbulence-Resilient Visible Light Communication System Utilizing Polarization Diversity Reception and Dual-Branch Reservoir Computing Equalizer",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1063/5.0345003",
+   "title": "Advances in mathematics and physics: From complexity to machine learning-A review.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/jlt.2026.3652859",
+   "title": "Experimental Validation and Performance Analysis of Photonic Reservoir Computing Using Multi-Delay Coupled DFB Lasers for Optical Chaotic Signal Separation",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ddcls71227.2026.11610234",
+   "title": "A Cosine Leaky Integral Echo State Network for Time Series Prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/smm2.70096",
+   "title": "Programmable van der Waals Heterojunction for Multifunctional Integration",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-16",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/iceaai68945.2026.11442528",
+   "title": "Control of Extreme Events Based on Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ted.2026.3694027",
+   "title": "Exploring the Floating Body Effect in Bulk nFET Devices for Enhanced Physical Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1515/9783110583496-fm",
+   "title": "Photonic Reservoir Computing: Frontmatter",
+   "s2_year": 2019,
+   "crossref_date": "2019-07-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.35848/1347-4065/ae43f6",
+   "title": "High-accuracy prediction for the NARMA task achieved by eight detectors in nonlinearly interfered spin waves-based physical reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ccdc69976.2026.11559854",
+   "title": "A Meta-Learning-Based Approach for Missing Value Imputation in Univariate Time Series Using Echo State Networks",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/sys3.70033",
+   "title": "Transistor\u2010Based Bio\u2010Hybrid Artificial Afferent Nerves for a Mainly Bio\u2010Composite Reflex Arc System",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-04",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1117/12.3097708",
+   "title": "Dynamical aspects of physical reservoir computing with photonic devices",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-28",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/lpt.2025.3634442",
+   "title": "Clock Resonance Suppression in Dispersive Time-Delay Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jiot.2018.2853663",
+   "title": "ResInNet: A Novel Deep Neural Network With Feature Reuse for Internet of Things",
+   "s2_year": 2019,
+   "crossref_date": "2018-07-06",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1007/s00521-017-3264-5",
+   "title": "A stochastic well-test analysis on transient pressure data using iterative ensemble Kalman filter",
+   "s2_year": 2019,
+   "crossref_date": "2017-11-04",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/nice69539.2026.11567497",
+   "title": "Graph Reservoir Networks for Prediction of Spatiotemporal Systems",
+   "s2_year": 2025,
+   "crossref_date": "2026-03-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1137/24m1714617",
+   "title": "A Mathematical Mechanism of Reservoir Computing for Dynamical Systems",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-27",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/lwc.2025.3636058",
+   "title": "Configuring RNN Weights for MIMO-OFDM Receive Processing: Informing RNN With Domain Knowledge",
+   "s2_year": 2026,
+   "crossref_date": "2025-11-21",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1742-5468/ae7280",
+   "title": "ERRATUM: Multi-agent reinforcement learning using echo-state network and its application to pedestrian dynamics (2025 J. Stat. Mech. 043401)",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1073/pnas.2200958119",
+   "title": "Real-space determination of the isolated magnetic skyrmion deformation under electric current flow",
+   "s2_year": 2022,
+   "crossref_date": "2022-10-03",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ccdc69976.2026.11560638",
+   "title": "Intelligent Setting and Model Predictive Control of Wastewater Treatment Process Based on Case Search Optimization",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350866",
+   "title": "Human Action Recognition with an Integrated Deep Topological Photonic Reservoir Computer",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jlt.2026.3663361",
+   "title": "LED Model-Driven Reservoir Computing for Signal Equalization in OFDM-VLC System",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tie.2026.3658700",
+   "title": "High-Order Control Barrier Functions-Based Adaptive Robust Safety Control for Manipulator Under Model Uncertainty and Disturbance",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tce.2025.3618827",
+   "title": "Quantum Reservoir-Based Intrusion Detection for Edge-IoT Systems",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/lcsys.2026.3710701",
+   "title": "Reservoir Computing Causal Operators for Data-Driven Moment Control of Nonlinear Ensembles",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64898/2026.07.21.739885",
+   "title": "Quantum-Classical Reservoir Computing to Predict Influenza A/H3N2 Antigenic Distance",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-25",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/isqed69900.2026.11534741",
+   "title": "Enabling Lightweight and Efficient Edge Inference for Identifying Radio Modulation",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1021/acsnano.6c00539",
+   "title": "Reconfigurable Photoelectric Coaxial Fiber-Based Memristors for Neuromorphic Computing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-06",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1117/12.3100178",
+   "title": "Multi-frequency time-delayed reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/gcwkshps68340.2025.11591153",
+   "title": "Spatiotemporal Attention-Driven Deep Reinforcement Learning for Green Spectrum Access Optimization in Cellular Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tii.2025.3629159",
+   "title": "Deep Decoupled Heterogeneous Delayed Reservoir Computing Based on 2-D Discrete Memristor Hyperchaotic Maps",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.optcom.2018.10.014",
+   "title": "Prediction and classification performance of reservoir computing system using mutually delay-coupled semiconductor lasers",
+   "s2_year": 2019,
+   "crossref_date": "2018-10-17",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1515/9783110583496-201",
+   "title": "Photonic Reservoir Computing: Preface",
+   "s2_year": 2019,
+   "crossref_date": "2019-07-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1103/physrevapplied.23.054043",
+   "title": "Magneto-ionic synapse for reservoir computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-05-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64898/2026.03.30.715411",
+   "title": "Non-random brain connectome wiring enables robust and efficient neural network function under high sparsity",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ddcls71227.2026.11610441",
+   "title": "Fault Root Cause Diagnosis for Industrial Process Using Echo State Network-Based Granger Causality",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/dd66835.2025.11263475",
+   "title": "Quantum reservoir computing based on decoherence-free subspaces",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64898/2026.03.10.710755",
+   "title": "Controlling Integration and Segregation in Echo State Networks via Noradrenaline and Acetylcholine Neuromodulation",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.38197/2072-2060-2025-256-6-131-150",
+   "title": "Modernization of financial and economic forecasting tools in the public finance management system",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icaace69793.2026.11508776",
+   "title": "Network Traffic Anomaly Detection Based on Echo State Network and Support Vector Machine Algorithm",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-20",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/eiect68017.2025.11332019",
+   "title": "Mid-Measurement Quantum Reservoir Computing for Time Series Forecasting",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/adma.74080",
+   "title": "Optoelectronic Nanofluidic Neural Networks for Ionic Computing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-16",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.48550/arxiv.2312.15141",
+   "title": "Improving the Performance of Echo State Networks Through Feedback",
+   "s2_year": 2023,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1109/sii64115.2026.11404483",
+   "title": "Offloading Reservoir Computing-Based Hand-Waving Action Recognition to FPGAs for Service Robots",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-11",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.12677/jee.2026.142005",
+   "title": "Two-Stage Deep Learning, Random Forest, and Echo State Network for Non-Intrusive Load Decomposition: A Comparative Study",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.35848/1347-4065/ae5da2",
+   "title": "Computational performance at the edge-of-chaos in the spin-wave interference-based physical reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/intermagshortpapers68882.2026.11596457",
+   "title": "Magnonic Delay Lines for Time-Domain Reservoir Computing and Recurrent Neural Networks",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tvt.2025.3638379",
+   "title": "Dynamic Spectrum Access Based on Multiple Time-Scale Fusion Deep Echo State Network",
+   "s2_year": 2026,
+   "crossref_date": "2025-11-28",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/idciot67589.2026.11455903",
+   "title": "PulmoXLM-Net: A Hybrid Deep Liquid Learning Framework for Automated Lung Cancer Detection and Classification",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1063/5.0340020",
+   "title": "Multiwavelength plasmonic optoelectronic memristor for color image classification via physical reservoir",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-20",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11349823",
+   "title": "Bio-Inspired Graded Photonic Neurons for Efficient Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350592",
+   "title": "Deep Photonic Reservoir Computing for Long-haul Fiber Transmission Systems Nonlinearity Compensation",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.48550/arxiv.2208.09287",
+   "title": "Learn to Detect and Detect to Learn: Structure Learning and Decision Feedback for MIMO-OFDM Receive Processing",
+   "s2_year": 2022,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1145/3795095.3805051",
+   "title": "LsmGrid: A Data-Aware Neuroevolution Framework for Designing Minimal Liquid State Machines",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-10",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/ijcnn64981.2025.11227966",
+   "title": "Temporal Attention Mechanism Echo State Network for Ultra-Short-Term Wind Power Forecasting",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1115/smasis2025-167868",
+   "title": "Physical Reservoir Computing With Compliant Fiber Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icdl63968.2025.11204355",
+   "title": "Silicopathy: Artificial Empathy through Cognitive and Affective Development of Pain",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.29363/nanoge.matsusspring.2026.373",
+   "title": "In-Materio Reservoir Computing Utilizing Spatiotemporal Dynamics of Ion, Electron, and Spin",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/csis-iac70275.2026.11585070",
+   "title": "Dynamic Event-Triggered Safe Control for Multi-Agent Systems by Using Echo State Network",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64898/2026.05.12.724527",
+   "title": "Explainable prediction and simulation of complex system dynamics through networks of manifolds",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-14",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.35848/1347-4065/ae5ab2",
+   "title": "Multi-walled carbon nanotube/cellulose nanofiber synaptic devices with concentration-tunable time constants for physical reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1063/5.0321901",
+   "title": "Stochastic spiking in magnetic droplet solitons",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-27",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/tap.2025.3641248",
+   "title": "AI-Driven Inverse Antenna Design in UWB Band: Embedding Forward Consistency Into Deep Learning Architectures",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.isci.2026.116719",
+   "title": "Brain-inspired reservoir computing framework for complex time-series prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-23",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1021/acsnano.6c05264",
+   "title": "Tactile Neuromorphic Ion-Gated Vertical Transistor Displays Enabling Dual-Output Reservoir Computing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.48550/arxiv.2211.17095",
+   "title": "Optimizing time-shifts for reservoir computing using a rank-revealing QR algorithm",
+   "s2_year": 2022,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1063/5.0323200",
+   "title": "Multiscale deep reservoir computing for predicting chaotic dynamical systems.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1016/j.chaos.2026.118796",
+   "title": "Curvature-controlled reservoirs: Echo-state networks modulated by discrete holonomy on delay manifolds",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-13",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.70675/16013f38zb45dz4205za1d3zc1e15e7f5ff0",
+   "title": "Neuromorphic photonic systems for information processing. (Syst\u00e8mes photoniques neuro-morphiques pour le traitement de l'information)",
+   "s2_year": 2023,
+   "crossref_date": "2026-04-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ted.2026.3701678",
+   "title": "Reconfigurable Gd\n 2\n O\n 3\n -Based Memristors via Electrode Engineering for Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3079065",
+   "title": "Experimental observation of electric field-controlled nonlinear dynamics in a photorefractive two-wave mixing process with poly (N-vinylcarbazole) based polymer",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1361-6501/ae4d74",
+   "title": "CEO-GPNFormer: a multi-source feature fusion framework for SOH estimation of lithium-ion batteries",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1038/s41467-026-75211-5",
+   "title": "Programmable memtransistor array with temporal dynamics modulation for efficient time-series data processing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-04",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/edtm65772.2026.11497550",
+   "title": "High-Reliability Volatile Self-Rectifying Memristors for Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icwoc65853.2025.11150804",
+   "title": "Deep Time-Delay Reservoir Computing Using Cascading Optoelectronic-Feedback Lasers",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.58286/32997",
+   "title": "Theoretical Basis of the Non-Destructive Testing using Quaternion Algebra",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/lpt.2025.3647839",
+   "title": "Augmented DFA-Enhanced Photonic Reservoir Computing for IMDD Equalization",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1063/5.0335571",
+   "title": "Ferroelectric/electrolyte synergistically modulated IGZO synaptic transistor with tunable plasticity for reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-13",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/jiot.2025.3588264",
+   "title": "CVaR-Constrained Safety Cooperation for Multiple UAVs With Risk Prediction",
+   "s2_year": 2025,
+   "crossref_date": "2025-07-11",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.52202/075280-1618",
+   "title": "Time Series Kernels based on Nonlinear Vector AutoRegressive Delay Embeddings",
+   "s2_year": 2023,
+   "crossref_date": "2023-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icacr68388.2025.11360067",
+   "title": "Mirroring-based Prediction of Robot Arm Movements Using an Echo State Network",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-28",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1021/acs.jpclett.6c01898",
+   "title": "A Compact Behavioral Model Quantifying the Relationship between Optoelectronic Memristor Dynamics and Reservoir Computing Performance.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-11",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/dcas69364.2026.11544551",
+   "title": "Physics-Fused Nonlinear Vector Autoregression with Patterned Nanomagnet Arrays Based Reservoirs",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icicnct66124.2025.11232612",
+   "title": "Design and Application of a Smart Sports Training Assistant System Based on Reservoir Learning Algorithms",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.23919/icems66262.2025.11317149",
+   "title": "Impact of Greedy Energy Storage Operation on Power System Stability: A Prosumer-Centric Approach",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.35848/1347-4065/ae4e75",
+   "title": "Highly accurate recognition of handwritten digits by using photomemristive properties of graphene/diamond heterojunctions",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-06",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.2514/6.2026-0899",
+   "title": "Reduced-Order Modelling of an Airfoil with Fluid-Structure Interactions for Characterizing Physical Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/mems64181.2026.11419271",
+   "title": "Harnessing Vibro-Impact Dynamics for High-Performance MEMS-Based Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.2514/6.2026-2535",
+   "title": "Robust Lunar Landing Trajectory Control Laws Using Neural ODEs with Reservoir Computing for Efficient Learning",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/aisei68628.2026.11572971",
+   "title": "Cloud-Native Real-Time Fraud Detection Using Multimodal AI and Event-Driven Architectures",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1572-9494/ae64ca",
+   "title": "Critical-like behavior in reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.neucom.2018.12.033",
+   "title": "An echo state network based approach to room classification of office buildings",
+   "s2_year": 2019,
+   "crossref_date": "2018-12-29",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.2172/3374802",
+   "title": "Explainable Echo-State Networks for Climate Data Applications",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3390/s26154737",
+   "title": "Deep Reinforcement Learning for Anti-Jamming Dynamic Spectrum Access: A Bootstrap Ensemble Approach with Echo State Network and Idle-Ratio Change Detection",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-26",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.71058/jodac.v9i11012",
+   "title": "SYSTEM IDENTIFICATION OF UAV DYNAMICS USING ECHO STATE NETWORKS AND CLASSICAL METHODS",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-06",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.renene.2018.07.060",
+   "title": "Wind speed and wind direction forecasting using echo state network with nonlinear functions",
+   "s2_year": 2019,
+   "crossref_date": "2018-07-24",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/lpt.2025.3642269",
+   "title": "Dual-Microring Resonator With Delayed-Input for Photonic Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1038/s44335-026-00081-5",
+   "title": "Delay-based photonic reservoir computing on thin-film lithium niobate with time\u2013wavelength-coupled virtual nodes",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-21",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350423",
+   "title": "A Sliding Window Enhanced Photonic Time Delay Reservoir Computing System for Load Forecasting",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jiot.2026.3668924",
+   "title": "Time Delay Reservoir Computing Under Edge-of-Chaos Mapping and Its Application in Nonlinear Time Series Forecasting",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iacis65746.2025.11211001",
+   "title": "Intelligent English Classroom Teaching Behaviour Evaluation Method Using Hybrid Deep Learning Algorithms",
+   "s2_year": 2025,
+   "crossref_date": "2025-08-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5324/hyp73c69",
+   "title": "Reservoir Computing as a Promising Approach for False Data Injection Attack Detection in Smart Grids",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-19",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1007/s00521-026-12195-9",
+   "title": "A photovoltaic power forecasting model based on tensor echo state network",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.35848/1347-4065/ae5aa9",
+   "title": "High-performance reservoir computing utilizing spin wave interfered with physical masking wave",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ihcit66787.2025.11199023",
+   "title": "Closed-Loop Control of Cultured Biological Neural Networks via Perturbation-Based Training",
+   "s2_year": 2025,
+   "crossref_date": "2025-08-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3099901",
+   "title": "The many faces of photonic reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3390/biomimetics11080519",
+   "title": "CMOS-Compatible AlScN Memristor on Silicon Exhibiting Short-Term Memory for Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-23",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.48550/arxiv.2210.10211",
+   "title": "A Catch-22 of Reservoir Computing",
+   "s2_year": 2022,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.55905/revconv.17n.9-370",
+   "title": "Modelagem de Circuito Chua utilizando Reservoir Computing",
+   "s2_year": 2024,
+   "crossref_date": "2024-09-26",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.21528/cbic2025-1191927",
+   "title": "Aplica\u00e7\u00e3o das Redes Neurais MLP, ELM e ESN para a Estima\u00e7\u00e3o da Curva de Pot\u00eancia de Aerogeradores",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jstqe.2026.3716536",
+   "title": "Feedback-Free Photonic Reservoir Computing via Time-Concatenated Dimensional Expansion and Hybrid Pruning",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.17979/spudc.9788497497169.186",
+   "title": "An\u00e1lisis de vibraciones en una estructura utilizando echo state networks",
+   "s2_year": 2020,
+   "crossref_date": "2019-08-20",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tase.2025.3650090",
+   "title": "Online Learning Robust Control Design for a Class of Uncertain Nonlinear Systems",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-31",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icbsii69710.2026.11478838",
+   "title": "Explainable Deep Ensemble Learning for Intervention-Aware Cardiac Risk Prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.12792/icisip2025.027",
+   "title": "Reservoir Computing-based Prediction of Pleasant Vibrations for Humans",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.neucom.2018.10.022",
+   "title": "A novel photovoltaic power forecasting model based on echo state network",
+   "s2_year": 2019,
+   "crossref_date": "2018-10-15",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.19139/soic-2310-5070-2637",
+   "title": "Using Bayesian Ridge Regression model and ESN for Climatic Time Series Forecasting",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.12677/ijm.2026.151003",
+   "title": "Application and Improvement of High-Order Structures in Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.2118/231698-ms",
+   "title": "A Hybrid Predictive Control Approach with Echo State Networks for Real-Time Optimization of Electrical Submersible Pump Systems",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1021/acsami.6c03640",
+   "title": "Tunable Redox Dynamics of Organic Electrochemical Transistors for High-Performance Parallel Reservoir Computing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-07",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/tase.2026.3669406",
+   "title": "Modular Reservoir Echo State Network-Based Adaptive Consensus Control of Nonlinear Multi-Agent Systems Under Time Varying State Constraints, Delays, and Disturbances",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.20517/ir.2026.20",
+   "title": "Intelligent and inclusive EEG-driven authentication for gender fairness and cognitive impairment",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-02",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1162/isal_a_00406",
+   "title": "Efficient Spike Timing Dependent Plasticity rule for Complex-Valued Neurons",
+   "s2_year": 2021,
+   "crossref_date": "2021-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/1.apn.5.2.026017",
+   "title": "Efficient programming of a large-scale optical neural network with linear disordered media",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/cac67268.2025.11487139",
+   "title": "A simple cycle reservoir based neuroadaptive tracking control for uncertain systems",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-26",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1063/5.0318894",
+   "title": "Reconfigurable silicon photonics extreme learning machine with random non-linearities as neural processor and physical unclonable function",
+   "s2_year": 2025,
+   "crossref_date": "2026-07-14",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/icwoc65853.2025.11150800",
+   "title": "Prediction of Chaotic Dynamics for Semiconductor Lasers Based on Deep Photonic Reservoir Computing with Time Shifts",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/mems64181.2026.11419593",
+   "title": "Microelectrode Arrays for Dropletronic Circuits",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.23919/oceans59106.2025.11245129",
+   "title": "A Modular Control Aid for Profiling Floats with a Gulf Stream Case Study",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-29",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/biocas67066.2025.00135",
+   "title": "Human activity recognition using on-body memristive ESN computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.cmpb.2018.11.005",
+   "title": "Automated real-time method for ventricular heartbeat classification",
+   "s2_year": 2019,
+   "crossref_date": "2018-11-20",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1515/nanoph-2020-0184",
+   "title": "Accelerating photonic computing by bandwidth enhancement of a time-delay reservoir",
+   "s2_year": 2020,
+   "crossref_date": "2018-06-01",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.64898/2026.02.21.707238",
+   "title": "Reservoir Computing with Ultra-Sparse Rings",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.26599/nr.2026.94909054",
+   "title": "A multifunctional optoelectronic memristor based on Sb\n 2\n Se\n 3\n nanorod arrays for high-dimensional reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.33333/lajc.vol11n2.01",
+   "title": "Exploring Digital Twins of Nonlinear Systems through Meta-Modeling with Echo State Networks",
+   "s2_year": 2024,
+   "crossref_date": "2024-07-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tvlsi.2026.3681746",
+   "title": "Finetune Chiplet Design Floorplan via KuanNet",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tie.2025.3642260",
+   "title": "Burn-Through Point Dynamic Modeling Based on Temporal Cascade Broad Echo State Learning System in Sintering Process",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.48550/arxiv.2504.19657",
+   "title": "Neuronal correlations shape the scaling behavior of memory capacity and nonlinear computational capability of recurrent neural networks",
+   "s2_year": 2025,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.3390/photonics13070641",
+   "title": "Optical Mask Generation Based on State-Switching Dynamics for Time-Delay Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1002/piuz.202401704",
+   "title": "Rechnen mit magnetischen Wirbeln",
+   "s2_year": 2024,
+   "crossref_date": "2024-04-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ijcnn64981.2025.11227942",
+   "title": "Online classification of multivariate time series data through Gaussian Reservoir State Analysis (GRSA)",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/pgc68487.2025.11319523",
+   "title": "Short-Term Load Forecasting Using Hybrid Temporal Convolutional Network and Photonic Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3086661",
+   "title": "Optoelectronic synapse based on two-dimensional MXene for reservoir computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-21",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iccnct68477.2026.11590503",
+   "title": "Artificial Intelligence Enabled Regenerative Braking Optimization Framework for Energy Efficient Electric Vehicles",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-11",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/edtm65772.2026.11497881",
+   "title": "Flexible and Stretchable Synaptic Transistors for Bionics and Neuromorphic Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3390/pr14132145",
+   "title": "Robust Combustion Prediction for Alternative-Fuel Engines Using an Equilibrium Optimizer-Based Echo State Network with \u03f5-Insensitive SVR Readout",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/access.2026.3717654",
+   "title": "Liquid State Machine-based Electrocardiogram Classification System: Challenges, Design Trade-Offs and Opportunities",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1145/3704558.3704608",
+   "title": "ESN Adaptive Tracking Control for Dissolved Oxygen",
+   "s2_year": 2024,
+   "crossref_date": "2024-08-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/wconf64849.2025.11233524",
+   "title": "Emotion Detection Framework for Mental Health Monitoring Using Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-07-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.63367/199115992026063703011",
+   "title": "Recurrence-Based Characteristic Analysis of Urban Cellular Traffic for Smart City Transportation",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-29",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.23919/ondm68511.2026.11618850",
+   "title": "Joint Photonic Reservoir Computing and Demultiplexing Using Parallelly Coupled Micro-Ring Resonators for Eight-Channel Intra-DCN Application",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/aiahpc66801.2025.11290610",
+   "title": "Physics-Constrained Data-Driven Approach for Oil and Gas Well Production Forecasting",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-19",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icbsii69710.2026.11479243",
+   "title": "An Explainable Representation-Level Attention Fusion Network for Smoking Status Prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.37394/23207.2026.23.23",
+   "title": "Toward Neuro-Symbolic and Reservoir-Inspired Medical Imaging: A BD-CeNN Autoencoder with ASP Rule Mining for Robust and Explainable Interpretation of Grayscale and Color Images",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icons69015.2025.00013",
+   "title": "An Empirical Study on the Impacts of Input Distribution on Digital Reservoir Computer Performance",
+   "s2_year": 2025,
+   "crossref_date": "2025-07-29",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1674-1056/ae77cd",
+   "title": "In-Sensor Optoelectronic Deep Reservoir Computing with Chitosan-Gated Transistors for Action Recognition",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tasc.2026.3679652",
+   "title": "Superconducting Echo State Network for High-Speed SQUID Readout",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-31",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1126/sciadv.aed0971",
+   "title": "Neuromorphic tissues: Soft biomolecular networks for brain-inspired temporal computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-23",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/icsscna68616.2026.11546770",
+   "title": "Federated Neuro-Swarm Intelligence for Machine Learning-Driven Dynamic Load Balancing and Performance Optimization in Cloud Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/oe.606877",
+   "title": "Topology Reconfigurable Photonic Reservoir Computing with Multiple Optical Feedback Loops",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-16",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1007/s40820-025-01888-w",
+   "title": "Ultrathin Gallium Nitride Quantum-Disk-in-Nanowire-Enabled Reconfigurable Bioinspired Sensor for High-Accuracy Human Action Recognition",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1402-4896/ae1a1c",
+   "title": "A two-stage chaotic system prediction framework using one-dimensional guided method",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-31",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ichst66555.2025.11428488",
+   "title": "EEG-Based Epilepsy Detection Using Liquid State Machine",
+   "s2_year": 2025,
+   "crossref_date": "2025-07-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/enc68268.2025.11311961",
+   "title": "Evaluating Readout Strategies in Liquid State Machines: Coding Schemes, Classifiers, and Separability Metrics",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/1.ap.8.4.046012",
+   "title": "Highly parallel optoelectronic-feedback photonic memristor-based reservoir computing with in situ noise-regularized discrete weight training",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-10",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1140/epjs/s11734-026-02537-y",
+   "title": "State correction via data injection for a reservoir computing-based digital twin of the Lorenz system",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-13",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/mci.2011.2177028",
+   "title": "IEEE Transactions on Neural Networks and Learning Systems",
+   "s2_year": 2019,
+   "crossref_date": "2012-01-18",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/icecs66544.2025.11270707",
+   "title": "A Chaotic Jerk-Based Reservoir Computing Approach for DoS Attack Detection",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iciibms66230.2025.11316726",
+   "title": "Improving parameterized Reservoir Computing based on Small-World Network",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/induscon66435.2025.11241572",
+   "title": "Sistema para Detec\u00e7\u00e3o de Vazamentos em Plantas EletroPneum\u00e1ticas baseado em Machine Learning",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-14",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/cleo_si.2025.ss178_7",
+   "title": "Chaotic Photonic Reservoir Computing with Complex Dynamics in Multimode Fibers",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.18500/0869-6632-003211",
+   "title": "Digital twins: a synthesis of complexity theory and artificial intelligence",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/advs.76461",
+   "title": "Anisotropic Memristive Switching in NbOCl2 Enabled by Directional Oxygen Ion Migration",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-13",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1039/d4tc02324b",
+   "title": "Dynamic memristor array with multiple reservoir states for training efficient neuromorphic computing",
+   "s2_year": 2024,
+   "crossref_date": "2024-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/intermagshortpapers68882.2026.11596289",
+   "title": "Physical Reservoir Composed of Two Modified Vortex Spin-Torque Oscillators",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tcyb.2018.2822258",
+   "title": "Consensus Maneuvering for a Class of Nonlinear Multivehicle Systems in Strict-Feedback Form",
+   "s2_year": 2019,
+   "crossref_date": "2018-04-30",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/iedm50572.2025.11353611",
+   "title": "UWBG Ga2O3/AlN DUV Phototransistors on Si Platform for In-sensor Memory and Computing based on Polarization-Induced Carrier Separation Strategy",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-06",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iclo69056.2026.11624540",
+   "title": "Post-processing in Optoelectronic Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jsait.2026.3683606",
+   "title": "Reservoir Computing in Wireless Receive Processing: An Information Theoretic Perspective",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/smll.202512071",
+   "title": "Mechanically Durable Intrinsically Stretchable Neuromorphic Devices via Molecular Microstructure Design",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/icuis67429.2025.11380706",
+   "title": "Cyber Security Analysis using Vulnerability Assessment and Penetration Testing Tools through Hybrid Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-26",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/sta66620.2025.11364891",
+   "title": "Comparative Analysis of Deep Learning, and Quantum Models for Time Series Forecasting",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-20",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/dcna67486.2025.11199929",
+   "title": "Reservoir Computing as an Effective Tool for Predicting the Behavior of Stochastic Systems",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5555/3709347.3744005",
+   "title": "Practical Comparisons of Reservoir Topology Performance and Input Distribution in Digital Reservoir Computers",
+   "s2_year": 2025,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.26599/tst.2018.9010049",
+   "title": "Structure optimization for echo state network based on contribution",
+   "s2_year": 2019,
+   "crossref_date": "2018-11-08",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/jsen.2025.3638891",
+   "title": "A Wearable Intelligent MEMS Accelerometer Based on MEMS Reservoir Computing Capable of In-Sensor Action Recognition",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.54941/ahfe1006822",
+   "title": "Increasing importance of Instinct",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/smll.74516",
+   "title": "Interface Engineering for Scalable Optoelectronic Reservoir Computing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-10",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/iros60139.2025.11246545",
+   "title": "Reservoir Computing-Enhanced Tube-MPC: Real-Time Self-Healing Control for Robust AUV Path Following Under Dynamic Faults",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-19",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1115/smasis2025-167869",
+   "title": "An Information Theoretic Analysis of Nonlinear Mechanical Physical Reservoir Computers",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/biocas67066.2025.00059",
+   "title": "Development of Intraoral Human Machine Interface Using Tongue PPG Changes to Improve the QOL of Quadriplegic Patients",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tsc.2024.3417339",
+   "title": "Swift and Accurate Mobility-Aware QoS Forecasting for Mobile Edge Environments",
+   "s2_year": 2024,
+   "crossref_date": "2024-06-21",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.istruc.2025.110409",
+   "title": "A general vibration control method for single tube communication tower using track-type tuned mass damper and liquid echo state network",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1742-6596/3278/1/012028",
+   "title": "Speech Recognition with Time-Dependent Ginzburg-Landau Based Superconducting Physical Reservoir",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/qce65121.2025.10425",
+   "title": "Analog Quantum Simulation via Rydberg Dressing",
+   "s2_year": 2025,
+   "crossref_date": "2025-08-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1742-6596/3211/1/012011",
+   "title": "Synergistic Feature Learning: Combining Temporal Dynamics from Next-Generation Reservoir Computing with Spectral Embeddings from the Nystr\u00f6m Method in Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/isaf61233.2025.11235091",
+   "title": "Polarization Modulated Photo-Response in Hf0.5Zr0.5O2 Non-Volatile Memory for Potential Application in Self-Adaptive Visual Recognition",
+   "s2_year": 2025,
+   "crossref_date": "2025-07-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.enconman.2018.10.068",
+   "title": "A novel combined model based on echo state network for multi-step ahead wind speed forecasting: A case study of NREL",
+   "s2_year": 2019,
+   "crossref_date": "2018-10-24",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.35848/1347-4065/ae4dfc",
+   "title": "Machine learning approach for non-destructive characterization of embedded nano-structure in Si MOSFET",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ijcnn64981.2025.11228436",
+   "title": "ESSTPNet: Enhancing Spatio-Temporal Forecasting with Deep Echo State Networks and Adaptive Multi-Scale Decoding",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3080365",
+   "title": "Physically generated masking sequences with GHz tunability for time delay reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icassp55912.2026.11460556",
+   "title": "Neonatal EEG Seizure Prediction with Quantum-Inspired Continuous-Variable (Bosonic) Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-21",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/csis-iac70275.2026.11585166",
+   "title": "Quantitative Evaluation of Computational Capability in Complex Dynamical Systems",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.31390/lsucontrol.26.7",
+   "title": "Learning Hidden Control Laws for GPS Spoofing via Unknown-Input Estimation and Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.neucom.2025.131633",
+   "title": "Quaternion reservoir computing for spatiotemporal analysis in polarimetric synthetic aperture radar",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1103/revmodphys.91.035006",
+   "title": "Optoelectronic oscillators with time-delayed feedback",
+   "s2_year": 2019,
+   "crossref_date": "2019-09-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/intermagshortpapers68882.2026.11596435",
+   "title": "Complexity Analysis of FMR Driven Chaotic Magnetization Dynamics in a Nanodisk",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3090885",
+   "title": "A biomimetic scale substrate as a physical reservoir computer",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/itsc60802.2025.11423452",
+   "title": "External Driver Classification Using Reservoir Computing Enhancing Automated Vehicle Safety",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-18",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1007/s00521-022-07536-3",
+   "title": "Special issue on deep learning for time series data",
+   "s2_year": 2022,
+   "crossref_date": "2022-07-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3090661",
+   "title": "Structural health monitoring by a physical reservoir involving a swarm of nonlinear vibration energy harvesters",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1101/2025.11.07.687160",
+   "title": "A unified model of short- and long-term plasticity: Effects on network connectivity and information capacity",
+   "s2_year": 2026,
+   "crossref_date": "2025-11-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/spml66318.2025.11199801",
+   "title": "Reservoir Computing-Based Model for Water Level Prediction in Inland River",
+   "s2_year": 2025,
+   "crossref_date": "2025-07-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icsccc69031.2026.11600184",
+   "title": "Modular Quantum Recurrent Neural Networks: Scalable Reservoir Computing with High Noise Resilience",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-29",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64898/2026.04.04.716475",
+   "title": "HeteroRC: Decoding latent information from dynamic neural responses with interpretable heterogeneous reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iai68403.2025.11277009",
+   "title": "Hybrid Dynamic Multiobjective Optimization Algorithm via Easy Transfer Learning and Interpolated ESN Prediction",
+   "s2_year": 2025,
+   "crossref_date": "2025-08-21",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icee67165.2025.11409797",
+   "title": "Leveraging the Nonlinear Dynamics of NiCo2S4 and Chitosan Nanocomposites for Physical Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3389/fphy.2023.1199022",
+   "title": "Editorial: Editor\u2019s challenge in optics and photonics: Advancing electronics with photonics",
+   "s2_year": 2023,
+   "crossref_date": "2023-04-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1126/sciadv.aec7731",
+   "title": "All-two-dimensional, ion-gating synaptic transistors for high-temperature and ultralow-energy-consumption neuromorphic applications",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-10",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/cei66465.2025.11398523",
+   "title": "Adaptive Graph Echo State Network Based on Island Transpeciation Co-Evolution",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-21",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350829",
+   "title": "Digital and Neuromorphic Optical Signal Processing for AI Intra-Datacenter Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/yac66630.2025.11149994",
+   "title": "Human Upper Limb Trajectory Prediction Based on MSFA-ESN",
+   "s2_year": 2025,
+   "crossref_date": "2025-05-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iccpct61902.2024.10673080",
+   "title": "SDN-Enabled Networks: A Deeper Learning-Based Echo State Neural Network for Cyber Threat Detection",
+   "s2_year": 2024,
+   "crossref_date": "2024-08-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.17979/spudc.9788497497169.186",
+   "title": "An\u00e1lisis de vibraciones en una estructura utilizando echo state networks",
+   "s2_year": 2020,
+   "crossref_date": "2019-08-20",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5753/sbcas.2026.21314",
+   "title": "Evolving Reservoir-Enhanced Neural Architectures for Biomedical Signal Classification",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3389/fncom.2020.00078",
+   "title": "Learning Long Temporal Sequences in Spiking Networks by Multiplexing Neural Oscillations",
+   "s2_year": 2019,
+   "crossref_date": "2020-09-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/incsst64791.2025.11210363",
+   "title": "Research on the Intelligent Deconstruction Technology of Electricity Demand by Integrating Algorithms and Complex Coupling Factors",
+   "s2_year": 2025,
+   "crossref_date": "2025-07-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tcad.2026.3715776",
+   "title": "FPGA-based Reservoir Computing with On-chip Learning for MIMO Channel Prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.ins.2018.12.052",
+   "title": "Deep Reservoir Neural Networks for Trees",
+   "s2_year": 2019,
+   "crossref_date": "2018-12-23",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.26102/2310-6018/2022.38.3.025",
+   "title": "Vulnerability base formation algorithm and neural network architecture selection for its processing",
+   "s2_year": 2022,
+   "crossref_date": "2022-07-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1038/s41467-025-67382-4",
+   "title": "Reservoir-enhanced segment anything model for subsurface diagnosis",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3100550",
+   "title": "A holistic approach to optimizing echo state network through structural evolution and synaptic plasticity",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jestie.2026.3670180",
+   "title": "Power Quality Enhancement Using Dynamic Voltage Restorer With Echo State Network and Type-2 Fuzzy Logic Control",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-03",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/aiccsa66935.2025.11315359",
+   "title": "iESN-SWT: improved Echo State Network with Small World Topology and Dimension Reduction for Time Series Classification",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-19",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iscas66217.2026.11562729",
+   "title": "Delta-Sigma Modulator-Based Compute-in-Memory Neural Network with Analog Feature Extraction and Classification for Edge Sensors",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tai.2026.3669545",
+   "title": "Emerging Paradigm of Quantum Machine Learning: Knowledge Insights and Future Prospects",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-03",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/smll.74436",
+   "title": "Photo-Induced Valence Changed Memristor Based on WO3 and Polyvinyl Alcohol Nanocomposites for In-Sensor Reservoir Computing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-11",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/tsmc.2017.2746565",
+   "title": "Real-Time Recurrent Tactile Recognition: Momentum Batch-Sequential Echo State Networks",
+   "s2_year": 2020,
+   "crossref_date": "2017-09-11",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.48550/arxiv.2405.06561",
+   "title": "Reservoir Computing Benchmarks: a review, a taxonomy, some best practices",
+   "s2_year": 2024,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1109/computingcon64838.2025.11377856",
+   "title": "Design of Optimal Machine Learning-Based Pancreatic Tumor and Nontumor Classification Model using Computed Tomography Scans",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/africon66545.2025.11533824",
+   "title": "Efficient and Rule-Compliant Edge Forecasting with Discrete Cellular Neural Networks and Answer Set Programming",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.17648/sbai-2019-111171",
+   "title": "REDE DE ECOS DE ESTADOS ROBUSTA PARA IDENTIFICA\u00c7\u00c3O RECURSIVA DE SISTEMAS",
+   "s2_year": 2019,
+   "crossref_date": "2019-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/intermagshortpapers68882.2026.11596490",
+   "title": "Magnetic Tunnel Junctions for Reservoir Computing Applications",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ccdc69976.2026.11559700",
+   "title": "Particle Size Distribution Control of Cement Combined Grinding Process Based on Improved Unscented Kalman Filter Assisted Heuristic Dynamic Programming",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/nnice68970.2026.11466214",
+   "title": "Bird sound recognition based on photoelectric residual reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1115/smasis2025-167880",
+   "title": "Learning Force and Motion Parameters of Human-Wearable-Robot Interaction Using a Multi-Tasking Soft Fluidic Actuator-Based Physical Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/aelm.70462",
+   "title": "A Dual\u2010Memory Ferroelectric Transistor Emulating Synaptic Metaplasticity for High\u2010Speed Reservoir Computing (Adv. Electron. Mater. 13/2026)",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/ted.2026.3694953",
+   "title": "CeO2\u2013x/ZnO Heterojunction Photoelectric Synapse for Reservoir Computing and Physical Edge Intelligent Light Sensing Systems",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1038/s41928-023-00989-x",
+   "title": "Robots with sense",
+   "s2_year": 2023,
+   "crossref_date": "2023-06-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/sisy67000.2025.11205416",
+   "title": "Data Mining and Machine Learning for Analysis of Network Traffic",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/les.2025.3598209",
+   "title": "A 340- \u03bc W TinyML Using LUT-Based Reservoir Computing on Low-Cost FPGAs",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icdmw69685.2025.00405",
+   "title": "Echo State Networks in Reservoir Computing: Foundations, Benchmarks, and Applications to Next-G Wireless Communication",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/adfm.76901",
+   "title": "Implantable Ionic Memristors Based on Natural Polymer Heterojunctions",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-17",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1016/j.engappai.2026.115423",
+   "title": "A parallel\u2013serial echo state network with evolutionary hyper-parameter optimization for industrial time-series forecasting",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/ijcnn64981.2025.11228270",
+   "title": "Dynamic Multi-Source Domain Transfer Learning for Robust Ultra-Short-Term Wind Power Forecasting with Echo State Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tii.2026.3652372",
+   "title": "NOx Concentration Prediction in Cement Kilns Under Unbalanced Working Conditions",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icicn67355.2025.11430489",
+   "title": "Photonic Reservoir Computing Based on Six-Valued Mask with Improved Performance of Channel Impairments Compensation",
+   "s2_year": 2025,
+   "crossref_date": "2025-08-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1674-4926/25080038",
+   "title": "A low-thermal-budget MOSFET-based reservoir computing for temporal data classification",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/aicps66617.2025.11513479",
+   "title": "Ultra Wide Band Radar Based Human Hand Gesture Classification Using LSM-LSTM Neural Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.51537/chaos.1768281",
+   "title": "Hypergraph Neural Reservoir with Lyapunov\u2011Adaptive Attention for Robust Context\u2011Aware Tourism Recommendation",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icsedis68157.2026.11518452",
+   "title": "Accurate Delirium Risk Prediction Performance among Alzheimer\u2019s Patients",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.20906/sbai-sbse-2023/3995",
+   "title": "Minimiza\u00e7\u00e3o de Perturba\u00e7\u00f5es em Bombas El\u00e9tricas Submersas Utilizando Controladores Robustos e Ferramentas de Aprendizado de M\u00e1quina",
+   "s2_year": 2023,
+   "crossref_date": "2023-10-18",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/mocast70204.2026.11626415",
+   "title": "Device Variability and Uncertainty Propagation in Memristive Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3080502",
+   "title": "Small-scale semiconductor laser networks with GHz-bandwidth for photonic reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ipc65510.2025.11281992",
+   "title": "Experimental Demonstration of Fiber Nonlinearity Compensation Using Scalable Reservoir Computing Connected via Tapped Delay Lines",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tim.2026.3712933",
+   "title": "Multirate Measurement of Total Phosphorus Removal Rate and Energy Consumption Based on Online Interpolation Echo State Network",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1101/2025.10.29.685101",
+   "title": "Cross-species connectome comparisons reveal the network attributes of memory capacity and time series prediction",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-31",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1757-899x/1343/1/012005",
+   "title": "A Deformable Elastomer Reservoir Embodied in Soft Gripper for Tactile Sensing",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tgrs.2026.3660306",
+   "title": "A Category-Driven Depth-Scalable Inversion Framework for 3-D GPR Data Inversion",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/jsapo.2025.9a_n203_8",
+   "title": "Frequency-multiplexed photonic reservoir computing using single soliton microcomb",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icta68203.2025.11329631",
+   "title": "Voltage-Tunable GaN/AIN Quantum-Disk-in-Nanowire Vision Sensor for In-Sensor Image Enhancement and Human Action Recognition",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tii.2025.3642004",
+   "title": "Decentralized Dynamic Self-Triggered Control for Cascaded Switched CSTRs via ESN-Based Dual Heuristic Programming",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jlt.2026.3674193",
+   "title": "A Novel Source Separation Chaotic Optical Communication Architecture Based on Deep Cascade Time-delay Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tnnls.2018.2869131",
+   "title": "Spatio-Temporal Interpolated Echo State Network for Meteorological Series Prediction",
+   "s2_year": 2019,
+   "crossref_date": "2018-10-09",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/icnc68183.2026.11417007",
+   "title": "FPGA-based High-speed Reservoir Computing for MIMO Channel Prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-16",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1038/s41565-026-02216-y",
+   "title": "Nanosecond phase ordering in ultra-large spin Hall nano-oscillator lattices for unconventional computing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-10",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/mwscas53549.2025.11244461",
+   "title": "Exploring Simplified Reservoir Computing Systems for Resource-Constrained Edge AI Hardware",
+   "s2_year": 2025,
+   "crossref_date": "2025-08-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icoait67446.2025.11308851",
+   "title": "Artificial Neural Network and Reservoir Computing for Extreme Weather: A Preliminary Study",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.17586/2226-1494-2026-26-2-428-435",
+   "title": "Implementation and investigation of a reservoir computer based on a hardware model of three-element spiking neuron",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-20",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1103/phlp-rhny",
+   "title": "Brain-inspired interpretable reservoir computing with resonant recurrent neural networks",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iedm50572.2025.11353891",
+   "title": "Direct Atomic Layer Processing TiO2 RRAM Gas Sensor for Real-time All-RRAM Intelligent Gas Perception",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-06",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/lpt.2025.3642297",
+   "title": "Impact of Feedback Dimension in Enhanced Reservoir Computing for IMDD Transmission Equalization",
+   "s2_year": 2026,
+   "crossref_date": "2025-12-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.54521/ijita33-02-p03",
+   "title": "The Autonomy Limits in Physical Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tte.2026.3661158",
+   "title": "Aging Prognosis and Uncertainty Quantification of Hydrogen Fuel Cell Based on Semiempirical and Equivalent Circuit Joint Model",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-06",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/sci68648.2025.11333862",
+   "title": "Hybrid Quantum Reservoir Computing for Predicting Binding Affinities",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/telsiks65061.2025.11240900",
+   "title": "Modified Metaheuristic Tuning of Reservoir Computing Models for Click Fraud Detection",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-22",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ijcnn64981.2025.11228033",
+   "title": "Enhancement of Short-Term Memory with Tilted External Magnetic Field for Spin-Wave Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/lmwt.2025.3606516",
+   "title": "An Integrated Scheme of Enhanced Echo State Network of Harmonic Cancellation Digital Predistortion for Short-Wave Power Amplifiers",
+   "s2_year": 2026,
+   "crossref_date": "2025-09-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64898/2026.03.01.708921",
+   "title": "Minimal biophysical rules are sufficient for the emergence of computational intelligence at the neuronal scale",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-03",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/mwscas53549.2025.11244510",
+   "title": "Reservoir Computing Based AI for Estimating Remaining Useful Life of Turbofan Engine",
+   "s2_year": 2025,
+   "crossref_date": "2025-08-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/lpt.2025.3618902",
+   "title": "Photonic Reservoir Computing for Signal Equalization in Optical Wireless Communications",
+   "s2_year": 2026,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64771/jsetms.2026.v03.i05.pp292-303",
+   "title": "Context-Aware Federated Learning for Intelligent Threat Detection in Software-Defined Vehicular Networks",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.3969/j.issn.1002-0268.2019.08.018",
+   "title": "\u57fa\u4e8eWPD-PSO-ESN\u7684\u77ed\u671f\u4ea4\u901a\u6d41\u9884\u6d4b",
+   "s2_year": 2019,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1109/access.2025.3639721",
+   "title": "Heterogeneous Assembly Echo State Networks for High-Dimensional, Multiscale Time Series: Dynamic Analysis via Delay Capacity and Multiscale Fuzzy Entropy",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.35848/1347-4065/ae1d84",
+   "title": "Physical masking-induced enhancement of information processing capacity in a redox-type ion-gating reservoir",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1674-4926/25090001",
+   "title": "Back-gate-tuned organic electrochemical transistor with temporal dynamic modulation for reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/cleo_at.2026.jtu.96",
+   "title": "The Minimalistic Non-Markovian Quantum Reservoir Computer for Real-world Applications",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/lgrs.2026.3705070",
+   "title": "Reservoir-Based Anomaly Detection for 3-D GPR Data",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1007/s00521-018-3420-6",
+   "title": "Adaptive lasso echo state network based on modified Bayesian information criterion for nonlinear system modeling",
+   "s2_year": 2019,
+   "crossref_date": "2018-03-21",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.16462/j.cnki.zhjbkz.2020.01.016",
+   "title": "\u57fa\u4e8eSTL-ADABOOST-ESN\u7ec4\u5408\u6a21\u578b\u5728\u5168\u56fdHIV\u6708\u53d1\u75c5\u6570\u9884\u6d4b\u4e2d\u7684\u5e94\u7528",
+   "s2_year": 2020,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1109/jlt.2025.3633378",
+   "title": "Graded Laser Neuron Under Saturable Absorber Modulation for Photonic Computing",
+   "s2_year": 2026,
+   "crossref_date": "2025-11-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3044177",
+   "title": "Spatiotemporal chaos-based photonic neural networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-03-21",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icarc68737.2026.11453842",
+   "title": "Optimized Hybrid Prophet\u2013Transformer\u2013ESN Interpretable Framework for Solar Power Prediction with Statistical Model Validation",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-18",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/admt.71186",
+   "title": "2D Heterostructure\u2010Based Nanofluidic Ion\u2010Channel Synapses for Physical Event\u2013Memory Bifurcation and Trajectory\u2010Memory Encoding",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-20",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1101/2024.09.12.612674",
+   "title": "Living Bacterial Reservoir Computers for Information Processing and Sensing",
+   "s2_year": 2026,
+   "crossref_date": "2024-09-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5753/eniac.2023.234282",
+   "title": "Algoritmos Gen\u00e9ticos e Redes Neurais Artificiais no Controle de Rob\u00f4s M\u00f3veis em Ambientes Din\u00e2micos",
+   "s2_year": 2023,
+   "crossref_date": "2023-09-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1742-6596/3260/1/012016",
+   "title": "Skyrmion Leaky-Integrate-and-Fire Neurons with Tunable Time Constants via Anisotropy Engineering",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.2575402",
+   "title": "Multilayer photonic reservoir computing architecture using time division multiplexing for parallel computation",
+   "s2_year": 2020,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1109/icwoc65853.2025.11151137",
+   "title": "Reservoir Computing-Based Equalization for WDM-DP-16QAM Coherent Optical Communication",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icesic67389.2026.11496595",
+   "title": "Deep Hierarchical Hybrid Learning Framework for Autonomous Organizational Knowledge Mining and Productivity Forecasting",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.22399/ijcesen.4255",
+   "title": "Real-Time Predictive Maintenance with ML-Enhanced IoT Sensor Data Processing",
+   "s2_year": 2025,
+   "crossref_date": "2025-03-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.14733/cadaps.2024.s24.1-16",
+   "title": "Artificial Intelligence-Infused Exploration of Mental Health Education Model Reform in Higher Vocational Colleges During the Big Data Era",
+   "s2_year": 2024,
+   "crossref_date": "2024-03-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.14209/sbrt.2021.1570724246",
+   "title": "Aplica\u00e7\u00e3o de Reservoir Computing para Filtragem de Sinais Ca\u00f3ticos Imersos em Ru\u00eddo",
+   "s2_year": 2021,
+   "crossref_date": "2021-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icosec67334.2025.11459613",
+   "title": "Enhancing Air Quality Prediction: A Comparative Study of Distinct Reservoir Computing Models",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.12677/aam.2026.156287",
+   "title": "Research on Predicting Synchronization Behavior of Chaotic Systems Based on Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/iros60139.2025.11247242",
+   "title": "Modeling The States of Liquid Phase Change Pouch Actuators by Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-19",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1149/11201.0065ecst",
+   "title": "(Invited) Physical Understanding of HfZrO2/Si FeFET Memory and Its AI Applications",
+   "s2_year": 2023,
+   "crossref_date": "2023-09-29",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/telepresence66096.2025.11521678",
+   "title": "Generative Connectome-Inspired Reservoir Computing for Time-Series Prediction",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.23919/piers-fall62445.2025.11393994",
+   "title": "Spin-Wave Dynamics and its Physical Picture Effective and Useful in the Forthcoming Physical Artificial Intelligence Era",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-04",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/jsac.2018.2872429",
+   "title": "A Prediction-Based Charging Policy and Interference Mitigation Approach in the Wireless Powered Internet of Things",
+   "s2_year": 2019,
+   "crossref_date": "2018-09-27",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/jeds.2026.3661727",
+   "title": "Memcapacitor-Based Insect Feeding Behaviour Classification With Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tai.2025.3617382",
+   "title": "Physical Reservoir Computing for Optical Stethoscope-Based Heart Sound Biometric Identification",
+   "s2_year": 2026,
+   "crossref_date": "2025-10-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3102601",
+   "title": "Advances on optoelectronic reservoir computing for IQ-modulated signal classification",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-09",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/dcna67486.2025.11199947",
+   "title": "Representation and Classification of fMRI Data Using Reservoir Computing and Spatial Patterns",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.26599/nr.2026.94908978",
+   "title": "Acoustic-optical information reservoir system based on triboelectric acoustic sensor tuned oxide photoelectronic neuromorphic transistor",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-01",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/iros60139.2025.11247156",
+   "title": "Reservoir Computing for Torque-Restricted Pendulum Control",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-19",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.2594151",
+   "title": "Analog information processing with time-multiplexed optoelectronic systems",
+   "s2_year": 2021,
+   "crossref_date": "2021-07-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.21528/cbic2025-1166058",
+   "title": "Investiga\u00e7\u00e3o da Tomada de Decis\u00f5es em Redes Neurais Evolutivas Aplicadas no Controle de Ratos Virtuais",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icoici65217.2025.11254348",
+   "title": "Federated Learning with Channel Forecasting and DenseNet-based Model Optimization for 6G-Enabled Pervasive Applications",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tste.2026.3660858",
+   "title": "Advanced Flexible Solar Interconnection into Distribution Systems With Dynamic Asset Rating and Fail-Safe Mode Control",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-03",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5445/diva/2019-645",
+   "title": "18: Kognitive Systeme, Vorlesung, SS 2019, 10.07.2019",
+   "s2_year": 2019,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11349917",
+   "title": "An Optical Reservoir Computing Design based on Two-Dimensional Quantum Walk",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/lsp.2025.3628791",
+   "title": "Configuring RNN's Recurrent Weights Using Domain Knowledge for LTI Approximation",
+   "s2_year": 2026,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1038/s41598-026-60633-4",
+   "title": "Hybrid temporal convolutional network-reservoir computing model for enhanced remaining useful life prediction in aerospace systems.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-12",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1117/12.2647823",
+   "title": "Hybrid-coherent reservoir computing for 200 km PAM-4 transmission links",
+   "s2_year": 2023,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1002/smll.74656",
+   "title": "Defect-Engineered Floating-Gate Synapses With Programmable Relaxation Dynamics for Multi-Timescale Neuromorphic Computing.",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-25",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1103/physreve.107.054209",
+   "title": "Predicting chaotic dynamics from incomplete input via reservoir computing with (D+1)-dimension input and output.",
+   "s2_year": 2023,
+   "crossref_date": "2023-05-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ted.2025.3620321",
+   "title": "Reliable Operation of FeFET Reservoir Computing With Robustness Against Interface Degradation",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-28",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1117/12.3105958",
+   "title": "Excited-state reservoir computing via defect-mediated opto-ionic dynamics in hybrid perovskites",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1002/piuz.70090",
+   "title": "Reservoir\u2010Computer auf Basis von Magnonen: Maschinelles Lernen im reziproken Raum",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-24",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/iscas66217.2026.11562147",
+   "title": "Respiratory Disease Prediction from Lung Sounds Using Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-24",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.7498/aps.75.20260144",
+   "title": "Physical Reservoir Computing Based on Spin-Torque Nano-Oscillator and The Information Processing Capacity Evaluation",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icmts69943.2026.11471724",
+   "title": "Improving Robustness of Leakage-Based MOSFET Reservoir Computing Using Adaptive Pulse-Width Control",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.chaos.2025.117263",
+   "title": "Deep optical reservoir computing based on microring resonators for nonlinear channel equalization and image classification",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1361-6501/ae7c92",
+   "title": "Fatigue condition diagnosis of offshore wind turbine bearings in noisy environment based on multi-scale integrated dual-channel CNN and improved GWO optimized ESN",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1088/1674-1056/ae60ec",
+   "title": "Performance improvement of optoelectronic time-delayed reservoir computing: A comprehensive solution",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/dcna67486.2025.11199936",
+   "title": "Intermittency in Forecasting Stochastic System Behavior Using Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350450",
+   "title": "Prediction and Optimization of Satellite Laser Communication Tracking Accuracy Based on Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ijcnn64981.2025.11228145",
+   "title": "Efficient Radio Frequency Fingerprint Identification Using Spiking Neural Networks with Spike-based Self-Attention Mechanism",
+   "s2_year": 2025,
+   "crossref_date": "2025-06-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1007/s11227-026-08723-y",
+   "title": "FEDQES-IDS: A Secure and Lightweight Federated Intrusion Detection System for Internet of Vehicles",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-20",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.48550/arxiv.2403.17676",
+   "title": "Analysis on reservoir activation with the nonlinearity harnessed from solution-processed MoS2 devices",
+   "s2_year": 2024,
+   "crossref_date": "",
+   "bucket": "unresolved"
+  },
+  {
+   "doi": "10.1109/icedge67252.2025.11412497",
+   "title": "From Devices to Edge Intelligence: Band-to-Band Tunneling-Based Energy and Area-Efficient Neuromorphic Hardware",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-18",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ted.2026.3705731",
+   "title": "Ultrafast Physical Reservoir Computing With Sub-3-ns Switchable Ferroelectric Capacitors",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.5510/ogp20250401121",
+   "title": "Assessment of the impact of mutual dissolution in gas-condensate-water systems on reservoir fluid phase behavior under in-situ conditions",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.4236/jcc.2026.146002",
+   "title": "Bio-Inspired Physical Reservoir Computing Based on Organic Electrochemical Transistors for Temporal Pattern Recognition",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.31449/inf.v49i7.9269",
+   "title": "Anomaly Detection in IoT using Enhanced K-means, AGNES Clustering, and Echo State Networks",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-10",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/ted.2026.3687192",
+   "title": "\u03b2-Ga2O3-Based Solar-Blind Neuromorphic Vision Sensor for Motion Perception and Trajectory Prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-30",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.25088/complexsystems.35.2.161",
+   "title": "Elementary Cellular Automata for Reservoir Computing with Modest Resources",
+   "s2_year": 2026,
+   "crossref_date": "2026-06-15",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/mems64181.2026.11419616",
+   "title": "Audio Digit Classification at the Edge Via PMUT Geometric Nonlinearity",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-25",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.52202/083087-0034",
+   "title": "Effective Learning of Neural ODE-Based Trajectory Control Laws by Adaptive Refinement of Reservoir Computing Architecture",
+   "s2_year": 2025,
+   "crossref_date": "2025-01-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/dcna67486.2025.11199954",
+   "title": "Reservoir Computing Reconstructs Simulated Blood-Oxygen-Level-Dependent Signals",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-07",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1364/prj.598951",
+   "title": "High-speed Parallel Photonic Reservoir Computing Enabled by a Hybrid MZI\u2013SOA Mesh Using Incoherent Light",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-14",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1088/1402-4896/ae73f8",
+   "title": "Remaining useful life prediction of lithium-ion batteries based on IBKA-VMD and TCN-AM-ESN",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-27",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.64898/2026.07.09.737423",
+   "title": "Learning complex temporal dependencies via local synaptic plasticity",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-10",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/ted.2026.3689481",
+   "title": "Optoelectronic Memristor for Switchable Reservoir Computing and ANN Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-05-12",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1016/j.chaos.2026.118873",
+   "title": "Reservoir computing with complex Ginzburg\u2013Landau lattice dynamics for chaotic time-series prediction",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-29",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1109/apscon68325.2026.11497111",
+   "title": "Double-Sided Laser-Induced Graphene Memristors for Thermally Tunable Neuromorphic Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-23",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1140/epjs/s11734-026-02473-x",
+   "title": "Optimal reservoir prediction of individual fEPSP signatures in rodent hippocampal slices",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-17",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.1007/s42114-026-01959-5",
+   "title": "Plasma-engineered 2D semiconductor heterostructure enabling photonic neuromorphic and 5-bit reservoir computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-07-15",
+   "bucket": "after-cutoff"
+  },
+  {
+   "doi": "10.2514/6.2026-0901",
+   "title": "Aerodynamic Physical Reservoir Computer Training Using Oscillating Vortex Generators",
+   "s2_year": 2026,
+   "crossref_date": "2026-01-08",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.62476/abes.11203",
+   "title": "Model Hybrid Artificial Neural Network and Reservoir Computing for Extreme Weather Predicting Based on Madden Julian Oscillation",
+   "s2_year": 2026,
+   "crossref_date": "2026-04-06",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/acp66871.2025.11350484",
+   "title": "Classification of Multi-dynamics States from Semiconductor Lasers Based on Photonic Reservoir Computing",
+   "s2_year": 2025,
+   "crossref_date": "2025-11-05",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/tits.2026.3655758",
+   "title": "Enhancing Federated Learning in IoV: Robust Client Selection and Bandwidth Allocation With Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-02-06",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icmre69538.2026.11533931",
+   "title": "Shape Classification of Consecutive Obstacles for Water-Driven Soft Robot Using Reservoir Computing",
+   "s2_year": 2026,
+   "crossref_date": "2026-03-02",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/access.2018.2887354",
+   "title": "Spiking Echo State Convolutional Neural Network for Robust Time Series Classification",
+   "s2_year": 2019,
+   "crossref_date": "2018-12-18",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.64898/2025.12.11.693716",
+   "title": "Human cortical networks trade communication efficiency for computational reliability",
+   "s2_year": 2025,
+   "crossref_date": "2025-12-13",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1162/isal.a.920",
+   "title": "Computational anatomy of living and nonliving transitions: a case study on a real octopus arm",
+   "s2_year": 2025,
+   "crossref_date": "2025-10-01",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1007/978-3-319-02630-5_10",
+   "title": "Self-organization and Emergence of Dynamical Structures in Neuromorphic Atomic Switch Networks",
+   "s2_year": 2019,
+   "crossref_date": "2013-12-18",
+   "bucket": "before-window"
+  },
+  {
+   "doi": "10.1109/yac66630.2025.11150011",
+   "title": "Reservoir computing-broad learning system with Bayesian Optimization for robotic arm motion trajectory prediction",
+   "s2_year": 2025,
+   "crossref_date": "2025-05-17",
+   "bucket": "in-window"
+  },
+  {
+   "doi": "10.1109/icesc65114.2025.11212322",
+   "title": "Multi-Scale Bidirectional Attention-based Deep Classifier with African Vulture Optimization for Intrusion Detection",
+   "s2_year": 2025,
+   "crossref_date": "2025-09-10",
+   "bucket": "in-window"
+  }
+ ]
+}

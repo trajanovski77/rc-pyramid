@@ -41,6 +41,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import build_latex as B  # noqa: E402
+import re as _re_mod  # noqa: E402
 
 PAPER = Path("paper")
 OUT = PAPER / "PAPER1-IEEE.tex"
@@ -64,7 +65,7 @@ WIDE_MIN_COLS = 8
 # Table 19 joins them for the same reason: its row labels carry unbreakable
 # \texttt{} exclusion codes (`not-eligible:publication-type`) that no 88 mm column
 # can wrap. Added 2026-09-09 after compiling reported one overfull box there.
-FORCE_WIDE = {2, 15, 18, 19}
+FORCE_WIDE = {2, 15, 18, 19, 22}
 
 # Per-table column widths where equal division is wrong. Fractions of the float's width.
 TABLE_WIDTHS = {
@@ -88,6 +89,11 @@ TABLE_WIDTHS = {
     # Kappa holds five characters; Outcome holds a sentence. Equal division starves the
     # last column and wastes the fifth.
     20: (0.14, 0.13, 0.18, 0.07, 0.15, 0.33),
+    # Targeted-study result: the pilot table's shape, but the values carry an interval
+    # ("0.951, 0.935 (0.865 to 0.984)") and the criteria run longer.
+    21: (0.28, 0.25, 0.27, 0.20),
+    # Targeted-study confusion matrix: one label column, seven categories, one total.
+    22: (0.16,) + (0.105,) * 8,
 }
 
 
@@ -275,7 +281,7 @@ __DOCUMENTCLASS__
 \history{Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000.}
 \doi{10.1109/ACCESS.2026.DOI}
 
-\title{A Review of Reservoir Computing Classification Schemes and an
+\title{A Critical Review of Reservoir Computing Classification Schemes and an
 Architecture-Based Framework for Evaluating Reported Systems}
 
 %% AUTHOR BLOCK.
@@ -302,10 +308,10 @@ Science and Engineering, Ss. Cyril and Methodius University in Skopje, through t
 project, Grant Agreement No. 101263128.}
 
 %% Running head. Shortened from the full title, which overflows the header width:
-%% IEEE style permits a shortened form and the full title is 122 characters.
+%% IEEE style permits a shortened form and the full title is 131 characters.
 \markboth
-{Trajanovski \headeretal: A Review of Reservoir Computing Classification Schemes}
-{Trajanovski \headeretal: A Review of Reservoir Computing Classification Schemes}
+{Trajanovski \headeretal: A Critical Review of Reservoir Computing Classification Schemes}
+{Trajanovski \headeretal: A Critical Review of Reservoir Computing Classification Schemes}
 
 \corresp{Corresponding author: Stefan Trajanovski (e-mail:
 stefan.trajanovski@students.finki.ukim.mk).}
@@ -503,39 +509,56 @@ def biographies() -> str:
 #   T13 results vs baselines    Figure 9 plots it and stays
 #   T15 preliminary matrix      the preliminary check is secondary to the pilot
 #   T16 preliminary reasons     same
+#   T19 pilot dispositions      the main text states the 31-record gate base (WS7)
+#   T20 the three coding runs   the main text states the sequence and the 5% threshold
+#   T22 targeted-study matrix   the main text states the splits that matter; T21 stays
+#   T23 threats to validity     each threat is discussed where it arises
+#   T24 reporting items         the main text lists all eight topics
 #   F1  milestones timeline     contextual, carries no result
 #   F4  substrate-by-family     Table 6 carries the assignments it visualises
+#   F5  evidence and efficiency the main text states the levels and the 11 of 14
+#   F6  PRISMA flow             Table 10 carries every count in it
 #   F7  corpus landscape        the prose states every percentage in it
 #   F8  NARMA lineage           Table 12 moves with it; the prose carries the values
+#   F9  NARMA verdicts          Table 13 moves with it
 #   F10 valid-prediction-time   the prose narrates the same two-stage sequence
 #
-# The pilot result, its confusion matrix, the dispositions, the three coding runs, the
-# anchor verification, the threats table and the PRISMA flow all stay. So does the
-# F3/F4 limitation and everything supporting it.
-SHORT_DROP_TABLES = {4, 5, 9, 12, 13, 15, 16}
+# The pilot result, its confusion matrix, the targeted study's result, the anchor
+# verification and the benchmark grades stay, and so does the F3/F4 limitation and
+# everything supporting it.
+SHORT_DROP_TABLES = {4, 5, 9, 12, 13, 15, 16, 19, 20, 22, 23, 24}
 
 # Column widths that apply ONLY in the supplement, which is set one column wide. Table 4's
 # ten-column grid is sized for a two-column table* in the main build and overflows a
 # one-column page: the review-name column needs more room there, not less, because
 # "Topological-systems review 2024" no longer has a facing column to borrow from. Kept
 # separate from TABLE_WIDTHS so that tuning the supplement cannot move the submission.
-SUPPLEMENT_WIDTHS = {4: (0.28,) + (0.078,) * 9}
-SHORT_DROP_FIGURES = {"fig18s", "fig20s", "fig22s", "fig19s", "fig21s"}
+SUPPLEMENT_WIDTHS = {4: (0.28,) + (0.078,) * 9,
+                     20: (0.14, 0.13, 0.17, 0.09, 0.15, 0.32)}
+SHORT_DROP_FIGURES = {"fig18s", "fig20s", "fig24s", "fig7s", "fig22s", "fig19s", "fig23s", "fig21s"}
 
 # Ranges are the only references the generic remapper cannot rewrite, because "Tables 3--6"
 # may span kept and moved floats at once. They are listed here and were expanded by hand
 # against the map below. Every SINGLE reference is remapped automatically: a kept float
-# takes its new number, a moved one becomes S<n> and resolves in the supplement.
+# takes its new number, a moved one becomes S<n> and resolves in the supplement. So is a
+# pair ("Tables 12 and 13").
+#
+# The remapper runs AFTER this list, over its output. A replacement therefore writes its
+# ranges in final numbers and its singles in the manuscript's own numbers. Writing a
+# single in final numbers remaps it twice: "Table 7" meant the corpus table and printed
+# as Table 5, the dimensions table, until 2026-10-25.
 SHORT_PROSE = [
     ("Tables 3--6, Figures 2--4; preliminary check in Tables 15--16; pilot result in Tables 17--20",
-     "Tables 3--4, Figures 1--2; preliminary check in the supplement; pilot result in Tables 10--13"),
-    ("Tables 7--9, Figure 5; the same twelve systems coded for evidence level and efficiency claim",
-     "Tables 5--6 and Figure 3; the same twelve systems coded for evidence level and efficiency claim"),
+     "Tables 3--4 and S1--S2, Figures 1--2 and S2; preliminary check in Tables S6--S7; "
+     "pilot result in Tables 10--11 and S8--S9"),
+    ("Tables 7--9, Figure 5; the same fourteen systems coded for evidence level and efficiency claim",
+     "Tables 5--6, Table 9 and Figure 5; the same fourteen systems coded for evidence level "
+     "and efficiency claim"),
     ("Tables 11--14, Figures 8--10",
-     "Tables 8--9 and Figure 5, with the lineage and verdict tables in the supplement"),
+     "Tables 8--9 and S4--S5, Figures S6--S8"),
     ("Table 10, Figures 6--7; released code and dated search exports",
-     "Table 7 and Figure 4; released code and dated search exports"),
-    ("Sections 6.1 and 8.4, Tables 18--19", "Sections 6.1 and 8.4, Tables 11--12"),
+     "Table 10 and Figures S4--S5; released code and dated search exports"),
+    ("Sections 6.1 and 8.4, Tables 18--19", "Sections 6.1 and 8.4, Tables 18 and 19"),
     # Table 5 (CHARC) carried a label and no prose reference, so moving it left an
     # uncited item in the supplement. The sentence that introduces CHARC now points at it.
     ("CHARC requires access to the device; the present method requires a paper-level "
@@ -552,7 +575,7 @@ def short_maps():
     Derived from the drop sets rather than written out, so the two cannot disagree.
     """
     tmap, smap, keep, supp = {}, {}, 0, 0
-    for n in range(1, 23):
+    for n in range(1, 25):
         if n in SHORT_DROP_TABLES:
             supp += 1
             tmap[n] = f"S{supp}"
@@ -586,6 +609,13 @@ def shorten(md: str) -> str:
             return f"{kind} {mapping.get(n, m.group(1))}"
         return f
 
+    def pair(m):
+        mapping = tmap if m.group(1) == "Tables" else fmap
+        a, b = int(m.group(2)), int(m.group(3))
+        return f"{m.group(1)} {mapping.get(a, a)} and {mapping.get(b, b)}"
+
+    md = _re.sub(r"\b(Tables|Figures) (\d+) and (\d+)\b", pair, md)
+
     # Label lines ("**Table 7. ...**") keep their ORIGINAL numbers on purpose. LaTeX
     # numbers captions itself, in document order, so after the moved tables are removed the
     # survivors come out 1..15 -- which is exactly what tmap says. The label number is
@@ -595,6 +625,48 @@ def shorten(md: str) -> str:
     md = _re.sub(r"(?<!\*)(?<!\*\*)\bTable (\d+)\b(?!\.\*\*)", one("Table", tmap), md)
     md = _re.sub(r"\bFigure (\d+)\b", one("Figure", fmap), md)
     return md
+
+
+# Prose moved to the supplement in the --short build (WS7). The blocks are numbered in
+# document order across all sections before any section is converted, so a pointer may
+# name a block that appears later in the same file: <!-- short: ... Section {S:key} ... -->
+SUPP_BLOCK = _re_mod.compile(
+    r"^<!--\s*supp:\s*([A-Za-z0-9_-]+)\s*\|\s*(.+?)\s*-->\s*$\n(.*?)^<!--\s*/supp\s*-->\s*$\n?",
+    _re_mod.M | _re_mod.S)
+SHORT_POINTER = _re_mod.compile(r"<!--\s*short:\s*(.*?)\s*-->", _re_mod.S)
+
+
+def supplement_blocks(names) -> dict:
+    """key -> (S-number, title, markdown), in document order across the sections.
+
+    A key used again continues its section: tables and figures stay outside the blocks,
+    because the supplement numbers them through SHORT_DROP_TABLES and SHORT_DROP_FIGURES,
+    so a passage interrupted by a table resumes after it under the same key.
+    """
+    out = {}
+    for name in names:
+        for m in SUPP_BLOCK.finditer((PAPER / name).read_text(encoding="utf-8")):
+            key = m.group(1)
+            if key in out:
+                num, title, md = out[key]
+                out[key] = (num, title, md.rstrip("\n") + "\n\n" + m.group(3))
+            else:
+                out[key] = (len(out) + 1, m.group(2), m.group(3))
+    return out
+
+
+def apply_supplement_markup(md: str, blocks: dict) -> str:
+    """--short: drop the moved blocks and print the pointers, resolving {S:key}."""
+    md = SUPP_BLOCK.sub("", md)
+
+    def pointer(m):
+        text = m.group(1)
+        for key, (num, *_rest) in blocks.items():
+            text = text.replace("{S:" + key + "}", f"S{num}")
+        if "{S:" in text:
+            raise SystemExit(f"unresolved supplement pointer: {text[:60]}")
+        return text
+    return SHORT_POINTER.sub(pointer, md)
 
 
 def split_for_short(md: str):
@@ -650,16 +722,17 @@ SUPPLEMENT_PREAMBLE = r"""%% Supplementary material for the IEEE Access submissi
 \usepackage{array}
 \usepackage{url}
 \renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thesection}{S\arabic{section}}
 \renewcommand{\thefigure}{S\arabic{figure}}
 \begin{document}
-\title{Supplementary Material: A Review of Reservoir Computing Classification
+\title{Supplementary Material: A Critical Review of Reservoir Computing Classification
 Schemes and an Architecture-Based Framework for Evaluating Reported Systems}
 \author{Stefan Trajanovski, Ema Pandilova, Marko Petrov, Ivan Kitanovski, Ivan Chorbev,
 Ivica Dimitrovski, Dimitar Trajanov and Ilinka Ivanoska}
 \maketitle
 
-This document carries the tables and figures referenced from the main text by their
-S-numbers. They were placed here so that the main document meets the IEEE Access
+This document carries the sections, tables and figures referenced from the main text by
+their S-numbers. They were placed here so that the main document meets the IEEE Access
 20-page recommendation; none of the material was removed from the study, and each item
 is identical to the version the full manuscript carries.
 
@@ -704,7 +777,8 @@ def main() -> int:
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--out", type=Path, default=OUT)
     ap.add_argument("--short", action="store_true",
-                    help="build the ~20-page variant: seven tables and five figures move "
+                    help="build the ~20-page variant: eleven tables, eight figures and the "
+                         "marked prose blocks move "
                          "to a companion supplement, every cross-reference is remapped, and "
                          "paper/PAPER1-IEEE-supplement.tex is written alongside")
     ap.add_argument("--preprint", action="store_true",
@@ -721,9 +795,11 @@ def main() -> int:
 
     B.WARNINGS.clear()
     body, wide_tables, all_tables, moved = [], 0, 0, []
+    blocks = supplement_blocks(B.SECTIONS) if args.short else {}
     for n, name in enumerate(B.SECTIONS, 1):
         md = (PAPER / name).read_text(encoding="utf-8")
         if args.short:
+            md = apply_supplement_markup(md, blocks)
             md, m_here = split_for_short(md)
             moved.extend(m_here)
             md = shorten(md)
@@ -784,12 +860,20 @@ def main() -> int:
         encoding="utf-8")
     if args.short:
         parts = [SUPPLEMENT_PREAMBLE]
+        # Prose sections first, numbered S1, S2, ... as the main text's pointers expect;
+        # their own table and figure references are remapped exactly as the main text's.
+        for key, (num, title, block_md) in blocks.items():
+            parts.append(rf"\section{{{B.conv(title)}}}")
+            parts.append(B.convert(shorten(block_md), 100 + num,
+                                   table_renderer=ieee_table, figure_renderer=ieee_figure))
         for kind, key, cap, block in moved:
             if kind == "table":
                 saved = TABLE_WIDTHS.get(key)
                 if key in SUPPLEMENT_WIDTHS:
                     TABLE_WIDTHS[key] = SUPPLEMENT_WIDTHS[key]
-                rendered = ieee_table(block.split("\n"), f"tab:supp{key}", cap, key)
+                # A moved table's cells cite other floats ("Section 8.3, Table 16"), and
+                # they are remapped like the prose; they printed manuscript numbers before.
+                rendered = ieee_table(shorten(block).split("\n"), f"tab:supp{key}", cap, key)
                 if key in SUPPLEMENT_WIDTHS:
                     if saved is None:
                         TABLE_WIDTHS.pop(key, None)
@@ -802,6 +886,10 @@ def main() -> int:
                 parts.append("\n".join(ieee_figure(cap, f"figures/{key}.pdf", f"fig:supp{key}"))
                              .replace(r"\begin{figure*}[!t]", r"\begin{figure}[!t]")
                              .replace(r"\end{figure*}", r"\end{figure}"))
+        # The supplement cites as well (known issue D-D: it once had no bibliography, so
+        # every citation in a moved table printed as [?]). It carries its own reference
+        # list, numbered in its own citation order, as a standalone supplement does.
+        parts.append("\n\\bibliographystyle{IEEEtran}\n\\bibliography{references-submission}")
         parts.append("\n\\end{document}\n")
         supp = PAPER / "PAPER1-IEEE-supplement.tex"
         supp.write_text(strip_comments("\n".join(parts)), encoding="utf-8")

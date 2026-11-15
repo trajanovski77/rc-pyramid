@@ -1,0 +1,1386 @@
+{
+  "generated_utc": "2026-10-26T09:56:02.139910+00:00",
+  "seed": 20261024,
+  "design": "full",
+  "addon": false,
+  "frame_sha256": "9f070e7646ad19a7b56b8e44ca74e7abb9357c58389e2feb143231111ea891c6",
+  "allocation": {
+    "SB": 30,
+    "S3": 47,
+    "S4a": 12,
+    "S4b": 12,
+    "S4c": 12,
+    "S4d": 12,
+    "S4e": 12,
+    "S3T": 10,
+    "S0": 13
+  },
+  "sizes": {
+    "SB": 68,
+    "S3": 47,
+    "S4a": 126,
+    "S4b": 90,
+    "S4c": 53,
+    "S4d": 21,
+    "S4e": 58,
+    "S3T": 96,
+    "S0": 3140
+  },
+  "n": 160,
+  "records": [
+    {
+      "record_id": "RC-0408",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-0585",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-0640",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-1335",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-1562",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-2073",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-2142",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-2250",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-3929",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-4173",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-4190",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-4466",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-1303",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666,
+      "replaces": "RC-4607"
+    },
+    {
+      "record_id": "RC-4820",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-2187",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666,
+      "replaces": "RC-5098"
+    },
+    {
+      "record_id": "RC-5367",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-5596",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-5788",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-5917",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-5970",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-6035",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-6068",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-6083",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-6188",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-6202",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-6358",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-6864",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-6987",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-7073",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666
+    },
+    {
+      "record_id": "RC-6417",
+      "stratum": "SB",
+      "N_h": 68,
+      "n_h": 30,
+      "pi": 0.4411764705882353,
+      "weight": 2.2666666666666666,
+      "replaces": "RC-7137"
+    },
+    {
+      "record_id": "RC-0472",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-0474",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-0593",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-0620",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-0636",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-0642",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-0680",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-0706",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-0739",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-0867",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-1111",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-1731",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-1952",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-2406",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-2644",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-2649",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-2702",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-2718",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-3134",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-4328",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-4698",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-4914",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-5006",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-5040",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-5729",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-5743",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-5781",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-5833",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-5991",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6008",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6117",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6125",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6128",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6132",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6148",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6152",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6153",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6161",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6167",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6186",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6201",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6239",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6276",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6337",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6346",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6469",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-6576",
+      "stratum": "S3",
+      "N_h": 47,
+      "n_h": 47,
+      "pi": 1.0,
+      "weight": 1.0
+    },
+    {
+      "record_id": "RC-7237",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5,
+      "replaces": "RC-0996"
+    },
+    {
+      "record_id": "RC-1717",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5
+    },
+    {
+      "record_id": "RC-2010",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5
+    },
+    {
+      "record_id": "RC-4879",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5,
+      "replaces": "RC-2478"
+    },
+    {
+      "record_id": "RC-2713",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5
+    },
+    {
+      "record_id": "RC-7072",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5,
+      "replaces": "RC-3275"
+    },
+    {
+      "record_id": "RC-0587",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5,
+      "replaces": "RC-4186"
+    },
+    {
+      "record_id": "RC-4446",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5,
+      "replaces": "RC-4941"
+    },
+    {
+      "record_id": "RC-5695",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5
+    },
+    {
+      "record_id": "RC-5835",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5
+    },
+    {
+      "record_id": "RC-6450",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5
+    },
+    {
+      "record_id": "RC-6704",
+      "stratum": "S4a",
+      "N_h": 126,
+      "n_h": 12,
+      "pi": 0.09523809523809523,
+      "weight": 10.5
+    },
+    {
+      "record_id": "RC-0270",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5
+    },
+    {
+      "record_id": "RC-0410",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5
+    },
+    {
+      "record_id": "RC-2631",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5
+    },
+    {
+      "record_id": "RC-7273",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5,
+      "replaces": "RC-3726"
+    },
+    {
+      "record_id": "RC-2834",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5,
+      "replaces": "RC-4258"
+    },
+    {
+      "record_id": "RC-4788",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5,
+      "replaces": "RC-5403"
+    },
+    {
+      "record_id": "RC-5921",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5
+    },
+    {
+      "record_id": "RC-6060",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5
+    },
+    {
+      "record_id": "RC-6416",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5
+    },
+    {
+      "record_id": "RC-6510",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5
+    },
+    {
+      "record_id": "RC-7284",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5
+    },
+    {
+      "record_id": "RC-7287",
+      "stratum": "S4b",
+      "N_h": 90,
+      "n_h": 12,
+      "pi": 0.13333333333333333,
+      "weight": 7.5,
+      "replaces": "RC-7289"
+    },
+    {
+      "record_id": "RC-0288",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667
+    },
+    {
+      "record_id": "RC-5887",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667,
+      "replaces": "RC-0316"
+    },
+    {
+      "record_id": "RC-0868",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667
+    },
+    {
+      "record_id": "RC-1294",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667,
+      "replaces": "RC-1039"
+    },
+    {
+      "record_id": "RC-7339",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667,
+      "replaces": "RC-2828"
+    },
+    {
+      "record_id": "RC-3982",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667
+    },
+    {
+      "record_id": "RC-4127",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667
+    },
+    {
+      "record_id": "RC-4287",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667
+    },
+    {
+      "record_id": "RC-5768",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667,
+      "replaces": "RC-4731"
+    },
+    {
+      "record_id": "RC-4937",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667
+    },
+    {
+      "record_id": "RC-6147",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667
+    },
+    {
+      "record_id": "RC-6229",
+      "stratum": "S4c",
+      "N_h": 53,
+      "n_h": 12,
+      "pi": 0.22641509433962265,
+      "weight": 4.416666666666667
+    },
+    {
+      "record_id": "RC-0336",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75,
+      "replaces": "RC-0180"
+    },
+    {
+      "record_id": "RC-2841",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75,
+      "replaces": "RC-0428"
+    },
+    {
+      "record_id": "RC-0478",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-1908",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-4433",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-4612",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-4990",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-6012",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-6066",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-6082",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-6310",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-6326",
+      "stratum": "S4d",
+      "N_h": 21,
+      "n_h": 12,
+      "pi": 0.5714285714285714,
+      "weight": 1.75
+    },
+    {
+      "record_id": "RC-6817",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333,
+      "replaces": "RC-0520"
+    },
+    {
+      "record_id": "RC-5592",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333,
+      "replaces": "RC-0809"
+    },
+    {
+      "record_id": "RC-2629",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333
+    },
+    {
+      "record_id": "RC-3225",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333
+    },
+    {
+      "record_id": "RC-3604",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333
+    },
+    {
+      "record_id": "RC-3811",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333
+    },
+    {
+      "record_id": "RC-4733",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333
+    },
+    {
+      "record_id": "RC-3932",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333,
+      "replaces": "RC-5451"
+    },
+    {
+      "record_id": "RC-5670",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333
+    },
+    {
+      "record_id": "RC-5793",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333
+    },
+    {
+      "record_id": "RC-6295",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333
+    },
+    {
+      "record_id": "RC-6311",
+      "stratum": "S4e",
+      "N_h": 58,
+      "n_h": 12,
+      "pi": 0.20689655172413793,
+      "weight": 4.833333333333333
+    },
+    {
+      "record_id": "RC-5910",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6,
+      "replaces": "RC-0328"
+    },
+    {
+      "record_id": "RC-5609",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6,
+      "replaces": "RC-0841"
+    },
+    {
+      "record_id": "RC-6393",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6,
+      "replaces": "RC-2827"
+    },
+    {
+      "record_id": "RC-3892",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6
+    },
+    {
+      "record_id": "RC-6697",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6,
+      "replaces": "RC-4195"
+    },
+    {
+      "record_id": "RC-4414",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6,
+      "replaces": "RC-4581"
+    },
+    {
+      "record_id": "RC-3426",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6,
+      "replaces": "RC-5604"
+    },
+    {
+      "record_id": "RC-6033",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6
+    },
+    {
+      "record_id": "RC-1853",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6,
+      "replaces": "RC-6591"
+    },
+    {
+      "record_id": "RC-7080",
+      "stratum": "S3T",
+      "N_h": 96,
+      "n_h": 10,
+      "pi": 0.10416666666666667,
+      "weight": 9.6
+    },
+    {
+      "record_id": "RC-4256",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155,
+      "replaces": "RC-1794"
+    },
+    {
+      "record_id": "RC-2024",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155
+    },
+    {
+      "record_id": "RC-4365",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155,
+      "replaces": "RC-2819"
+    },
+    {
+      "record_id": "RC-7153",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155,
+      "replaces": "RC-3174"
+    },
+    {
+      "record_id": "RC-3187",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155
+    },
+    {
+      "record_id": "RC-0793",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155,
+      "replaces": "RC-4273"
+    },
+    {
+      "record_id": "RC-5425",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155
+    },
+    {
+      "record_id": "RC-5678",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155
+    },
+    {
+      "record_id": "RC-5756",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155
+    },
+    {
+      "record_id": "RC-6052",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155
+    },
+    {
+      "record_id": "RC-6351",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155
+    },
+    {
+      "record_id": "RC-6394",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155
+    },
+    {
+      "record_id": "RC-7152",
+      "stratum": "S0",
+      "N_h": 3140,
+      "n_h": 13,
+      "pi": 0.004140127388535032,
+      "weight": 241.53846153846155
+    }
+  ],
+  "deviation_D35": {
+    "replaced": {
+      "RC-1794": "RC-4256",
+      "RC-2819": "RC-4365",
+      "RC-3174": "RC-7153",
+      "RC-4273": "RC-0793",
+      "RC-0328": "RC-5910",
+      "RC-0841": "RC-5609",
+      "RC-2827": "RC-6393",
+      "RC-4195": "RC-6697",
+      "RC-4581": "RC-4414",
+      "RC-5604": "RC-3426",
+      "RC-6591": "RC-1853",
+      "RC-0996": "RC-7237",
+      "RC-2478": "RC-4879",
+      "RC-3275": "RC-7072",
+      "RC-4186": "RC-0587",
+      "RC-4941": "RC-4446",
+      "RC-3726": "RC-7273",
+      "RC-4258": "RC-2834",
+      "RC-5403": "RC-4788",
+      "RC-7289": "RC-7287",
+      "RC-0316": "RC-5887",
+      "RC-1039": "RC-1294",
+      "RC-2828": "RC-7339",
+      "RC-4731": "RC-5768",
+      "RC-0180": "RC-0336",
+      "RC-0428": "RC-2841",
+      "RC-0520": "RC-6817",
+      "RC-0809": "RC-5592",
+      "RC-5451": "RC-3932",
+      "RC-4607": "RC-1303",
+      "RC-5098": "RC-2187",
+      "RC-7137": "RC-6417"
+    },
+    "retrieval_failed": [
+      "RC-0642",
+      "RC-0680",
+      "RC-2702"
+    ],
+    "rule": "unobtainable record replaced by the first record with an obtainable open full text in random.Random(f'20261024:{stratum}:replacement') order over the stratum's unsampled frame ids; S3 is a census, so its unobtainable records stay retrieval-failed"
+  }
+}

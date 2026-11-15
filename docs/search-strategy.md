@@ -265,9 +265,114 @@ Two things follow, and the second is an open item rather than a finding.
   which refuses to report a result if any negative control fails or if a probe record turns
   out to contain a listed phrase.
 
+**Correction, 2026-10-24: the probes establish matching on those records, not coverage.**
+Re-run live on 2026-10-24, all seven probes still match and every control still returns zero.
+The conclusion drawn from them, that dropping `"reservoir computer*"` cost no records, went
+from single records to the population, and a population query refutes it. OpenAlex returns
+192 in-window works whose title or abstract carries "reservoir computer" or "reservoir
+computers" and none of the six executed phrases; 133 of them are not in the frozen corpus.
+A random 19 of those 133, queried by OpenAlex id, match neither the six-phrase filter nor
+`"reservoir computing"` alone. OpenAlex's folding of computer/computing is therefore
+record-dependent, not general. The paragraphs above are kept as written because they are
+what was concluded on 2026-09-05; they are superseded by §2.6, which adds the missing
+vocabulary as a supplementary leg (deviation D31).
+
 **Known-item recall was tested before this string was adopted**, not after: nine reference
 papers known to be in scope were retrieved by DOI, 9 of 9 (§1.1). That is a smoke test, not
 a coverage study; the coverage measurement is the Semantic Scholar overlap in §6.2a.
+
+### 2.6 Supplementary search leg (added 2026-10-24, deviation D31)
+
+**Why.** IEEE Reviewer 1 (point 4b) asked whether the six executed phrases miss device-level
+work that does not call itself "reservoir computing". §3 limitation 1 already named this as
+the strategy's principal known weakness, and the §2.5 correction shows it is real. The leg
+below is the remedy. It is reported in the PRISMA 2020 flow as **identification via other
+methods**, beside the database box rather than inside it.
+
+**What is searched.** Thirteen positive blocks, each restricted to the frozen window
+(2019-01-01 to 2026-06-30) and, in OpenAlex, to `language:en`, exactly as the primary legs
+are. The exact strings are `BLOCKS` in `scripts/fetch_supplementary.py`; keep the two in sync.
+
+| Block | Engine | Kind | Purpose |
+|---|---|---|---|
+| A | OpenAlex | search | RC vocabulary the six phrases lack: "reservoir computer(s)", delay-based, time-delay and delayed-feedback reservoirs, single dynamical/nonlinear node, memristive, photonic, spintronic, optoelectronic, simple cycle, cyclic and spiking reservoirs |
+| B1 | OpenAlex | search | volatile, diffusive, dynamic and threshold-switching memristors AND a temporal term |
+| B2 | OpenAlex | search | short-term plasticity, short-term or fading memory AND an emerging-device term AND a temporal term AND a task term |
+| B3 | OpenAlex | search | FeFET, ECRAM, charge-trap and floating-gate devices AND a volatility term AND a temporal term |
+| C | OpenAlex | search | in-materio / in-materia computing, dopant networks, physical neural networks, physical computing AND a temporal term AND a device or material term |
+| D | OpenAlex | search | analogue CMOS, mixed-signal and subthreshold circuits AND temporal processing AND a neuromorphic term |
+| F4 | OpenAlex | search | §4's targeted F4 sweep string, verbatim |
+| E | OpenAlex | cites | works citing eight seed papers of physical reservoir computing (Appeltant 2011, Du 2017, Torrejon 2017, Moon 2019, Zhong 2021, Milano 2021, Zhong 2022, Liang 2022) AND a temporal term |
+| G | OpenAlex | cites | works citing five toolkit papers: ReservoirPy (Trouvain 2020), PyRCN (Steiner 2022), RCbench (Pilati 2026), conn2res (Suárez 2024), ReservoirComputing.jl (Martinuzzi 2022) |
+| H | OpenAlex | references | the works cited by the eleven reviews of manuscript Table 3, through OpenAlex's `referenced_works` links |
+| xA, xB, xC | arXiv | search | the arXiv counterparts of A, B and C, with the window applied to the v1 submission date as in §2.4 |
+
+All 24 seed DOIs were checked against Crossref (DataCite for the arXiv one) on 2026-10-24
+and resolve to the papers named. At run time every seed must also resolve in OpenAlex, or
+the run aborts.
+
+**How it departs from §4** (all logged as D31, before any supplementary record was retrieved):
+
+- §4 runs supplementary searching *after* database screening. This leg runs before Stage-1
+  screening is complete, because the reviewer's question is about retrieval and does not
+  wait on screening.
+- §4's forward chasing uses "the five most-cited included records per family". Those cannot
+  exist before screening, so block E uses eight fixed seeds instead. The seeds were chosen by
+  the designers as well-known physical RC demonstrations across F1, F2 and F4 hardware; that
+  is a designer choice and is reported as one.
+- §4's F4 sweep was gated on F4 falling below 8% of the screened corpus. It runs
+  unconditionally here: the trigger needs the screened corpus, and running the sweep can
+  only add candidates.
+- §4's backward chasing reads the reviews' reference lists. Block H uses OpenAlex's
+  reference links, so a reference OpenAlex did not link is not found. The manuscript calls it
+  OpenAlex-linked backward searching, not backward citation chasing.
+- Blocks A to D and xA to xC are new vocabulary searches with no counterpart in §4.
+
+**Why no block excludes the six phrases.** A first draft added `NOT (<six phrases>)` to
+every block. It was dropped before execution because the index drifts: the executed six-phrase
+filter returned 7,064 works on 2026-07-31 and 6,501 on 2026-10-24, so a server-side exclusion
+would silently decide which drifted records the supplement "found". Every block is retrieved
+positively; works already in the frozen corpus are removed locally; and each new record is
+flagged `matches_orig_literal` when one of the six phrases appears literally in its title or
+abstract. New records are reported in two groups: index-drift additions (flag set), and
+vocabulary additions (flag clear), which are the ones the six phrases could not reach.
+
+**Procedure.**
+
+1. `python3 scripts/fetch_supplementary.py --out data/raw/supplementary_YYYYMMDD.json`
+   writes a frozen, dated export. It stores the exact filters, the seed-to-id mapping, the
+   reference-id set behind block H, the per-request counts and the script's hash, so a reader
+   can see what was asked as well as what came back. An HTTP 429, any other 4xx, a block over
+   its ceiling, an unresolved seed, or an arXiv feed that cannot be reconciled with its own
+   `totalResults` aborts the run without writing. OpenAlex meters its API, and cursor paging
+   past the first page needs a free personal key (`OPENALEX_API_KEY`); the export records
+   whether one was used, never the key.
+2. `python3 scripts/supplement.py merge --supplementary <export>` writes
+   `data/screening/corpus_supplementary.csv` and its counts. It never writes the frozen corpus.
+   Within the leg it applies §5's three passes with `dedupe.py`'s own precedence rules. It
+   then removes every candidate that matches a corpus row on OpenAlex id, DOI, arXiv id or
+   normalized title (edit distance at most 3), listing each in
+   `supplementary_corpus_matches.csv` with its basis. Near-matches at ratio ≥ 0.90 go to
+   `supplementary_near_duplicates_for_review.csv` for manual adjudication under §5.1. The
+   adjudication file is applied only if it matches the flagged pair set exactly. New records
+   get ids above the corpus maximum from a persistent ledger
+   (`supplementary_id_ledger.csv`), so an id is never reissued or renumbered.
+3. The merge was checked on real data before use. Fed the two primary harvests as if they
+   were supplementary, it places all 8,302 records in the frozen corpus and reports zero new
+   ones. Its within-leg passes reproduce `dedupe.py`'s counts exactly: 395 DOI and 663 arXiv-id
+   duplicates. The title pass finds 700, against `dedupe.py`'s 706, which include six untitled
+   journal-issue records `dedupe.py` merged on their empty titles.
+
+**What it does not change.** The frozen corpus, `prisma_counts.json`, and the pilot and
+Stage-1 samples drawn from them are untouched; `screen.py` does not read the supplementary
+file. A corpus record whose supplementary copy is openly retrievable is listed as an
+`oa_upgrade`, not altered. Whether the new records join the screening corpus as a tagged
+source is an author decision recorded with the results.
+
+**Status.** Specified and implemented 2026-10-24; executed 2026-10-25 (§6.4). Author decision
+(project decision D6, 2026-10-25): the new records join the screening corpus as a separate,
+tagged source, reported as identification through other methods; the frozen corpus is not
+rewritten. The 11 near-duplicate pairs were adjudicated on 2026-10-25 (§6.4).
 
 ---
 
@@ -407,6 +512,7 @@ must be reproducible to a date, not just to a string.
 | Crossref | **2026-08-02** | n/a (per-DOI checks, not a harvest) | `data/raw/crossref_*_20260802.json` |
 | **Total pre-dedup** | 2026-08-02 | **8,296** | |
 | **Total post-dedup** | 2026-08-02 | **6,532** | `data/screening/corpus_deduped.csv` |
+| Supplementary leg (§2.6) | **2026-10-25** | **3,635 unique** (13 blocks; **802 new** after deduplication against the corpus and adjudication) | `data/raw/supplementary_20261025.json`; merge outputs `data/screening/*supplementary*` |
 
 ### 6.1 Which OpenAlex number is the right one
 
@@ -598,8 +704,8 @@ already removes off-topic records by design, and it does so with two coders and 
 each rather than one coder and a title. The alternative response, amending the estimate and
 recording why it was wrong, matches the evidence better.
 
-**Limits of this probe, which are real.** Single coder, that coder is the assistant, titles
-only, no blinding and no reliability statistic. The 18 undecidable cases are the honest signal
+**Limits of this probe, which are real.** Single coder, not one of the two pilot coders,
+titles only, no blinding and no reliability statistic. The 18 undecidable cases are the honest signal
 of its resolution: a title frequently is not enough, which is precisely why Stage 1 reads
 abstracts. It is a diagnostic for a protocol decision, it is labelled exploratory wherever it
 appears, and no record was removed on the strength of it.
@@ -613,6 +719,40 @@ The three subscription databases require institutional authentication and must b
 hand. Until they are, no screening can begin.
 
 ---
+
+### 6.4 Supplementary leg, 2026-10-25 (§2.6, deviation D31)
+
+`fetch_supplementary.py` with a key read from the environment (never written to the export
+or the log), retrieved 2026-10-25 14:10 UTC: 13 blocks, every block paged to completion, no
+arXiv gap, 3,635 unique records. Export sha256 `49e5c42b921c15fa...`; script sha256
+`ac1ad1f0c60feb54...`. Per block as identified: A 1,099; B1 128; B2 98; B3 26; C 34; D 62;
+F4 59; E 1,028; G 142; H 371; xA 1,060; xB 22; xC 29.
+
+`supplement.py merge` against the frozen corpus (sha256 `04c68ef1a89196ea...`, unchanged):
+
+| Step | Records |
+|---|---:|
+| Identified (unique across blocks) | 3,635 |
+| Removed: untitled (W4405106365) | 1 |
+| Removed: duplicates within the leg (DOI 190, arXiv id 83, title 195) | 468 |
+| Removed: already in the corpus (OpenAlex id 1,609, arXiv id 518, DOI 219, title 12) | 2,358 |
+| Removed: by adjudication of near-duplicate pairs (6 same, 5 different) | 6 |
+| **New records** (`corpus_supplementary.csv`, ids from the ledger in RC-6533 to RC-7340) | **802** |
+| of which openly retrievable | 503 |
+| of which contain none of the six executed phrases (`matches_orig_literal` = 0) | 788 |
+
+Before adjudication, 794 of the 808 candidates contained none of the six executed phrases; the
+14 that do are index-drift additions, not vocabulary additions. The 11 flagged pairs were
+adjudicated on 2026-10-25 against Crossref and DataCite records and signed off by an author
+(`supplementary_near_duplicates_adjudicated.csv`, with the deciding evidence per pair): 6 same
+(preprint and journal versions, or two deposits of one preprint) and 5 different (two
+supporting-data deposits, a peer-review report, two conference papers). The merge was re-run
+with `--adjudications`; no ledger id changed. Two of the six fold into records already in the
+frozen corpus (RC-5900, RC-0423), which is not rewritten. One work, a photonic convolutional
+accelerator, still appears as three records (the journal article and two groups of preprint
+deposits), because only flagged pairs can be merged; screening removes the remainder. The new
+records are candidates, not screened records: a random look at titles finds off-topic and
+non-English items, as in the primary corpus, which Stage 1 removes.
 
 ## 7. Expected yield
 

@@ -212,10 +212,10 @@ Both are coder work on the completed check, done after the round-4 instrument ch
 recorded here because neither alters a statistic.
 
 **Reconciliation: complete, and a joint record.** Coder A filled `deciding_text` and
-`reconciled_rule` for both rows of `pilot_disagreements.csv`, both resolving against her own
-call and adopting Coder B's; he read the deciding texts against the abstracts and
+`reconciled_rule` for both rows of `pilot_disagreements.csv`, both resolving against Coder A's own
+call and adopting Coder B's; Coder B read the deciding texts against the abstracts and
 countersigned both on 2026-09-05. The countersign was not a formality, which is the point of
-requiring one: he checked each deciding text's quotations and term counts against the source
+requiring one: Coder B checked each deciding text's quotations and term counts against the source
 and **found an error in one of them**. Coder A's RC-3293 deciding text called its quoted Japanese
 sentence the final sentence of the abstract; it is the penultimate one, and the actual final
 sentence carries a further review-register marker (議論する, "we discuss"), so the correction

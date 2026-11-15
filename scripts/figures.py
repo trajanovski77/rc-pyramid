@@ -595,9 +595,23 @@ def _prisma_counts() -> dict:
     return json.loads(p.read_text(encoding="utf-8"))
 
 
+def _supplementary_counts() -> dict | None:
+    # The supplementary search leg (search-strategy.md section 2.6) has its own counts file,
+    # because the frozen corpus and prisma_counts.json are never rewritten. Its branch is drawn
+    # only once that leg's near-duplicate adjudication is complete: before then its "new
+    # records" figure is provisional and a flow diagram should not print it as a result.
+    p = Path("data/screening/prisma_counts_supplementary.json")
+    if not p.exists():
+        return None
+    import json
+    c = json.loads(p.read_text(encoding="utf-8"))
+    return c if c.get("near_duplicate_adjudication_complete") else None
+
+
 def fig7s() -> str:
     c = _prisma_counts()
-    W, H = 1000, 700
+    sc = _supplementary_counts()
+    W, H = (1260 if sc else 1000), 700
     b = []
 
     def box(x, y, w, h, lines, stroke=INK, dash=None, fill="#ffffff"):
@@ -655,9 +669,44 @@ def fig7s() -> str:
     b.append(line(530, 484, 450, 484, "#8a4b2a", 1.5))
     b += arrow(720, 522, 564)
 
+    # identification via other methods: the supplementary leg, PRISMA 2020's right column
+    if sc:
+        removed_s = (sc["removed_untitled"]["count"] + sum(sc["removed_within_leg"].values())
+                     + sum(sc["already_in_corpus"].values()) + sc["removed_manual_adjudication"])
+        assert sc["identified_unique"] - removed_s == sc["new_active"], "supplementary counts"
+        b += box(950, 100, 280, 58, [
+            (f"Other methods: {sc['identified_unique']:,} records", 12, INK, "bold"),
+            (f"supplementary search, {len(sc['per_block_identified'])} blocks", 10, MUTED,
+             "normal")])
+        b += arrow(1090, 158, 200)
+        b += box(950, 200, 280, 112, [
+            (f"Removed: {removed_s:,}", 12, INK, "bold"),
+            (f"already in the corpus: {sum(sc['already_in_corpus'].values()):,}", 11, MUTED,
+             "normal"),
+            (f"duplicates within the search: {sum(sc['removed_within_leg'].values())}", 11,
+             MUTED, "normal"),
+            (f"untitled: {sc['removed_untitled']['count']}", 11, MUTED, "normal"),
+            (f"human adjudication: {sc['removed_manual_adjudication']} "
+             f"(of {sc['near_duplicate_pairs_flagged']} pairs flagged)", 11, "#8a4b2a",
+             "normal")])
+        b += arrow(1090, 312, 354)
+        b += box(950, 354, 280, 50, [
+            (f"New records: {sc['new_active']:,}", 14, INK, "bold")])
+        b += arrow(1090, 404, 446)
+        b += box(950, 446, 280, 76, [
+            (f"Openly retrievable: {sc['open_access_eligible']:,}", 12, "#4f6b2f", "bold"),
+            ("join the screening pool as a", 11, MUTED, "normal"),
+            (f"tagged source; {sc['closed']:,} closed kept as metadata", 11, MUTED,
+             "normal")], stroke="#4f6b2f")
+        b.append(line(1090, 522, 1090, 586, "#4f6b2f", 1.5))
+        b.append(line(1090, 586, 918, 586, "#4f6b2f", 1.5))
+        b.append(f'<path d="M 918 582 L 910 586 L 918 590 Z" fill="#4f6b2f"/>')
+
     # pending stages
+    pool = c["open_access_eligible"] + (sc["open_access_eligible"] if sc else 0)
     b += box(530, 564, 380, 44, [
-        ("Stage 1 screening: PENDING, 0 records screened", 11, MUTED, "bold")],
+        (f"Stage 1 screening: {pool:,} open records; PENDING, 0 screened", 11, MUTED,
+         "bold")],
         stroke=MUTED, dash="6,4", fill="#fbfaf7")
     b += arrow(720, 608, 634)
     b += box(530, 634, 380, 44, [
@@ -667,17 +716,20 @@ def fig7s() -> str:
     # The caption follows the adjudication state instead of asserting it, so the figure
     # cannot keep telling a reader that a completed step is outstanding.
     if c.get("near_duplicate_adjudication_complete"):
-        b.append(text(70, 560, f"All {c['near_duplicate_pairs_flagged']} near-duplicate "
-                               f"pairs are adjudicated.", 11, MUTED))
-        b.append(text(70, 578, "Screening starts once the taxonomy freezes at the",
+        flagged = (f"{c['near_duplicate_pairs_flagged']} and "
+                   f"{sc['near_duplicate_pairs_flagged']}" if sc
+                   else f"{c['near_duplicate_pairs_flagged']}")
+        b.append(text(70, 560, f"All {flagged} near-duplicate pairs are adjudicated.",
                       11, MUTED))
-        b.append(text(70, 596, "pilot gate.", 11, MUTED))
+        b.append(text(70, 578, "Screening follows the pilot gate, which fixed",
+                      11, MUTED))
+        b.append(text(70, 596, "version 1.0 of the taxonomy for coding.", 11, MUTED))
     else:
         b.append(text(70, 560, f"Screening starts only after the "
                                f"{c['near_duplicate_pairs_flagged']} near-duplicate",
                       11, MUTED))
-        b.append(text(70, 578, "pairs are adjudicated by hand and the taxonomy", 11, MUTED))
-        b.append(text(70, 596, "freezes at the pilot gate.", 11, MUTED))
+        b.append(text(70, 578, "pairs are adjudicated by hand and version 1.0 of the", 11, MUTED))
+        b.append(text(70, 596, "taxonomy is fixed at the pilot gate.", 11, MUTED))
     return svg(W, H, "\n".join(b))
 
 
@@ -1418,11 +1470,11 @@ def fig19s() -> str:
 
 
 # ---------------------------------------------------------------- figure 20s
-# Substrate x architecture-family grid of the twelve worked examples in Table 12.
-# Rows are the Table 4 substrate vocabulary, columns the four families. The point
+# Substrate x architecture-family grid of the fourteen worked examples in Table 6.
+# Rows are the Table 7 substrate vocabulary, columns the four families. The point
 # reads without the prose: a row with entries in two columns is one substrate
 # producing two architectures; a column spanning several rows is one architecture
-# realised in several substrates. Every placement is a Table 12 assignment; nothing
+# realised in several substrates. Every placement is a Table 6 assignment; nothing
 # is classified for the figure. Empty rows are shown because the absence of a
 # worked example is information the reader should have.
 
@@ -1440,10 +1492,12 @@ GRID_ENTRIES = [
     ("Digital simulation", "F1", "Deep reservoir", "Gallicchio 2017", ""),
     ("Digital simulation", "F3", "Polynomial features", "Gauthier 2021", "flagged"),
     ("Analogue electronic", "F2", "Electronic delay loop", "Appeltant 2011", ""),
+    ("Analogue electronic", "F1", "Spiking CMOS chip", "Duran 2026", ""),
     ("Photonic", "F2", "Laser delay loop", "Brunner 2013", ""),
     ("Photonic", "F1", "Waveguide array", "Vandoorne 2014", ""),
     ("Spintronic or magnetic", "F2", "Spin-torque oscillator", "Torrejon 2017", ""),
     ("Memristive or ionic", "F1", "Memristor array", "Du 2017", ""),
+    ("Memristive or ionic", "F1", "Memristor RC system", "Zhong 2022", "secondary F2"),
     ("Memristive or ionic", "F4", "Nanowire network", "Milano 2022", ""),
     ("Mechanical", "F4", "Soft silicone body", "Nakajima 2015", ""),
     ("Biological or organic", "F4", "Neuronal culture", "Sumi 2023", "subclass gap"),
@@ -1497,7 +1551,8 @@ def fig20s() -> str:
                 col = FAMILY_INK[code]
                 b.append(rect(x + 8, ey - 7.5, 7, 7, fill=col, stroke="none", rx=1.5))
                 b.append(text(x + 20, ey, sysname, FS_ENTRY, INK, "bold"))
-                tag = {"ambiguous": " *", "subclass gap": " (gap)", "flagged": " (flag)"}.get(marker, "")
+                tag = {"ambiguous": " *", "subclass gap": " (gap)", "flagged": " (flag)",
+                       "secondary F2": " (+F2)"}.get(marker, "")
                 b.append(text(x + 20, ey + 10.5, ref + tag, FS_SUB, MUTED))
                 ey += ENTRY_H
         y += h
@@ -1507,12 +1562,12 @@ def fig20s() -> str:
         b.append(line(x, GY0, x, y, RULE, 0.6))
 
     notes = [
-        "Shaded rows hold one substrate in two columns: the photonic and the memristive-ionic "
-        "examples realise two architectures each.",
+        "Shaded rows hold one substrate in two columns: the analogue-electronic, photonic and "
+        "memristive-ionic examples realize two architectures each.",
         "The F2 column spans electronic, photonic, and spintronic rows: one architecture across "
         "substrates. F3 is a flagged coverage class (flag).",
-        "Placements are the Table 6 assignments. * F2/F4 ambiguity recorded; (gap) no current "
-        "subclass fits.",
+        "Placements are the Table 6 assignments. (gap) no current subclass fits; (+F2) the "
+        "delay family is recorded as secondary (ruling R14).",
     ]
     ny = y + 22
     for n in notes:
@@ -1759,23 +1814,25 @@ def fig23s() -> str:
 
 # ---------------------------------------------------------------- figure 24s
 #
-# Evidence level and efficiency reporting across the twelve worked examples, drawn
+# Evidence level and efficiency reporting across the fourteen worked examples, drawn
 # from the manuscript's Table 9 (Section 4.3). Added 2026-09-09 on a referee request
 # for a visual form of the "efficiency reporting is sparse at every boundary" claim.
 #
-# The rows are the same twelve systems in the same order as the table, and the
+# The rows are the same fourteen systems in the same order as the table, and the
 # selftest holds them to it: every system name and every level plotted here must
 # appear in the Section 4.3 source. A figure that drifted from its own table would
 # be an instance of this paper's subject.
 #
-# `levels` is a list because evidence attaches to CLAIMS, not to papers: two of the
-# twelve support one claim experimentally and another numerically, and a single
-# marker per row would misstate one claim in each.
+# `levels` is a list because evidence attaches to CLAIMS, not to papers: three of the
+# fourteen support one claim experimentally and another numerically or in simulation, and a
+# single marker per row would misstate one claim in each.
 FIG24_SYSTEMS = [
     ("Echo state network",       "Jaeger2001",                  [0],    "none"),
     ("Liquid state machine",     "Maass2002",                   [0],    "none"),
+    ("Spiking CMOS chip",        "Duran2026",                   [1, 3], "quantified"),
     ("Deep reservoir",           "GallicchioMicheliPedrelli2017",[0],   "none"),
     ("Memristor array",          "Du2017",                      [2],    "qualitative"),
+    ("Memristor RC system",      "Zhong2022",                   [3],    "quantified"),
     ("Electronic delay loop",    "Appeltant2011",               [0, 3], "none"),
     ("Laser delay loop",         "Brunner2013",                 [3],    "quantified"),
     ("Waveguide array",          "Vandoorne2014",               [2],    "qualitative"),
@@ -1841,9 +1898,10 @@ def fig24s() -> str:
         "why evidence is coded per claim and not per paper.",
         "No worked example reaches E4 or E5, the two levels that require sustained or "
         "deployed operation; those columns are drawn dashed and are empty.",
-        "Eleven of the twelve report no efficiency figure or only a qualitative one. The one "
-        "quantified figure covers the injection stage with the readout offline, so it is not "
-        "a complete-system value in the sense of Table 8.",
+        "Eleven of the fourteen report no efficiency figure or only a qualitative one. The three "
+        "quantified figures each stop short of the complete system of Table 8: injection-stage "
+        "throughput with the readout offline, chip power without the off-chip readout, and an "
+        "estimate without the controller that drives the devices.",
     ]
     ny = y + 20
     for n in notes:

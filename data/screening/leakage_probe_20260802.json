@@ -11,7 +11,7 @@
  "coding": {
   "unit": "title only",
   "coders": 1,
-  "coder": "assistant",
+  "coder": "not one of the study coders",
   "blind": false,
   "kappa": null,
   "scheme": {

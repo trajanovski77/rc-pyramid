@@ -1,0 +1,109 @@
+{
+  "generated_utc": "2026-10-25T15:26:59.936947+00:00",
+  "inputs": {
+    "corpus": {
+      "path": "data/screening/corpus_deduped.csv",
+      "sha256": "04c68ef1a89196ea112ead85e36d69f118798ef93dce9bf403adf27873b7e629",
+      "rows": 6532
+    },
+    "exports": [
+      {
+        "path": "data/raw/supplementary_20261025.json",
+        "sha256": "49e5c42b921c15fa0dc02497d758842ff1fdea776900f4b48bf2418b975750c7",
+        "retrieved_utc": "2026-10-25T14:10:40.541890+00:00",
+        "script_sha256": "ac1ad1f0c60feb54acf36c2ca806a64c9cf1083cd47f29029503974291e14480",
+        "records": 3635
+      }
+    ],
+    "ledger_before": {
+      "path": "data/screening/supplementary_id_ledger.csv",
+      "rows": 848,
+      "sha256": "ae2be1c9336b68dc3095eef6d10b0609a58c0ce285b0d110e7b4886257e6ea93"
+    },
+    "adjudications": {
+      "path": "data/screening/supplementary_near_duplicates_adjudicated.csv",
+      "sha256": "865c8325b2c466b6ab9162fef94786179eb9c17d4579853d9cdaa5ec32cbdab5"
+    }
+  },
+  "per_block_identified": {
+    "A": 1099,
+    "B1": 128,
+    "B2": 98,
+    "B3": 26,
+    "C": 34,
+    "D": 62,
+    "F4": 59,
+    "E": 1028,
+    "G": 142,
+    "H": 371,
+    "xA": 1060,
+    "xB": 22,
+    "xC": 29
+  },
+  "identified_records": 3635,
+  "cross_export_repeats": 0,
+  "identified_unique": 3635,
+  "removed_untitled": {
+    "count": 1,
+    "identities": [
+      "openalex:W4405106365"
+    ]
+  },
+  "removed_within_leg": {
+    "doi": 190,
+    "arxiv_id": 83,
+    "title": 195
+  },
+  "candidates_after_within_leg": 3166,
+  "already_in_corpus": {
+    "openalex_id": 1609,
+    "doi": 219,
+    "arxiv_id": 518,
+    "title": 12
+  },
+  "corpus_oa_upgrades": 36,
+  "new_records": 808,
+  "near_duplicate_pairs_flagged": 11,
+  "near_duplicate_pairs_with_corpus": 3,
+  "near_duplicate_decided_same": 6,
+  "near_duplicate_decided_different": 5,
+  "near_duplicate_undecided": 0,
+  "near_duplicate_adjudication_complete": true,
+  "removed_manual_adjudication": 6,
+  "new_active": 802,
+  "new_active_per_block": {
+    "A": 220,
+    "B1": 68,
+    "B2": 25,
+    "B3": 14,
+    "C": 16,
+    "D": 52,
+    "F4": 4,
+    "E": 252,
+    "G": 38,
+    "H": 133,
+    "xA": 26,
+    "xB": 15,
+    "xC": 10
+  },
+  "new_active_with_orig_phrase_literal": 14,
+  "new_active_without_orig_phrase": 788,
+  "open_access_eligible": 503,
+  "closed": 299,
+  "open_access_basis": {
+    "arxiv": 29,
+    "arxiv|openalex": 22,
+    "closed": 299,
+    "openalex": 452
+  },
+  "open_without_abstract": 32,
+  "ids": {
+    "first": "RC-6533",
+    "last": "RC-7340",
+    "allocated_this_run": 0,
+    "reused_from_ledger": 808,
+    "merged_into": {}
+  },
+  "reconciliation": "3635 identified - 0 cross-export - 1 untitled - 468 within leg - 2358 in corpus - 6 adjudicated = 802 new active",
+  "review_file": "supplementary_near_duplicates_for_review.csv"
+}

@@ -69,6 +69,19 @@ DELAY_S = 0.2                        # polite pool; be a good citizen
 #     export RC_AUDIT_MAILTO="you@example.org"
 MAILTO = os.environ.get("RC_AUDIT_MAILTO", "stefan.trajanovski@students.finki.ukim.mk")
 
+# OpenAlex now meters its API: without a key, every caller on one network shares a small free
+# daily budget, and a search query costs more of it than a lookup (it ran out on 2026-10-24
+# partway through sizing the supplementary leg). A free personal key raises the budget. It is
+# read from the environment only and is never printed, logged or written into an export, so a
+# frozen search file can be published without leaking it:
+#     export OPENALEX_API_KEY="..."
+API_KEY = os.environ.get("OPENALEX_API_KEY", "")
+
+
+def with_key(params: dict) -> dict:
+    """Add the API key to a request's parameters when one is configured."""
+    return {**params, "api_key": API_KEY} if API_KEY else params
+
 
 def build_filter(oa_only: bool) -> str:
     q = " OR ".join(f'"{t}"' for t in TERMS)
@@ -140,9 +153,9 @@ def harvest(oa_only: bool, cap: int) -> tuple[list[dict], int]:
     cursor, out = "*", []
     total = None
     while cursor and len(out) < cap:
-        url = API + "?" + urllib.parse.urlencode(
+        url = API + "?" + urllib.parse.urlencode(with_key(
             {"filter": filt, "per-page": PER_PAGE, "cursor": cursor, "mailto": MAILTO}
-        )
+        ))
         d = get(url)
         if total is None:
             total = d["meta"]["count"]
@@ -158,9 +171,9 @@ def harvest(oa_only: bool, cap: int) -> tuple[list[dict], int]:
 
 def counts_only() -> int:
     for label, oa in (("all", False), ("open access only", True)):
-        url = API + "?" + urllib.parse.urlencode(
+        url = API + "?" + urllib.parse.urlencode(with_key(
             {"filter": build_filter(oa), "per-page": 1, "mailto": MAILTO}
-        )
+        ))
         print(f"  {label:18s} {get(url)['meta']['count']}")
     return 0
 

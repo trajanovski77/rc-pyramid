@@ -1061,7 +1061,7 @@ def cmd_selftest(args) -> int:
         check("pilot packet carries both passes (D25) and the DOI pass 2 needs",
               "family_abstract" in PILOT_FIELDS and "family" in PILOT_FIELDS
               and "doi" in PILOT_FIELDS)
-        check("pilot packet no longer offers the D23 model-assist columns",
+        check("pilot packet no longer offers the retired D23 columns",
               "model_call" not in PILOT_FIELDS and "accepted_model" not in PILOT_FIELDS)
         check("Stage-1 worklists still withhold the DOI",
               "doi" not in CODER_FIELDS)
@@ -1069,7 +1069,7 @@ def cmd_selftest(args) -> int:
         # Pilot vocabulary validation stops bad files at the file.
         def rejects(rowdict):
             q = Path(td) / "bad.csv"
-            # Superset of the current packet plus the D23 model-assist columns, which the
+            # Superset of the current packet plus the retired D23 columns, which the
             # reader must still accept: pilot 1's archived files carry them, and a reader
             # that choked on a retired column would make an archived run unreadable.
             legacy = PILOT_FIELDS + [f for f in ("model_call", "accepted_model")

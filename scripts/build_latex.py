@@ -272,6 +272,24 @@ def caption_from(prose: str, secnum: int, tbl: int) -> str:
     return cap
 
 
+# Supplement markup (WS7, 2026-10-25). A source may wrap a passage in
+#     <!-- supp: key | Title -->  ...  <!-- /supp -->
+# and carry pointers of the form <!-- short: text -->. build_ieee.py --short moves each
+# wrapped passage into the supplement and prints the pointers in its place; every other
+# build keeps the passage inline and drops the pointers. Converting the comments as prose
+# would put raw markup into the typeset paper, so they are removed here, for every build,
+# before any substitution runs.
+SUPP_OPEN = re.compile(r"^<!--\s*supp:.*?-->\s*$", re.M)
+SUPP_CLOSE = re.compile(r"^<!--\s*/supp\s*-->\s*$", re.M)
+SHORT_POINTER = re.compile(r"<!--\s*short:.*?-->", re.S)
+
+
+def strip_supplement_markup(md: str) -> str:
+    md = SHORT_POINTER.sub("", md)
+    md = SUPP_OPEN.sub("", md)
+    return SUPP_CLOSE.sub("", md)
+
+
 def convert(md: str, secnum: int, table_renderer=None, figure_renderer=None) -> str:
     """Markdown -> LaTeX.
 
@@ -284,6 +302,7 @@ def convert(md: str, secnum: int, table_renderer=None, figure_renderer=None) -> 
     """
     table_renderer = table_renderer or table
     figure_renderer = figure_renderer or figure_block
+    md = strip_supplement_markup(md)
     for pat, rep in SUBSTITUTIONS:
         md = re.sub(pat, rep, md, flags=re.M)
 
@@ -490,7 +509,7 @@ PREAMBLE = r"""%% Neuromorphic Computing and Engineering (IOP Publishing)
 
 \begin{document}
 
-\title[Reservoir-computing classification schemes reviewed]{A Review of Reservoir Computing Classification Schemes and an Architecture-Based Framework for Evaluating Reported Systems}
+\title[Reservoir-computing classification schemes reviewed]{A Critical Review of Reservoir Computing Classification Schemes and an Architecture-Based Framework for Evaluating Reported Systems}
 
 \author{Stefan Trajanovski, Ema Pandilova, Marko Petrov, Ivan Kitanovski,\\
 Ivan Chorbev, Ivica Dimitrovski, Dimitar Trajanov and Ilinka Ivanoska}

@@ -5,7 +5,7 @@
     python3 scripts/assemble_paper1.py --check
 
 Paper 1 is the instruments paper: taxonomy, facets, evidence ladder, boundary convention,
-benchmark discrimination framework, the anchor-verification result, and the pre-registered
+benchmark discrimination framework, the anchor-verification result, and the pre-specified
 audit protocol. It deliberately contains no corpus-audit results, which belong to paper 2.
 
 WHY ASSEMBLY IS A SCRIPT
@@ -87,36 +87,14 @@ REPOSITORY_URL = "https://github.com/trajanovski77/rc-pyramid"
 # build_latex.py: one source of truth, derived rather than retyped. The strings below are
 # plain text with no markup of either flavour; the markdown build uses them verbatim and
 # the LaTeX builds run them through their own escaper.
+#
+# ACKNOWLEDGEMENTS is the end matter exactly as submitted on 2026-09-15. Like the rest of the
+# manuscript sources it is authored outside this repository, in paper/ (not tracked), so the
+# builds read it from there; without the file they print a placeholder.
 
-ACKNOWLEDGEMENTS = """The authors gratefully acknowledge the financial support provided by the Ministry of
-Education and Science of the Republic of North Macedonia through the project "Utilizing AI
-and National Large Language Models to Advance Macedonian Language Capabilities", as well as
-the co-funding provided by EC/EuroHPC JU, the Ministry of Digital Transformation of the
-Republic of North Macedonia, and the Faculty of Computer Science and Engineering, Ss. Cyril
-and Methodius University in Skopje, through the VEZILKA project, Grant Agreement
-No. 101263128.
-
-The authors also thank the reviewers of five rounds of internal and referee-style
-pre-submission review, whose reports are answered in dated response documents in the project
-repository.
-
-Declaration of generative AI use. The authors used a generative artificial intelligence
-assistant (Anthropic Claude) during the preparation of this work. It was used for language
-editing and drafting of the manuscript text; for implementing the released search,
-deduplication, screening, analysis and figure-generation code; for bibliographic
-verification of the reference list against Crossref and the arXiv API (Section 8.2); for the
-near-duplicate adjudication proposals described in Section 7, each of which was decided
-against an authoritative registry record and signed off by an author; and for grouping the
-coders' free-text reasons into the categories reported in Tables 16 and 19. In the pilot
-reported in Section 8.4, one coder used it to retrieve full texts and to draft reason text;
-every classification call is that coder's own. In the earlier pilot attempt recorded in
-Table 20, each coder reviewed a pass produced by the assistant rather than coding unaided;
-neither coder altered any of its forty calls, that attempt failed its criterion, and the
-arrangement was withdrawn before the reported pilot was drawn. The assistant was not used to
-design the study, to define the taxonomy or codebook, to make any coding judgement behind
-the reported agreement statistics, or to interpret the reported results. The authors
-reviewed all AI-assisted output and take full responsibility for the content of this
-publication."""
+_ACK_FILE = PAPER / "end-matter-acknowledgements.txt"
+ACKNOWLEDGEMENTS = (_ACK_FILE.read_text(encoding="utf-8").strip() if _ACK_FILE.exists()
+                    else "[Acknowledgements: see the published article.]")
 
 DATA_AVAILABILITY = f"""The versioned project repository is available at {REPOSITORY_URL} and is released
 under the MIT Licence for code and the Creative Commons Attribution 4.0 International

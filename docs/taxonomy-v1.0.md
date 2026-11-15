@@ -1,18 +1,20 @@
 # RC-PYRAMID: Master Taxonomy Specification
 
-**Version:** 1.0 (FROZEN)
-**Status:** Frozen. The `protocol.md` §7 pilot was run on 2026-09-05 and **passed both
+**Version:** 1.0, fixed for coding
+**Status:** Fixed for coding since the pilot gate; validated by the pilot for F1 and F2 only. In the targeted study of `docs/validation-study-2.md` (160 records) F3 passed, F4 had too few records for a verdict, and the unassignable gate was not met, so the study's joint criterion was not met; the protocol's remedy is a version 1.1 tested on fresh records. (Called "frozen" until 2026-10-25; renamed because the word implied finality the evidence does not support, IEEE Reviewer 1.) The `protocol.md` §7 pilot was run on 2026-09-05 and **passed both
 criteria**: Cohen's kappa 0.9542 on family over 40 records and the six-category vocabulary
 (raw agreement 97.5%, Gwet's AC1 0.9719, Krippendorff's alpha 0.9548), and an unassignable
 rate among mutually-eligible records of 3.2% for each coder against the <=5% criterion. The
 gate is met on §7's criterion as written; the D29 carve-out is applied and is not required
 for the result. An earlier attempt on a separate sample failed and is recorded under D23 and D24. Full result: `data/screening/pilot/pilot_agreement.json`.
-**Freeze date:** 2026-09-05
-**Change policy after freeze:** No changes to Tier 0-2 definitions, the assignment
+**Date fixed:** 2026-09-05
+**Change policy while version 1.0 is in use:** No changes to Tier 0-2 definitions, the assignment
 procedure, or facet controlled vocabularies. Additions to the Tier-3 exemplar lists and
 to §11 (edge-case rulings) are permitted and must be appended with a date and the
-triggering record ID. Any change requiring a Tier 0-2 edit invalidates the freeze and
-forces a re-code of all records processed to that point.
+triggering record ID. Any change requiring a Tier 0-2 edit creates version 1.1 with a change
+log, forces a re-code of all records processed to that point, and must be validated again on
+fresh records. The taxonomy is meant to be extended in this documented way, not to be final
+(Nickerson et al. 2013; Kundisch et al. 2022).
 
 ---
 
@@ -411,7 +413,7 @@ and are reported later as prospective validation tests.
      not about the taxonomy.
 
 **If assignability fails, the taxonomy is revised and the pilot re-run.** A later failure of
-behavioural coherence or substrate crossing rejects the frozen taxonomy and is reported as a
+behavioural coherence or substrate crossing rejects version 1.0 of the taxonomy and is reported as a
 negative result; it does not trigger post-hoc revision. See the change policy above.
 
 ---
@@ -436,6 +438,7 @@ issued; supersede them explicitly if genuinely wrong, and re-code affected recor
 | R11 | One record reports systems in **two different families** - not one system combining mechanisms, which is §2.1 | **Split as under R1**: two records with a shared `record_group_id`, each coded on its own system. Where a fixed sample is already drawn and the split would change n, code the record on the system whose results the **main text** reports and record the second in the reason; where both appear in the main text as co-equal comparators and neither is subordinate, the record is `unassignable` and is reported with its reason under `protocol.md` §7 rather than counted against the instrument. R1 already covers the sub-case where the two systems differ by simulation versus device; this extends it to systems differing by architecture. `family_symmetric` does not apply, because it is for a single system whose mechanisms combine and whose report does not establish dominance. Triggering records RC-0541, which resolves to F2.1, and RC-3140, which stays unassignable, pilot 2. | 2026-09-05 |
 | R12 | The map from `x(t)` to the output is **unsupervised** - k-means or another clustering over the reservoir states, a self-organising map, a distance or reconstruction-error threshold - and no parameters anywhere are fit to a target output | **EXCLUDE**, `not-rc:no-trained-readout`, §1.1 step 3. I3 requires a map "whose parameters *are* fit to the task", and a clustering has no target to be fit to: its parameters are fit to the distribution of `x(t)`. The contrary reading, that cluster centroids are parameters fit to the task because they are derived from the states and produce a scored result, is recorded and rejected on the document's own vocabulary: I2 already names an "adapted by a task-agnostic (e.g. unsupervised) rule" parameter as *not* trained, and a term cannot mean untrained in I2 and trained in I3. The exclusion is about I3 alone. **It does not disturb the §1.2 ruling that unsupervised pre-shaping of the reservoir is INCLUDE**, which is an I2 question, and the common case in this literature - "only the output weights are trained" after unsupervised pre-training - keeps its trained readout and stays included. Where a record's output map is unsupervised but a separate supervised head is also fit, I3 is satisfied by the head and the record is included. Sized against the corpus: a clustering/unsupervised/anomaly-detection proxy with no supervised-readout language matches **175 records, 2.7%**, but that is an upper bound the proxy inflates - of ten sampled, most either train a readout or use the unsupervised method on the reservoir rather than the readout, so the true rate is well under 1%. Triggering record RC-1684, pilot 2, whose §2 states "since the objective of this paper is unsupervised learning, we omit the output layer, together with the regression computation"; the reading it displaces is recorded in that record's coder B reason. | 2026-09-05 |
 | R13 | A system whose state vector is built by sampling **one** physical element at many points within an input interval, where the input-history dependence comes from that element's own relaxation rather than from propagation around a feedback loop | **F2**, subclass **F2.1**. Step 2's discriminator is the *sampling construction* - few physical nodes, resolved in time - and "propagation delay" names its canonical mechanism rather than a necessary one. **F4 is excluded on the axis of multiplexing, not on the mechanism**: F4 requires a spatial medium sampled at several probe positions, whereas here one element is sampled at several times, so §6's "probe count is not node count" has nothing to count. This supersedes the F2/F4 tension recorded against the Torrejon et al. (2017) worked example, which is assigned F2.1 without qualification. Triggering case: the Torrejon et al. (2017) worked example of the manuscript's Table 6, not a corpus record; no screened record exists yet, and this is recorded so the ruling's origin is not mistaken for a coding decision. Tier 0-2 definitions are untouched: §4 already defines F2 by the virtual-node construction and gives tau/theta as the resolution limit, not as the memory source. | 2026-09-15 |
+| R14 | An array of individually addressed dynamic devices with no inter-device coupling (R6) in which each device is **also** time-multiplexed, by an input mask or by sequential sampling, into several samples per input step | **F1, subclass F1.6, with F2 recorded as the secondary family** (§2.1). Step 2 does not fire: the samples are taken of each of several addressed devices within one input step, not of one or few nodes across a delay interval, and the memory is each device's own relaxation. The §2.1 removal test settles dominance: removing the devices removes the state, whereas removing the mask leaves a history-dependent state whose dimension is the device count. R13 is unaffected and governs **one** element sampled at many times; this ruling covers several. The reported state count is device x sample and is recorded as such under R4 (`state_dim_kind = virtual`), never compared with a device count. Triggering cases: RC-1144 (15 ECRAM devices, 9 samples each, coded F1 by both pilot-2 coders, whose reconciliation recorded that step 2 tests the mechanism and not the vocabulary) and the Zhong et al. (2022) worked example (24 dynamic memristors, 8 mask samples each), added for IEEE Reviewer 1 point 4. | 2026-10-25 |
 
 ---
 

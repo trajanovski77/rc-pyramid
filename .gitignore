@@ -17,9 +17,3 @@ tmp/
 .DS_Store
 __pycache__/
 *.py[cod]
-
-# Session transcripts. These are working records of assistant sessions, not project
-# artefacts: they contain unedited intermediate reasoning, dead ends and draft text that
-# the deviation log and vault/log.md record properly. Keeping them out of a public
-# repository is deliberate.
-*-local-command-caveat*.txt

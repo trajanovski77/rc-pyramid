@@ -321,8 +321,8 @@ __ABSTRACT__
 \end{abstract}
 
 \begin{keywords}
-Benchmarking, neuromorphic computing, physical computing, reproducibility, reservoir
-computing, research methodology, taxonomy.
+Benchmarking, neuromorphic computing, physical computing, reproducibility, research
+methodology, reservoir computing, taxonomy.
 \end{keywords}
 
 \titlepgskip=-21pt
@@ -732,9 +732,9 @@ Ivica Dimitrovski, Dimitar Trajanov and Ilinka Ivanoska}
 \maketitle
 
 This document carries the sections, tables and figures referenced from the main text by
-their S-numbers. They were placed here so that the main document meets the IEEE Access
-20-page recommendation; none of the material was removed from the study, and each item
-is identical to the version the full manuscript carries.
+their S-numbers. They were placed here to keep the main document close to the IEEE Access
+recommendation of 20 pages; none of the material was removed from the study. Section, table and
+figure numbers without an S refer to the main document.
 
 """
 

@@ -478,7 +478,8 @@ anything is applied and a mismatch aborts the run.
 
 **Status: 106 pairs flagged, all 106 adjudicated on 2026-09-05; 46 merged, 60 kept apart.**
 Every decision was taken against a registry record rather than by rule, and the deciding
-field is recorded per pair in `near_duplicates_for_review.csv`: a Crossref work type and
+field is recorded per pair in `near_duplicates_PROPOSED.csv` (columns `decision`, `adjudicated_by` and
+`note`, kept apart from the `proposed_*` columns): a Crossref work type and
 reference count, a Crossref `relation`, a DataCite `resourceTypeGeneral`, or in one case an
 HTTP 410 on a withdrawn deposit. Adjudicated under deviation D12 and **signed off by
 S. Trajanovski on 2026-09-05**, which is the condition D12 attaches. The adjudication is

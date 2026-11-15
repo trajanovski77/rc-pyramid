@@ -194,7 +194,7 @@ def fig1() -> str:
     b.append(text(500, 377, "Substrate and evaluation attributes are recorded independently.",
                   10.5, MUTED, anchor="middle"))
     b.append(text(500, 393, "Dashed: F3 is a flagged coverage class outside the strict "
-                            "dynamical-state definition (Section 3.3.3).", 10.5, MUTED,
+                            "core (Section 3.3.3).", 10.5, MUTED,
                   anchor="middle"))
     return svg(W, H + 16, "\n".join(b))
 
@@ -261,7 +261,7 @@ STEPS = [
     ("1", "Does the state depend on any internal variable carried across time steps?",
      "No, the state is a function of an explicit finite input window only", "F3"),
     ("2", "Is the dominant memory mechanism a propagation delay, with the state read by "
-          "sampling one or few nodes across a delay interval?", "Yes", "F2"),
+          "sampling one or a few nodes across a delay interval?", "Yes", "F2"),
     ("3", "Are the state variables individually addressable units with a specified "
           "coupling structure?", "Yes", "F1"),
     ("4", "Otherwise: state sampled at probe positions in a medium whose internal "
@@ -705,12 +705,12 @@ def fig7s() -> str:
     # pending stages
     pool = c["open_access_eligible"] + (sc["open_access_eligible"] if sc else 0)
     b += box(530, 564, 380, 44, [
-        (f"Stage 1 screening: {pool:,} open records; PENDING, 0 screened", 11, MUTED,
+        (f"Stage 1 screening: {pool:,} open records; not started, 0 screened", 11, MUTED,
          "bold")],
         stroke=MUTED, dash="6,4", fill="#fbfaf7")
     b += arrow(720, 608, 634)
     b += box(530, 634, 380, 44, [
-        ("Stage 2, extraction, reproduction: PENDING", 11, MUTED, "bold")],
+        ("Stage 2, extraction, reproduction: not started", 11, MUTED, "bold")],
         stroke=MUTED, dash="6,4", fill="#fbfaf7")
 
     # The caption follows the adjudication state instead of asserting it, so the figure
@@ -1389,8 +1389,8 @@ def fig18s() -> str:
         ly += 20
 
     b.append(text(X0 - 12, H - 12,
-                  "Years are taken from the cited primary sources; colour marks "
-                  "the architecture family.", 11, MUTED))
+                  "Years are from the cited primary sources; colour marks the family or the entry type.",
+                  11, MUTED))
     return svg(W, H, "\n".join(b))
 
 
@@ -1541,7 +1541,7 @@ def fig20s() -> str:
         b.append(text(LABEL_W, y + h / 2 + 3.5, r, 9.5, INK, "bold", "end"))
         present = [c for c, _ in GRID_COLS if (r, c) in cells]
         if not present:
-            b.append(text(GX0 + 2 * COLW, y + h / 2 + 3, "no worked example in Table 6",
+            b.append(text(GX0 + 2 * COLW, y + h / 2 + 3, "no worked example in Section 3.4",
                           8.5, MUTED, "normal", "middle"))
         for i, (code, _) in enumerate(GRID_COLS):
             x = GX0 + i * COLW
@@ -1562,11 +1562,11 @@ def fig20s() -> str:
         b.append(line(x, GY0, x, y, RULE, 0.6))
 
     notes = [
-        "Shaded rows hold one substrate in two columns: the analogue-electronic, photonic and "
-        "memristive-ionic examples realize two architectures each.",
+        "Shaded rows hold one substrate in two columns: the digital-simulation, analogue-electronic, "
+        "photonic and memristive-ionic examples realize two architectures each.",
         "The F2 column spans electronic, photonic, and spintronic rows: one architecture across "
         "substrates. F3 is a flagged coverage class (flag).",
-        "Placements are the Table 6 assignments. (gap) no current subclass fits; (+F2) the "
+        "Placements are the assignments of Section 3.4. (gap) no current subclass fits; (+F2) the "
         "delay family is recorded as secondary (ruling R14).",
     ]
     ny = y + 22
@@ -1800,7 +1800,7 @@ def fig23s() -> str:
         "indistinguishable from the standard level yet would look 2.6 times better "
         "than the variant baseline, and 0.359 lies below the variant baseline yet "
         "above the standard one.",
-        "Values and qualifiers as read from the primaries (Section 8.2, Table 12).",
+        "Values and qualifiers as read from the primaries (Section 8.2).",
     ]
     ny = 396
     for n in notes:
@@ -1837,7 +1837,7 @@ FIG24_SYSTEMS = [
     ("Laser delay loop",         "Brunner2013",                 [3],    "quantified"),
     ("Waveguide array",          "Vandoorne2014",               [2],    "qualitative"),
     ("Polynomial features",      "Gauthier2021",                [0],    "none"),
-    ("Spin-torque oscillator",   "Torrejon2017",                [3],    "qualitative"),
+    ("Spin-torque oscillator",   "Torrejon2017",                [3],    "none"),
     ("Nanowire network",         "Milano2022",                  [1, 3], "qualitative"),
     ("Soft silicone body",       "Nakajima2015",                [3],    "none"),
     ("Cultured neuronal network","Sumi2023",                    [3],    "none"),
@@ -1898,10 +1898,10 @@ def fig24s() -> str:
         "why evidence is coded per claim and not per paper.",
         "No worked example reaches E4 or E5, the two levels that require sustained or "
         "deployed operation; those columns are drawn dashed and are empty.",
-        "Eleven of the fourteen report no efficiency figure or only a qualitative one. The three "
-        "quantified figures each stop short of the complete system of Table 8: injection-stage "
-        "throughput with the readout offline, chip power without the off-chip readout, and an "
-        "estimate without the controller that drives the devices.",
+        "Eleven of the fourteen report no efficiency figure or only a qualitative one. None of the three "
+        "quantified figures is measured at the complete-system boundary of Section 4.2: injection-stage "
+        "throughput with the readout offline, chip power with the off-chip readout only estimated, and "
+        "an estimate without the controller that drives the devices.",
     ]
     ny = y + 20
     for n in notes:

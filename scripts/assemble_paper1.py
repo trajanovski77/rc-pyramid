@@ -100,9 +100,11 @@ DATA_AVAILABILITY = f"""The versioned project repository is available at {REPOSI
 under the MIT Licence for code and the Creative Commons Attribution 4.0 International
 Licence for text and data. It contains the taxonomy, protocol, codebook, search strategy,
 threshold and deviation records, scripts, dated search exports, candidate corpus, flow
-counts, the adjudicated near-duplicate decisions, the audited bibliography, and the complete
-pilot coder files and agreement outputs. Near-duplicate adjudication proposals are
-stored separately from official decisions. No screening or extraction dataset is claimed to
+counts, the adjudicated near-duplicate decisions, the audited bibliography, the coder
+files and agreement outputs of the reported pilot and the preliminary check, the supplementary search leg, the protocol, sample,
+retrieval log, coder files and statistics of the targeted validation study, and the
+provenance re-check protocol with its blind packet. Near-duplicate adjudication proposals are
+recorded in columns separate from the signed-off decisions. No screening or extraction dataset is claimed to
 exist, because neither stage has been run."""
 
 CONFLICT_OF_INTEREST = """The authors declare no conflict of interest. Any

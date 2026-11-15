@@ -348,7 +348,7 @@ excluding.
 |---|---|---|
 | Metric | WER / classification error | |
 | `T_res` | 0.5% WER, sensitivity only | C |
-| `T_sat` | ~0.1% | B |
+| `T_sat` | ~0.1%, descriptive only; not used in any scoring rule | B |
 
 Reported WERs on the standard small-vocabulary setup run to a few hundredths of a percent,
 which is effectively perfect. The widely circulated 0.014% figure is sourced to Brunner et
@@ -421,9 +421,9 @@ which should be coded in `metric_defined`.
 |---|---|---|---|---|
 | `narma-10` | **0.16 NMSE** = 0.4 NRMSE | 0.05 NMSE, sensitivity only | ceiling only | B / C |
 | `narma-n` | unset | unset | ❌ | n/a |
-| `memory-capacity` | bound check | unset | bound check only | A |
+| `memory-capacity` | bound check | unset; 0.05 of claimed dimension, sensitivity only | bound check only | A / C |
 | `ipc` | bound check | unset | ❌ | n/a |
-| `lorenz`, `rossler`, `mackey-glass`, `kuramoto-sivashinsky` | unset | 1.0 λt, sensitivity only | sensitivity only | C |
+| `lorenz`, `rossler`, `mackey-glass`, `kuramoto-sivashinsky` | unset; 0.5 λt, sensitivity only | 1.0 λt, sensitivity only | sensitivity only | C |
 | `spoken-digit` | unset | 0.5% WER, sensitivity only | sensitivity only | C |
 | `channel-equalization` | unset | unset | ❌ | n/a |
 | `kernel-rank`, `generalization-rank` | bound check | unset | ❌ | n/a |
@@ -452,7 +452,7 @@ retained on the strength of having been convenient.
 |---|---|---|---|
 | 1 | NARMA-10 trivial-predictor ceiling, 0.16 NMSE = 0.4 NRMSE | **RECOVERED 2026-08-02** | The attribution failed, not the number. Sourced to Appeltant 2011 (as NRMSE 0.4) via Vinckier 2015 (as NMSE 0.16). Shift register, not linear reservoir. Grade B. See §3.1. |
 | 2 | Shift-register NARMA bound ≈ 0.434 | **RE-SEPARATED 2026-08-27 (D16)** | The primary (Vidamour et al. 2023) does say ~0.434: the authors' own shift-register NMSE for a NARMA-N variant with autocorrelated inputs, no citation. Not Appeltant's value; not merged with anchor 1; excluded from thresholds. The 2026-07-31 "~0.4" quotation and the 2026-08-02 merger were this project's errors. |
-| 3 | NARMA-10 dispersions (±0.0095 at 0.0484; ±0.0142 at 0.0463) | **VERIFIED** | Exact match in Vinckier et al., *Optica* 2015 §4.B, at N=300. Dispersion is over 10 repetitions of one system. `T_res` upgraded to B. |
+| 3 | NARMA-10 dispersions (±0.0095 at 0.0484; ±0.0142 at 0.0463) | **VERIFIED** | Exact match in Vinckier et al., *Optica* 2015 §4.B, at N=300. Dispersion is over 10 repetitions of one system. `T_res` upgraded to B; later held at grade C as a sensitivity value because it rests on one implementation (§3.1). |
 | 4 | NARMA-10 divergence and input-range dependence of IPC | **VERIFIED** | Kubota, Takahashi & Nakajima, arXiv:1906.04608v5. See below. |
 | 5 | `MC ≤ N`; `MC = N` for linear activation | **CORROBORATED, condition added; then VERIFIED 2026-08-27** | Jaeger (2002), GMD Report 152. Multiple independent secondary sources agree, and each states a condition our draft omitted: the bound holds for i.i.d. input. The primary was read on 2026-08-27 by rasterizing the author-hosted PDF (no text layer); see the sweep block below. This row previously attributed the report to 2001, the year the author's own publications page circulates; the report imprint says 2002. |
 | 6 | IPC totality for fading-memory systems | **VERIFIED** | Dambre et al., *Sci. Rep.* 2, 514 (2012). Read from the open-access primary. See below. |
